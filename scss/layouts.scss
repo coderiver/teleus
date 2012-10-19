@@ -1,0 +1,31 @@
+@import "base";
+/*products*/
+.cols {
+	position: relative;
+	padding-bottom: 90px;
+	overflow: hidden;
+	background: #fff;
+	z-index: 20;
+	.col-1 {
+		float: left;
+		width: 280px;
+		margin: 0 40px;
+	}
+	.col-2 {
+		float: left;
+		width: 840px;
+	}
+	.col-3 {
+		float: left;
+		width: 480px;
+	}
+	.col-4 {
+		float: left;
+		width: 700px;
+		margin: 0 40px;
+	}
+	.col-5 {
+		float: left;
+		width: 380px;
+	}
+}

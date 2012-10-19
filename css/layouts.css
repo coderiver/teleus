@@ -1,0 +1,36 @@
+/*products*/
+/* line 3, ../scss/layouts.scss */
+.cols {
+  position: relative;
+  padding-bottom: 90px;
+  overflow: hidden;
+  background: #fff;
+  z-index: 20;
+}
+/* line 9, ../scss/layouts.scss */
+.cols .col-1 {
+  float: left;
+  width: 280px;
+  margin: 0 40px;
+}
+/* line 14, ../scss/layouts.scss */
+.cols .col-2 {
+  float: left;
+  width: 840px;
+}
+/* line 18, ../scss/layouts.scss */
+.cols .col-3 {
+  float: left;
+  width: 480px;
+}
+/* line 22, ../scss/layouts.scss */
+.cols .col-4 {
+  float: left;
+  width: 700px;
+  margin: 0 40px;
+}
+/* line 27, ../scss/layouts.scss */
+.cols .col-5 {
+  float: left;
+  width: 380px;
+}

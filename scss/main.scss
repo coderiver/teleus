@@ -1,0 +1,153 @@
+@import "compass/css3";
+@import "base";
+$icons-layout: smart;
+$icons: sprite-map("icons/*.png");
+/*main*/
+/*slider*/
+.slider {
+	position: relative;
+	padding-top: 10px;
+}
+.slider__wrap {
+	position: relative;
+	width: 800px;
+	height: 270px;
+	overflow: hidden;	
+}
+.slider__items {
+	position: absolute;
+	width: 20000px;
+}
+.slider__item {
+	float: left;
+}
+.slider__product {
+	float: left;
+	width: 120px;
+	padding-right: 40px;
+}
+.slider__product-link {
+	margin: 10px 0;
+	a {
+		border-bottom: 1px solid #BBE4F1;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 1.5;
+	}
+}
+.slider__nav, .pagination__nav {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	width: 59px;
+	height: 30px;
+	@include box-shadow(#ffecab 0px 1px 1px inset, #d0d0d0 0px 1px 5px);
+	@include border-radius(3px);
+	button {
+		position: absolute;
+		top: 0;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;		
+		cursor: pointer;
+		border: 1px solid #ae6c00;			
+		background: #ffd856;
+		@include background-image(linear-gradient(#ffd856, #ff9e03));			
+		@include box-shadow(0);
+		z-index: 5;
+		i {
+			position: absolute;
+			top: 11px;
+			left: 12px;
+		}
+	}
+	.disabled {
+		border: 1px solid #a6a6a6;
+		background: #f6f6f6;
+		@include background-image(linear-gradient(#f6f6f6, #dbdbdb));
+		.slider__prev-l {
+			@include sized-sprite($icons, arr1);
+		}
+		.slider__next-r {
+			@include sized-sprite($icons, arr2);
+		}
+	}
+}
+.slider__prev, .pagination__prev {
+	right: 29px;
+	@include border-radius(3px 0 0 3px);	
+}
+.slider__next, .pagination__next {
+	right: 0;
+	@include border-radius(0 3px 3px 0);		
+}
+.slider__prev-l, .pagination__prev-l {
+	@include sized-sprite($icons, arr4);
+}
+.slider__next-r, .pagination__next-r {
+	@include sized-sprite($icons, arr3);
+}
+.slider__navi {
+	position: absolute;
+	top: 52px;
+	right: 110px;
+	a {
+		float: left;
+		width: 8px;
+		height: 8px;
+		margin-right: 6px;
+		@include border-radius(4px);
+		background: #0099cc;
+		cursor: pointer;
+	}
+	.active {
+		background: #333;
+	}
+}
+/*main-news*/
+.main-news {
+	overflow: hidden;
+	margin-right: -50px;
+	.block {
+		float: left;
+		width: 240px;
+		margin-right: 40px;
+	}
+}
+/*abonements*/
+.abonements {
+	ul {
+		float: left;
+		width: 380px;
+		margin-right: 40px;
+		li {
+			overflow: hidden;
+			margin: 0 0 20px 0;
+			img {
+				float: left;
+				margin-right: 15px;
+				border: 1px solid #d3d3d3;
+			}
+		}
+	}	
+}
+.abonements__desc {
+	float: left;
+	width: 310px;
+	overflow: hidden;
+	a {
+		border-bottom: 1px solid #bbe4f1;
+		font-weight: bold;
+		line-height: 1.5;
+	}
+	span {
+		display: block;
+		margin-top: 5px;
+		color: #acacac;
+		font-size: 14px;
+		a {
+			font-size: 14px;
+			font-weight: normal;
+		}
+	}
+}

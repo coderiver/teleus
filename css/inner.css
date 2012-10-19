@@ -1,0 +1,222 @@
+/*inner*/
+/* line 6, ../scss/inner.scss */
+.tabs_sidebar {
+  margin-right: -10px;
+}
+
+/* line 10, ../scss/inner.scss */
+.tabs__content_sb a {
+  font-weight: normal;
+}
+/* line 13, ../scss/inner.scss */
+.tabs__content_sb span {
+  display: block;
+  margin: 10px 0 15px 0;
+  color: #acacac;
+  font-size: 14px;
+}
+/* line 18, ../scss/inner.scss */
+.tabs__content_sb span a {
+  font-size: 14px;
+}
+/* line 22, ../scss/inner.scss */
+.tabs__content_sb .btn {
+  border: 1px solid #ae6c00;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+/* line 28, ../scss/inner.scss */
+.banner {
+  height: 250px;
+  margin-bottom: 40px;
+  background: #ebebeb;
+}
+
+/* line 33, ../scss/inner.scss */
+.pagination {
+  position: relative;
+  margin-top: 35px;
+  padding-bottom: 50px;
+  border-top: 1px solid #d3d3d3;
+}
+/* line 38, ../scss/inner.scss */
+.pagination p {
+  padding: 15px 0;
+  overflow: hidden;
+}
+/* line 41, ../scss/inner.scss */
+.pagination p b {
+  float: left;
+  font-weight: normal;
+}
+/* line 45, ../scss/inner.scss */
+.pagination p span {
+  float: right;
+  color: #acacac;
+}
+/* line 50, ../scss/inner.scss */
+.pagination .pagination__nav {
+  left: 0;
+  top: 75px;
+}
+
+/* line 56, ../scss/inner.scss */
+.pagination__list a {
+  margin-right: 8px;
+  font-weight: bold;
+}
+/* line 60, ../scss/inner.scss */
+.pagination__list .active {
+  color: #ffb21f;
+}
+
+/*article*/
+/* line 66, ../scss/inner.scss */
+.article .h2 {
+  line-height: 1.3;
+}
+
+/* line 71, ../scss/inner.scss */
+.article__content h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+/* line 75, ../scss/inner.scss */
+.article__content p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+/* line 79, ../scss/inner.scss */
+.article__content table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-top: 1px solid #d3d3d3;
+  text-align: left;
+}
+/* line 87, ../scss/inner.scss */
+.article__content tr {
+  border-bottom: 1px solid #d3d3d3;
+}
+/* line 89, ../scss/inner.scss */
+.article__content tr:nth-child(even) {
+  background: #f8f8f8;
+}
+/* line 93, ../scss/inner.scss */
+.article__content td, .article__content th {
+  padding: 15px;
+}
+/* line 95, ../scss/inner.scss */
+.article__content td:first-child, .article__content th:first-child {
+  width: 380px;
+}
+/* line 99, ../scss/inner.scss */
+.article__content th {
+  font-style: italic;
+  color: #acacac;
+  font-weight: normal;
+}
+
+/* line 105, ../scss/inner.scss */
+.article__date {
+  overflow: hidden;
+}
+/* line 107, ../scss/inner.scss */
+.article__date span {
+  float: left;
+  color: #acacac;
+}
+/* line 111, ../scss/inner.scss */
+.article__date a {
+  float: right;
+  border-bottom: 1px solid #BBE4F1;
+  font-size: 14px;
+}
+
+/* line 117, ../scss/inner.scss */
+.article__pic {
+  margin: 20px 0;
+  overflow: hidden;
+}
+/* line 120, ../scss/inner.scss */
+.article__pic img {
+  float: left;
+}
+
+/*add comment*/
+/* line 125, ../scss/inner.scss */
+.add-comm {
+  margin-top: 20px;
+  padding: 0 20px;
+  background: #fff2b6;
+}
+/* line 129, ../scss/inner.scss */
+.add-comm h3 {
+  padding: 15px 0;
+}
+
+/* line 134, ../scss/inner.scss */
+.add-comm__txt textarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #d0d0d0;
+}
+
+/* line 140, ../scss/inner.scss */
+.add-comm__btn {
+  padding: 20px 0;
+  overflow: hidden;
+}
+/* line 143, ../scss/inner.scss */
+.add-comm__btn .btn {
+  float: left;
+  width: 95px;
+  margin-right: 20px;
+  padding: 0;
+  text-align: center;
+  line-height: 28px;
+  cursor: pointer;
+}
+/* line 152, ../scss/inner.scss */
+.add-comm__btn p {
+  float: left;
+  margin: 0;
+  line-height: 30px;
+}
+/* line 157, ../scss/inner.scss */
+.add-comm__btn a {
+  border-bottom: 1px solid #BBE4F1;
+}
+
+/*comments*/
+/* line 163, ../scss/inner.scss */
+.comms h3 {
+  margin: 35px 0;
+}
+/* line 167, ../scss/inner.scss */
+.comms .block span {
+  display: block;
+  margin-bottom: 40px;
+}
+/* line 172, ../scss/inner.scss */
+.comms p {
+  margin-bottom: 10px;
+}
+
+/* line 176, ../scss/inner.scss */
+.all-reviews {
+  margin-top: 30px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+/* line 180, ../scss/inner.scss */
+.all-reviews a {
+  float: left;
+}
+/* line 183, ../scss/inner.scss */
+.all-reviews .all-reviews__link {
+  margin: 6px 0 0 30px;
+  border-bottom: 1px solid #BBE4F1;
+}
