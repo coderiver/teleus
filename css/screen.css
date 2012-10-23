@@ -124,7 +124,7 @@ input, textarea, button {
 .logo {
   float: left;
   margin: -1px 15px 0 0;
-  background: url('../img/icons-s812cfb257b.png') 0 -576px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -576px no-repeat;
   width: 145px;
   height: 42px;
 }
@@ -148,7 +148,7 @@ input, textarea, button {
   position: absolute;
   top: 9px;
   left: 95px;
-  background: url('../img/icons-s812cfb257b.png') 0 -912px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -912px no-repeat;
   width: 25px;
   height: 32px;
 }
@@ -233,7 +233,7 @@ input, textarea, button {
 .nav .nav__add em {
   position: absolute;
   top: 0;
-  background: url('../img/icons-s812cfb257b.png') 0 -1062px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1154px no-repeat;
   width: 2px;
   height: 60px;
 }
@@ -262,7 +262,7 @@ input, textarea, button {
   position: absolute;
   top: 23px;
   left: -20px;
-  background: url('../img/icons-s812cfb257b.png') 0 -1046px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1092px no-repeat;
   width: 14px;
   height: 16px;
 }
@@ -271,7 +271,7 @@ input, textarea, button {
   position: absolute;
   top: 10px;
   right: 0;
-  background: url('../img/icons-s812cfb257b.png') 0 -668px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -668px no-repeat;
   width: 37px;
   height: 43px;
 }
@@ -326,14 +326,14 @@ input, textarea, button {
 /* line 208, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_fb {
   left: 127px;
-  background: url('../img/icons-s812cfb257b.png') 0 -840px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -840px no-repeat;
   width: 16px;
   height: 16px;
 }
 /* line 212, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_vk {
   left: 147px;
-  background: url('../img/icons-s812cfb257b.png') 0 -824px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -824px no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -396,7 +396,7 @@ input, textarea, button {
   position: absolute;
   top: 2px;
   left: -20px;
-  background: url('../img/icons-s812cfb257b.png') 0 -1122px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1283px no-repeat;
   width: 14px;
   height: 13px;
 }
@@ -406,7 +406,7 @@ input, textarea, button {
   position: absolute;
   top: 7px;
   left: 2px;
-  background: url('../img/icons-s812cfb257b.png') 0 -944px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -944px no-repeat;
   width: 26px;
   height: 22px;
   z-index: 30;
@@ -422,7 +422,7 @@ input, textarea, button {
 .tape__shadow-l {
   top: 3px;
   left: 25px;
-  background: url('../img/icons-s812cfb257b.png') 0 -711px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -711px no-repeat;
   width: 75px;
   height: 26px;
 }
@@ -431,7 +431,7 @@ input, textarea, button {
 .tape__shadow-r {
   top: 6px;
   right: 0;
-  background: url('../img/icons-s812cfb257b.png') 0 -618px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -618px no-repeat;
   width: 75px;
   height: 26px;
 }
@@ -491,7 +491,7 @@ input, textarea, button {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../img/icons-s812cfb257b.png') 0 -856px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -856px no-repeat;
   width: 30px;
   height: 39px;
 }
@@ -535,7 +535,7 @@ input, textarea, button {
   position: absolute;
   top: 6px;
   right: 7px;
-  background: url('../img/icons-s812cfb257b.png') 0 -998px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1021px no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -572,28 +572,28 @@ input, textarea, button {
 
 /* line 382, ../scss/common.scss */
 .social__fb {
-  background: url('../img/icons-s812cfb257b.png') 0 -785px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -785px no-repeat;
   width: 24px;
   height: 24px;
 }
 
 /* line 383, ../scss/common.scss */
 .social__vk {
-  background: url('../img/icons-s812cfb257b.png') 0 -737px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -737px no-repeat;
   width: 24px;
   height: 24px;
 }
 
 /* line 384, ../scss/common.scss */
 .social__rss {
-  background: url('../img/icons-s812cfb257b.png') 0 -644px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -644px no-repeat;
   width: 24px;
   height: 24px;
 }
 
 /* line 385, ../scss/common.scss */
 .social__tw {
-  background: url('../img/icons-s812cfb257b.png') 0 -761px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -761px no-repeat;
   width: 24px;
   height: 24px;
 }
@@ -640,7 +640,7 @@ input, textarea, button {
   position: absolute;
   top: 2px;
   left: -25px;
-  background: url('../img/icons-s812cfb257b.png') 0 -809px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -809px no-repeat;
   width: 19px;
   height: 15px;
 }
@@ -651,7 +651,7 @@ input, textarea, button {
 }
 /* line 422, ../scss/common.scss */
 .comm_answer i {
-  background: url('../img/icons-s812cfb257b.png') 0 -966px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -989px no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -745,56 +745,56 @@ input, textarea, button {
 
 /* line 487, ../scss/common.scss */
 .tabs__link-1 {
-  background: url('../img/icons-s812cfb257b.png') 0 -300px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -300px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 488, ../scss/common.scss */
 .tabs__link-2 {
-  background: url('../img/icons-s812cfb257b.png') 0 -240px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -240px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 489, ../scss/common.scss */
 .tabs__link-3 {
-  background: url('../img/icons-s812cfb257b.png') 0 -120px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -120px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 490, ../scss/common.scss */
 .tabs__link-4 {
-  background: url('../img/icons-s812cfb257b.png') 0 -180px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -180px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 491, ../scss/common.scss */
 .tabs__link-5 {
-  background: url('../img/icons-s812cfb257b.png') 0 0 no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 0 no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 492, ../scss/common.scss */
 .tabs__link-6 {
-  background: url('../img/icons-s812cfb257b.png') 0 -420px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -420px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 493, ../scss/common.scss */
 .tabs__link-7 {
-  background: url('../img/icons-s812cfb257b.png') 0 -360px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -360px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 494, ../scss/common.scss */
 .tabs__link-8 {
-  background: url('../img/icons-s812cfb257b.png') 0 -60px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -60px no-repeat;
   width: 60px;
   height: 60px;
 }
@@ -854,7 +854,7 @@ input, textarea, button {
   position: absolute;
   top: 7px;
   left: 9px;
-  background: url('../img/icons-s812cfb257b.png') 0 -982px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1005px no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -1019,13 +1019,13 @@ input, textarea, button {
 }
 /* line 651, ../scss/common.scss */
 .popup__social .popup__social-fb {
-  background: url('../img/icons-s812cfb257b.png') 0 -785px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -785px no-repeat;
   width: 24px;
   height: 24px;
 }
 /* line 654, ../scss/common.scss */
 .popup__social .popup__social-vk {
-  background: url('../img/icons-s812cfb257b.png') 0 -737px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -737px no-repeat;
   width: 24px;
   height: 24px;
 }
@@ -1042,7 +1042,7 @@ input, textarea, button {
 /* line 664, ../scss/common.scss */
 .popup__title a {
   float: right;
-  background: url('../img/icons-s812cfb257b.png') 0 -895px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -895px no-repeat;
   width: 17px;
   height: 17px;
 }
@@ -1087,21 +1087,21 @@ input, textarea, button {
 
 /* line 700, ../scss/common.scss */
 .popup__client_1 {
-  background: url('../img/icons-s812cfb257b.png') 0 -544px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -544px no-repeat;
   width: 32px;
   height: 32px;
 }
 
 /* line 701, ../scss/common.scss */
 .popup__client_2 {
-  background: url('../img/icons-s812cfb257b.png') 0 -480px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -480px no-repeat;
   width: 32px;
   height: 32px;
 }
 
 /* line 702, ../scss/common.scss */
 .popup__client_3 {
-  background: url('../img/icons-s812cfb257b.png') 0 -512px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -512px no-repeat;
   width: 32px;
   height: 32px;
 }
@@ -1173,7 +1173,7 @@ input, textarea, button {
   position: absolute;
   top: 1px;
   left: -20px;
-  background: url('../img/icons-s812cfb257b.png') 0 -1014px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1060px no-repeat;
   width: 14px;
   height: 16px;
 }
@@ -1388,13 +1388,13 @@ input, textarea, button {
 }
 /* line 77, ../scss/main.scss */
 .slider__nav .disabled .slider__prev-l, .pagination__nav .disabled .slider__prev-l {
-  background: url('../img/icons-s812cfb257b.png') 0 -1149px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1310px no-repeat;
   width: 4px;
   height: 7px;
 }
 /* line 80, ../scss/main.scss */
 .slider__nav .disabled .slider__next-r, .pagination__nav .disabled .slider__next-r {
-  background: url('../img/icons-s812cfb257b.png') 0 -1135px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1296px no-repeat;
   width: 4px;
   height: 7px;
 }
@@ -1436,14 +1436,14 @@ input, textarea, button {
 
 /* line 102, ../scss/main.scss */
 .slider__prev-l, .pagination__prev-l {
-  background: url('../img/icons-s812cfb257b.png') 0 -1142px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1303px no-repeat;
   width: 4px;
   height: 7px;
 }
 
 /* line 105, ../scss/main.scss */
 .slider__next-r, .pagination__next-r {
-  background: url('../img/icons-s812cfb257b.png') 0 -1156px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1317px no-repeat;
   width: 4px;
   height: 7px;
 }
@@ -1727,19 +1727,23 @@ input, textarea, button {
   padding: 15px 0;
 }
 
-/* line 144, ../scss/inner.scss */
+/* line 143, ../scss/inner.scss */
+.add-comm__txt {
+  border: 1px solid #d0d0d0;
+  overflow: hidden;
+}
+/* line 146, ../scss/inner.scss */
 .add-comm__txt textarea {
   width: 100%;
   height: 200px;
-  border: 1px solid #d0d0d0;
 }
 
-/* line 150, ../scss/inner.scss */
+/* line 151, ../scss/inner.scss */
 .add-comm__btn {
   padding: 20px 0;
   overflow: hidden;
 }
-/* line 153, ../scss/inner.scss */
+/* line 154, ../scss/inner.scss */
 .add-comm__btn .btn {
   float: left;
   width: 95px;
@@ -1749,55 +1753,143 @@ input, textarea, button {
   line-height: 28px;
   cursor: pointer;
 }
-/* line 161, ../scss/inner.scss */
+/* line 162, ../scss/inner.scss */
 .add-comm__btn .btn:active {
   line-height: 30px;
 }
-/* line 165, ../scss/inner.scss */
+/* line 166, ../scss/inner.scss */
 .add-comm__btn p {
   float: left;
   margin: 0;
   line-height: 30px;
 }
-/* line 170, ../scss/inner.scss */
+/* line 171, ../scss/inner.scss */
 .add-comm__btn a {
   margin-left: 25px;
   border-bottom: 1px solid #BBE4F1;
 }
-/* line 173, ../scss/inner.scss */
+/* line 174, ../scss/inner.scss */
 .add-comm__btn a i {
-  background: url('../img/icons-s812cfb257b.png') 0 -1030px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1076px no-repeat;
   width: 14px;
   height: 16px;
 }
 
 /*comments*/
-/* line 180, ../scss/inner.scss */
+/* line 181, ../scss/inner.scss */
 .comms h3 {
   margin: 35px 0;
 }
-/* line 184, ../scss/inner.scss */
+/* line 185, ../scss/inner.scss */
 .comms .block span {
   display: block;
   margin-bottom: 40px;
 }
-/* line 189, ../scss/inner.scss */
+/* line 190, ../scss/inner.scss */
 .comms p {
   margin-bottom: 10px;
 }
 
-/* line 193, ../scss/inner.scss */
+/* line 194, ../scss/inner.scss */
 .all-reviews {
   margin-top: 30px;
   padding-bottom: 5px;
   overflow: hidden;
 }
-/* line 197, ../scss/inner.scss */
+/* line 198, ../scss/inner.scss */
 .all-reviews a {
   float: left;
 }
-/* line 200, ../scss/inner.scss */
+/* line 201, ../scss/inner.scss */
 .all-reviews .all-reviews__link {
   margin: 6px 0 0 30px;
   border-bottom: 1px solid #BBE4F1;
+}
+
+/*text area*/
+/* line 207, ../scss/inner.scss */
+.jHtmlArea {
+  background: #fff;
+}
+/* line 209, ../scss/inner.scss */
+.jHtmlArea iframe {
+  border: none;
+}
+/* line 213, ../scss/inner.scss */
+.jHtmlArea .ToolBar ul {
+  padding: 5px;
+  background: #f8f8f8;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+/* line 219, ../scss/inner.scss */
+.jHtmlArea .ToolBar li {
+  float: left;
+  margin-right: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ViZWFlYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ebeaea));
+  background-image: -webkit-linear-gradient(#ffffff, #ebeaea);
+  background-image: -moz-linear-gradient(#ffffff, #ebeaea);
+  background-image: -o-linear-gradient(#ffffff, #ebeaea);
+  background-image: linear-gradient(#ffffff, #ebeaea);
+  border: 1px solid #bebebe;
+}
+/* line 226, ../scss/inner.scss */
+.jHtmlArea .ToolBar li:hover {
+  border: solid 1px #8d8d8d;
+}
+/* line 230, ../scss/inner.scss */
+.jHtmlArea .ToolBar a {
+  display: block;
+  width: 23px;
+  height: 23px;
+}
+/* line 235, ../scss/inner.scss */
+.jHtmlArea .ToolBar .bold {
+  background: url('../img/icons-sedb12026c5.png') 0 -1214px no-repeat;
+  width: 23px;
+  height: 23px;
+}
+/* line 238, ../scss/inner.scss */
+.jHtmlArea .ToolBar .italic {
+  background: url('../img/icons-sedb12026c5.png') 0 -1260px no-repeat;
+  width: 23px;
+  height: 23px;
+}
+/* line 241, ../scss/inner.scss */
+.jHtmlArea .ToolBar .underline {
+  background: url('../img/icons-sedb12026c5.png') 0 -1108px no-repeat;
+  width: 23px;
+  height: 23px;
+}
+/* line 244, ../scss/inner.scss */
+.jHtmlArea .ToolBar .strikethrough {
+  background: url('../img/icons-sedb12026c5.png') 0 -1037px no-repeat;
+  width: 23px;
+  height: 23px;
+}
+/* line 247, ../scss/inner.scss */
+.jHtmlArea .ToolBar .link {
+  background: url('../img/icons-sedb12026c5.png') 0 -966px no-repeat;
+  width: 23px;
+  height: 23px;
+}
+/* line 250, ../scss/inner.scss */
+.jHtmlArea .ToolBar .html {
+  background: url('../img/icons-sedb12026c5.png') 0 -1131px no-repeat;
+  width: 55px;
+  height: 23px;
+}
+/* line 253, ../scss/inner.scss */
+.jHtmlArea .ToolBar .quote {
+  background: url('../img/icons-sedb12026c5.png') 0 -1237px no-repeat;
+  width: 23px;
+  height: 23px;
 }

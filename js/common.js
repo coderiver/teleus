@@ -54,14 +54,26 @@ $(function(){
     $('.tape__container ul').liScroll();
 });
 
+/*text area*/
+$('.add-comm__txt textarea').htmlarea({
+    toolbar: [
+	    ["bold", "italic", "underline", "strikethrough",
+		    {
+			    css: "quote",
+			    text: "quote",
+			    // The function to execute when the button is clicked
+			    action: function(btn) {
+			      this.pasteHTML("&laquo;"+this.getSelectedHTML()+"&raquo;");
+		    	}
+		    },
+		  "link", "html"]
+		]
 });
+
+});
+
 
 /*window scroll*/
 $(window).scroll(function () {
-	if ($(this).scrollTop() > 60) {
-
-  }
-  else {
-
-  }
+	
 });

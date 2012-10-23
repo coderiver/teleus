@@ -141,10 +141,11 @@ $icons: sprite-map("icons/*.png");
 	}	
 }
 .add-comm__txt {
+	border: 1px solid #d0d0d0;
+	overflow: hidden;
 	textarea {
 		width: 100%;
 		height: 200px;
-		border: 1px solid #d0d0d0;
 	}
 }
 .add-comm__btn {
@@ -202,3 +203,56 @@ $icons: sprite-map("icons/*.png");
 		border-bottom: 1px solid #BBE4F1;
 	}
 }
+/*text area*/
+.jHtmlArea { 
+	background: #fff; 
+	iframe {
+		border: none;
+	}
+	.ToolBar {
+		ul { 
+			padding: 5px; 
+			background: #f8f8f8; 
+			border-bottom: 1px solid #e5e5e5; 
+			overflow: hidden;
+		}
+		li {
+			float: left; 			 
+			margin-right: 5px;
+			@include border-radius(3px);
+			background: #fff;
+			@include background-image(linear-gradient(#fff, #ebeaea));			
+			border: 1px solid #bebebe;
+			&:hover {
+				border: solid 1px #8d8d8d;
+			}			
+		}
+		a { 
+			display: block; 
+			width: 23px; 
+			height: 23px; 			
+		}
+		.bold {
+			@include sized-sprite($icons, bold);
+		}
+		.italic {
+			@include sized-sprite($icons, curs);
+		}
+		.underline {
+			@include sized-sprite($icons, under);
+		}
+		.strikethrough {
+			@include sized-sprite($icons, in);
+		}
+		.link {
+			@include sized-sprite($icons, link);
+		}
+		.html {
+			@include sized-sprite($icons, code);
+		}
+		.quote {
+			@include sized-sprite($icons, kav);
+		}
+	}
+}
+
