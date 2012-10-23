@@ -23,6 +23,9 @@ $icons: sprite-map("icons/*.png");
 		border: 1px solid #ae6c00;
 		line-height: 30px;
 		font-weight: bold;
+		&:active {
+			line-height: 32px;
+		}
 	}
 }
 .banner {
@@ -75,6 +78,13 @@ $icons: sprite-map("icons/*.png");
 	p {
 		margin-bottom: 15px;
 		line-height: 1.5;
+	}
+	blockquote {
+		padding-left: 35px;
+		margin-bottom: 15px;
+		border-left: 3px solid #d3d3d3;
+		line-height: 1.5;
+
 	}
 	table {
 		width: 100%;
@@ -148,6 +158,9 @@ $icons: sprite-map("icons/*.png");
 		text-align: center;
 		line-height: 28px;
 		cursor: pointer;
+		&:active {
+			line-height: 30px;
+		}
 	}
 	p {
 		float: left;
@@ -155,7 +168,11 @@ $icons: sprite-map("icons/*.png");
 		line-height: 30px;
 	}
 	a {
+		margin-left: 25px;
 		border-bottom: 1px solid #BBE4F1;
+		i {
+			@include sized-sprite($icons, user-y);
+		}
 	}
 }
 /*comments*/

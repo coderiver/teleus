@@ -7,16 +7,28 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/screen.css" />
 	<script src="js/jquery.tools.min.js"></script>
+	<script src="js/jquery.li-scroller.1.0.js"></script>
 	<script src="js/common.js"></script>
+	<script src="//vk.com/js/api/openapi.js?60"></script>
 </head>
 <body>
-<!-- BEGIN .header -->
-<div class="header-out">
+<!-- Facebook -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- BEGIN .top -->
+<div class="top">
 	<div class="container">
 		<div class="header-banner"></div>
+		<!-- BEGIN .header -->		
 		<div class="header">
 			<h1 class="logo">
-				<a href="#">Teleus</a>
+				<a href="#">Teleus<i></i></a>
 			</h1>		
 			<div class="logo-txt">
 				Всё о ловушках операторов
@@ -29,41 +41,40 @@
 					<li><a href="#">Телефоны</a></li>	
 					<li class="nav__add">
 						<a href="#">Жалобы</a>
-						<a class="btn complaint" href="#">Добавить</a>
-						<i class="nav__divider-l"></i>
-						<i class="nav__divider-r"></i>
+						<a class="btn complaint" href="#"><i></i></a>
+						<em class="nav__divider-l"></em>
+						<em class="nav__divider-r"></em>
 					</li>
-					<li class="nav__user nav__user_no-enter">
-						<i></i>
-						<a class="enter" href="#">Вход</a>
-						<a href="#">Регистрация</a>
-						<a class="nav__social nav__social_fb" href="#"></a>
-						<a class="nav__social nav__social_vk" href="#"></a>
-					</li>	
+					<li class="nav__user-log">
+						<a href="#">Usernameverylongveryvery</a><i></i><em></em>
+					</li>			
 				</ul>
 			</div>
 		</div>
+		<!-- END .header -->
 	</div>
-</div>
-<!-- END .header -->
-<!-- BEGIN .tape -->
-<div class="tape">
-	<div class="container">
-		<div class="tape__fife"></div>
-		<div class="tape__shadow tape__shadow-l"></div>
-		<div class="tape__shadow tape__shadow-r"></div>
-		<ul>
-			<li><span>Понедельник</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Вторник</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Среда</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Четверг</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Пятница</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Суббота</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Воскресенье</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-		</ul>
+	<!-- BEGIN .tape -->
+	<div class="tape">
+		<div class="container">
+			<div class="tape__fife"></div>
+			<div class="tape__shadow tape__shadow-l"></div>
+			<div class="tape__shadow tape__shadow-r"></div>
+			<div class="tape__container">
+				<ul>
+					<li><span>Понедельник</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Вторник</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Среда</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Четверг</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Пятница</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Суббота</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Воскресенье</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+				</ul>
+			</div>		
+		</div>
 	</div>
+	<!-- END .tape -->
 </div>
-<!-- END .tape -->
+<!-- END .top -->
 <!-- BEGIN .content -->
 <div class="container">
 	<div class="cols">
@@ -97,6 +108,15 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<h4>Аналогичная услуга</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<blockquote>
+						<i>Данная технология основана на внедрении специальных чипов в коммуникационные устройства, за счёт чего они становятся многоцелевыми. Могут быть в качестве платежного средства (виртуального кошелька), средства идентификации владельца</i>	
+					</blockquote>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -138,8 +158,11 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 				<div class="likes">
-					<img src="img/likes.jpg" alt="">
+					<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://dev.twitter.com" data-via="your_screen_name" data-lang="en">Tweet</a>
+					<div id="vk_like"></div>
 				</div>
+				<div class="clr"></div>
 				<form class="add-comm">
 					<h3 class="h3">Комментировать</h3>
 					<div class="add-comm__txt">
@@ -147,7 +170,7 @@
 					</div>
 					<div class="add-comm__btn">
 						<input type="submit" class="btn complaint" value="Отправить">
-						<p>От <a href="">Username</a></p>
+						<p>От <a class="user" href="#">Username<i></i></a></p>
 					</div>					
 				</form>
 				<div class="comms">
@@ -155,7 +178,7 @@
 					<div class="block">						
 						<div class="block__desc">
 							<a href="#"><img src="img/pic1.jpg" alt=""></a>
-							<a class="block_title" href="#">Оля Кошкина</a>		
+							<a class="block_title user" href="#">Оля Кошкина<i></i></a>		
 							<span>28 февраля</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -327,11 +350,11 @@
 				<li><a class="social__tw" href="#"></a></li>
 			</ul>
 		</div>		
-		<div class="facebook">
-			<img src="img/facebook.jpg" alt="">
+		<div class="facebook">			
+			<div class="fb-like-box" data-href="http://www.facebook.com/platform" data-width="300" data-height="140" data-show-faces="true" data-stream="false" data-header="true"></div>
 		</div>
-		<div class="vkontakte">
-			<img src="img/vkontakte.jpg" alt="">
+		<div class="vkontakte">			
+			<div id="vk_groups"></div>			
 		</div>
 	</div>		
 </div>
@@ -340,8 +363,15 @@
 <div class="popup-bg"></div>
 <div class="popup popup_enter">
 	<div class="popup__title">
-		<b>Вход на сайт</b>
-		<a class="close" href="#">Закрыть</a>
+		<b>Через социальные сети</b>
+		<a class="close" href="#"></a>
+	</div>
+	<div class="popup__social">
+		<a href="#"><span>Войти через Facebook</span><i class="popup__social-fb"></i></a>
+		<a href="#"><span>Войти через Вконтакте</span><i class="popup__social-vk"></i></a>
+	</div>
+	<div class="popup__title">
+		<b>Используя e-mail и пароль</b>
 	</div>
 	<form action="">
 		<input class="txt-field" type="text" placeholder="Login">
@@ -355,34 +385,35 @@
 	<div class="popup__links">
 		<a href="#">Напомнить пароль</a>
 		<a href="#">Регистрация</a>
-	</div>
-	<p>Через соцсети</p>
-	<div class="popup__social">
-		<a class="popup__social-fb" href="#"></a>
-		<a class="popup__social-vk" href="#"></a>
-	</div>
+	</div>	
 </div>
 <div class="popup popup_complaint">
 	<div class="popup__title">
 		<b>Добавить жалобу</b>
-		<a class="close" href="#">Закрыть</a>
+		<a class="close" href="#"></a>
 	</div>
 	<form action="">
 		<ul class="popup__client">
 			<li>
-				<input type="radio">			
-				<i class="popup__client_1"></i>
-				<span>Билайн</span>
+				<label for="beeline">
+					<input id="beeline" type="radio" name="operators">		
+					<i class="popup__client_1"></i>
+					<span>Билайн</span>
+				</label>				
 			</li>
 			<li>
-				<input type="radio">			
-				<i class="popup__client_2"></i>
-				<span>Мегафон</span>
+				<label for="megafon">
+					<input id="megafon" type="radio" name="operators">			
+					<i class="popup__client_2"></i>
+					<span>Мегафон</span>
+				</label>
 			</li>
 			<li>
-				<input type="radio">			
-				<i class="popup__client_3"></i>
-				<span>МТС</span>
+				<label for="mts">
+					<input id="mts" type="radio" name="operators">			
+					<i class="popup__client_3"></i>
+					<span>МТС</span>
+				</label>
 			</li>
 		</ul>
 		<div class="popup__info">
@@ -407,5 +438,17 @@
 	</form>
 </div>
 <!-- END .popups -->
+<!-- Twitter -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+<!-- Vkontakte --> 
+<script type="text/javascript">
+	VK.Widgets.Group("vk_groups", {mode: 0, width: "300", height: "190"}, 20003922);
+</script>
+ <script type="text/javascript">
+  VK.init({apiId: 2650836, onlyWidgets: true});
+</script>
+<script type="text/javascript">
+	VK.Widgets.Like("vk_like", {type: "mini", height: 20});
+</script>
 </body>
 </html>

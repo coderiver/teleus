@@ -60,6 +60,15 @@ $icons: sprite-map("icons/*.png");
 			top: 11px;
 			left: 12px;
 		}
+		&:hover, &:active {
+			background: #ffe386;
+			@include background-image(linear-gradient(#ffe386, #ffac29));
+		}
+		&:active {
+			i {
+				top: 12px;
+			}
+		}
 	}
 	.disabled {
 		border: 1px solid #a6a6a6;
@@ -70,6 +79,15 @@ $icons: sprite-map("icons/*.png");
 		}
 		.slider__next-r {
 			@include sized-sprite($icons, arr2);
+		}
+		&:hover, &:active {
+			background: #f6f6f6;
+			@include background-image(linear-gradient(#f6f6f6, #dbdbdb));
+		}
+		&:active {
+			i {
+				top: 11px;
+			}
 		}
 	}
 }

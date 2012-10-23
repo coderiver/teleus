@@ -1,8 +1,35 @@
+@-webkit-keyframes rotate {
+  /* line 24, ../scss/_base.scss */
+  0% {
+    -webkit-transform: rotate(-30deg);
+  }
+
+  /* line 27, ../scss/_base.scss */
+  25% {
+    -webkit-transform: rotate(30deg);
+  }
+
+  /* line 30, ../scss/_base.scss */
+  50% {
+    -webkit-transform: rotate(-15deg);
+  }
+
+  /* line 33, ../scss/_base.scss */
+  75% {
+    -webkit-transform: rotate(15deg);
+  }
+
+  /* line 36, ../scss/_base.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
 /*products*/
 /* line 3, ../scss/layouts.scss */
 .cols {
   position: relative;
-  padding-bottom: 90px;
+  padding: 180px 0 90px 0;
   overflow: hidden;
   background: #fff;
   z-index: 20;

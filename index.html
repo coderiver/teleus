@@ -7,16 +7,29 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/screen.css" />
 	<script src="js/jquery.tools.min.js"></script>
-	<script src="js/common.js"></script>
+	<script src="js/jquery.li-scroller.1.0.js"></script>
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>	
+	<script src="js/common.js"></script>	
+	<script src="//vk.com/js/api/openapi.js?60"></script>
 </head>
 <body>
-<!-- BEGIN .header -->
-<div class="header-out">
+<!-- Facebook -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/uk_UA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- BEGIN .top -->
+<div class="top">
 	<div class="container">
 		<div class="header-banner"></div>
+		<!-- BEGIN .header -->		
 		<div class="header">
 			<h1 class="logo">
-				<a href="#">Teleus</a>
+				<a href="#">Teleus<i></i></a>
 			</h1>		
 			<div class="logo-txt">
 				Всё о ловушках операторов
@@ -29,35 +42,40 @@
 					<li><a href="#">Телефоны</a></li>	
 					<li class="nav__add">
 						<a href="#">Жалобы</a>
-						<a class="btn complaint" href="#">Добавить</a>
-						<i class="nav__divider-l"></i>
-						<i class="nav__divider-r"></i>
+						<a class="btn complaint" href="#"><i></i></a>
+						<em class="nav__divider-l"></em>
+						<em class="nav__divider-r"></em>
 					</li>
-					<li class="nav__user"><a href="#">Usernameverylong</a><i></i><em></em></li>			
+					<li class="nav__user-log">
+						<a href="#">Usernameverylongveryvery</a><i></i><em></em>
+					</li>			
 				</ul>
 			</div>
 		</div>
+		<!-- END .header -->
 	</div>
-</div>
-<!-- END .header -->
-<!-- BEGIN .tape -->
-<div class="tape">
-	<div class="container">
-		<div class="tape__fife"></div>
-		<div class="tape__shadow tape__shadow-l"></div>
-		<div class="tape__shadow tape__shadow-r"></div>
-		<ul>
-			<li><span>Понедельник</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Вторник</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Среда</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Четверг</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Пятница</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Суббота</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-			<li><span>Воскресенье</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
-		</ul>
+	<!-- BEGIN .tape -->
+	<div class="tape">
+		<div class="container">
+			<div class="tape__fife"></div>
+			<div class="tape__shadow tape__shadow-l"></div>
+			<div class="tape__shadow tape__shadow-r"></div>
+			<div class="tape__container">
+				<ul>
+					<li><span>Понедельник</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Вторник</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Среда</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Четверг</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Пятница</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Суббота</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+					<li><span>Воскресенье</span><b>•</b><a href="#">«Яндекс» разрабатывает собственную версию браузера</a><a class="tape__comm" href="#">345<i></i></a></li>
+				</ul>
+			</div>		
+		</div>
 	</div>
+	<!-- END .tape -->
 </div>
-<!-- END .tape -->
+<!-- END .top -->
 <!-- BEGIN .content -->
 <div class="container">
 	<div class="cols">
@@ -422,21 +440,21 @@
 						<a href="#"><img src="img/abon.jpg" alt=""></a>
 						<div class="abonements__desc">
 							<a href="#">Можно производить оплату товаров и услуг счётом?</a>
-							<span><a href="#">Username</a> • 28 февраля </span>
+							<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						</div>
 					</li>
 					<li>
 						<a href="#"><img src="img/abon.jpg" alt=""></a>
 						<div class="abonements__desc">
 							<a href="#">Можно производить оплату товаров оплату товаров оплату товаров и услуг счётом?</a>
-							<span><a href="#">Username</a> • 28 февраля </span>
+							<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						</div>
 					</li>
 					<li>
 						<a href="#"><img src="img/abon.jpg" alt=""></a>
 						<div class="abonements__desc">
 							<a href="#">Можно производить оплату товаров  оплату товаров и услуг счётом?</a>
-							<span><a href="#">Username</a> • 28 февраля </span>
+							<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						</div>
 					</li>
 				</ul>
@@ -445,14 +463,14 @@
 						<a href="#"><img src="img/abon.jpg" alt=""></a>
 						<div class="abonements__desc">
 							<a href="#">Можно производить оплату товаров и услуг счётом?</a>
-							<span><a href="#">Username</a> • 28 февраля </span>
+							<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						</div>
 					</li>
 					<li>
 						<a href="#"><img src="img/abon.jpg" alt=""></a>
 						<div class="abonements__desc">
 							<a href="#">Можно производить оплату товаров оплату товаров оплату товаров и услуг счётом?</a>
-							<span><a href="#">Username</a> • 28 февраля </span>
+							<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						</div>
 					</li>
 					<li>
@@ -494,62 +512,44 @@
 				<li><a class="social__tw" href="#"></a></li>
 			</ul>
 		</div>		
-		<div class="facebook">
-			<img src="img/facebook.jpg" alt="">
+		<div class="facebook">			
+			<div class="fb-like-box" data-href="http://www.facebook.com/platform" data-width="300" data-height="140" data-show-faces="true" data-stream="false" data-header="true"></div>
 		</div>
-		<div class="vkontakte">
-			<img src="img/vkontakte.jpg" alt="">
+		<div class="vkontakte">			
+			<div id="vk_groups"></div>
 		</div>
 	</div>		
 </div>
 <!-- END .footer -->
 <!-- BEGIN .popups -->
 <div class="popup-bg"></div>
-<div class="popup popup_enter">
-	<div class="popup__title">
-		<b>Вход на сайт</b>
-		<a class="close" href="#">Закрыть</a>
-	</div>
-	<form action="">
-		<input class="txt-field" type="text" placeholder="Login">
-		<input class="txt-field" type="text" placeholder="Password">
-		<div class="popup__btn">
-			<input type="submit" class="btn" value="Войти">
-			<input class="popup__check" type="checkbox">
-			<span>Запомнить</span>
-		</div>		
-	</form>
-	<div class="popup__links">
-		<a href="#">Напомнить пароль</a>
-		<a href="#">Регистрация</a>
-	</div>
-	<p>Через соцсети</p>
-	<div class="popup__social">
-		<a class="popup__social-fb" href="#"></a>
-		<a class="popup__social-vk" href="#"></a>
-	</div>
-</div>
 <div class="popup popup_complaint">
 	<div class="popup__title">
 		<b>Добавить жалобу</b>
-		<a class="close" href="#">Закрыть</a>
+		<a class="close" href="#"></a>
 	</div>
 	<form action="">
 		<ul class="popup__client">
 			<li>
-				<input type="radio">			
-				<i class="popup__client_1"></i>
-				<span>Билайн</span>
+				<label for="beeline">
+					<input id="beeline" type="radio" name="operators">		
+					<i class="popup__client_1"></i>
+					<span>Билайн</span>
+				</label>				
 			</li>
 			<li>
-				<input type="radio">			
-				<i class="popup__client_2"></i>
-				<span>Мегафон</span>
+				<label for="megafon">
+					<input id="megafon" type="radio" name="operators">			
+					<i class="popup__client_2"></i>
+					<span>Мегафон</span>
+				</label>
 			</li>
 			<li>
-				<input type="radio">			
-				<i class="popup__client_3"></i>
-				<span>МТС</span>
+				<label for="mts">
+					<input id="mts" type="radio" name="operators">			
+					<i class="popup__client_3"></i>
+					<span>МТС</span>
+				</label>
 			</li>
 		</ul>
 		<div class="popup__info">
@@ -574,5 +574,17 @@
 	</form>
 </div>
 <!-- END .popups -->
+<!-- Twitter -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+<!-- Vkontakte --> 
+<script type="text/javascript">
+	VK.Widgets.Group("vk_groups", {mode: 0, width: "300", height: "190"}, 20003922);
+</script>
+ <script type="text/javascript">
+  VK.init({apiId: 2650836, onlyWidgets: true});
+</script>
+<script type="text/javascript">
+	VK.Widgets.Like("vk_like", {type: "mini", height: 20});
+</script>
 </body>
 </html>
