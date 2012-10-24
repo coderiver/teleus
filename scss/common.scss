@@ -50,12 +50,16 @@ input, textarea, button {
 }
 /*top*/
 .header-out {
-	position: fixed;
+	position: relative;
 	width: 100%;
 	height: 140px;
 	background: #fff;
 	@include box-shadow(#6d6d6d 0px 0px 15px 3px);
 	z-index: 300;
+}
+.header-out_fixed {
+	position: fixed;
+	top: -60px;
 }
 .header-banner {
 	height: 60px;
@@ -237,7 +241,7 @@ input, textarea, button {
 }
 /*tape*/
 .tape-out {
-	padding-top: 140px;
+
 }
 .tape {		
 	background: url(../img/tape-bg.jpg);
