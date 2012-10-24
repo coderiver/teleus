@@ -962,7 +962,7 @@ input, textarea, button {
 /* line 607, ../scss/common.scss */
 .popup_enter {
   display: none;
-  top: 140px;
+  top: 180px;
   left: 50%;
   width: 280px;
   margin-left: 260px;

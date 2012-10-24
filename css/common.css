@@ -124,7 +124,7 @@ input, textarea, button {
 .logo {
   float: left;
   margin: -1px 15px 0 0;
-  background: url('../img/icons-s812cfb257b.png') 0 -576px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -576px no-repeat;
   width: 145px;
   height: 42px;
 }
@@ -148,7 +148,7 @@ input, textarea, button {
   position: absolute;
   top: 9px;
   left: 95px;
-  background: url('../img/icons-s812cfb257b.png') 0 -912px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -912px no-repeat;
   width: 25px;
   height: 32px;
 }
@@ -233,7 +233,7 @@ input, textarea, button {
 .nav .nav__add em {
   position: absolute;
   top: 0;
-  background: url('../img/icons-s812cfb257b.png') 0 -1062px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1154px no-repeat;
   width: 2px;
   height: 60px;
 }
@@ -262,7 +262,7 @@ input, textarea, button {
   position: absolute;
   top: 23px;
   left: -20px;
-  background: url('../img/icons-s812cfb257b.png') 0 -1046px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1092px no-repeat;
   width: 14px;
   height: 16px;
 }
@@ -271,7 +271,7 @@ input, textarea, button {
   position: absolute;
   top: 10px;
   right: 0;
-  background: url('../img/icons-s812cfb257b.png') 0 -668px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -668px no-repeat;
   width: 37px;
   height: 43px;
 }
@@ -326,14 +326,14 @@ input, textarea, button {
 /* line 208, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_fb {
   left: 127px;
-  background: url('../img/icons-s812cfb257b.png') 0 -840px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -840px no-repeat;
   width: 16px;
   height: 16px;
 }
 /* line 212, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_vk {
   left: 147px;
-  background: url('../img/icons-s812cfb257b.png') 0 -824px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -824px no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -396,7 +396,7 @@ input, textarea, button {
   position: absolute;
   top: 2px;
   left: -20px;
-  background: url('../img/icons-s812cfb257b.png') 0 -1122px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1283px no-repeat;
   width: 14px;
   height: 13px;
 }
@@ -406,7 +406,7 @@ input, textarea, button {
   position: absolute;
   top: 7px;
   left: 2px;
-  background: url('../img/icons-s812cfb257b.png') 0 -944px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -944px no-repeat;
   width: 26px;
   height: 22px;
   z-index: 30;
@@ -422,7 +422,7 @@ input, textarea, button {
 .tape__shadow-l {
   top: 3px;
   left: 25px;
-  background: url('../img/icons-s812cfb257b.png') 0 -711px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -711px no-repeat;
   width: 75px;
   height: 26px;
 }
@@ -431,7 +431,7 @@ input, textarea, button {
 .tape__shadow-r {
   top: 6px;
   right: 0;
-  background: url('../img/icons-s812cfb257b.png') 0 -618px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -618px no-repeat;
   width: 75px;
   height: 26px;
 }
@@ -491,7 +491,7 @@ input, textarea, button {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../img/icons-s812cfb257b.png') 0 -856px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -856px no-repeat;
   width: 30px;
   height: 39px;
 }
@@ -535,7 +535,7 @@ input, textarea, button {
   position: absolute;
   top: 6px;
   right: 7px;
-  background: url('../img/icons-s812cfb257b.png') 0 -998px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1021px no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -572,28 +572,28 @@ input, textarea, button {
 
 /* line 382, ../scss/common.scss */
 .social__fb {
-  background: url('../img/icons-s812cfb257b.png') 0 -785px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -785px no-repeat;
   width: 24px;
   height: 24px;
 }
 
 /* line 383, ../scss/common.scss */
 .social__vk {
-  background: url('../img/icons-s812cfb257b.png') 0 -737px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -737px no-repeat;
   width: 24px;
   height: 24px;
 }
 
 /* line 384, ../scss/common.scss */
 .social__rss {
-  background: url('../img/icons-s812cfb257b.png') 0 -644px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -644px no-repeat;
   width: 24px;
   height: 24px;
 }
 
 /* line 385, ../scss/common.scss */
 .social__tw {
-  background: url('../img/icons-s812cfb257b.png') 0 -761px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -761px no-repeat;
   width: 24px;
   height: 24px;
 }
@@ -640,7 +640,7 @@ input, textarea, button {
   position: absolute;
   top: 2px;
   left: -25px;
-  background: url('../img/icons-s812cfb257b.png') 0 -809px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -809px no-repeat;
   width: 19px;
   height: 15px;
 }
@@ -651,7 +651,7 @@ input, textarea, button {
 }
 /* line 422, ../scss/common.scss */
 .comm_answer i {
-  background: url('../img/icons-s812cfb257b.png') 0 -966px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -989px no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -745,56 +745,56 @@ input, textarea, button {
 
 /* line 487, ../scss/common.scss */
 .tabs__link-1 {
-  background: url('../img/icons-s812cfb257b.png') 0 -300px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -300px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 488, ../scss/common.scss */
 .tabs__link-2 {
-  background: url('../img/icons-s812cfb257b.png') 0 -240px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -240px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 489, ../scss/common.scss */
 .tabs__link-3 {
-  background: url('../img/icons-s812cfb257b.png') 0 -120px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -120px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 490, ../scss/common.scss */
 .tabs__link-4 {
-  background: url('../img/icons-s812cfb257b.png') 0 -180px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -180px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 491, ../scss/common.scss */
 .tabs__link-5 {
-  background: url('../img/icons-s812cfb257b.png') 0 0 no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 0 no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 492, ../scss/common.scss */
 .tabs__link-6 {
-  background: url('../img/icons-s812cfb257b.png') 0 -420px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -420px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 493, ../scss/common.scss */
 .tabs__link-7 {
-  background: url('../img/icons-s812cfb257b.png') 0 -360px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -360px no-repeat;
   width: 60px;
   height: 60px;
 }
 
 /* line 494, ../scss/common.scss */
 .tabs__link-8 {
-  background: url('../img/icons-s812cfb257b.png') 0 -60px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -60px no-repeat;
   width: 60px;
   height: 60px;
 }
@@ -854,7 +854,7 @@ input, textarea, button {
   position: absolute;
   top: 7px;
   left: 9px;
-  background: url('../img/icons-s812cfb257b.png') 0 -982px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1005px no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -962,7 +962,7 @@ input, textarea, button {
 /* line 607, ../scss/common.scss */
 .popup_enter {
   display: none;
-  top: 140px;
+  top: 180px;
   left: 50%;
   width: 280px;
   margin-left: 260px;
@@ -1019,13 +1019,13 @@ input, textarea, button {
 }
 /* line 651, ../scss/common.scss */
 .popup__social .popup__social-fb {
-  background: url('../img/icons-s812cfb257b.png') 0 -785px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -785px no-repeat;
   width: 24px;
   height: 24px;
 }
 /* line 654, ../scss/common.scss */
 .popup__social .popup__social-vk {
-  background: url('../img/icons-s812cfb257b.png') 0 -737px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -737px no-repeat;
   width: 24px;
   height: 24px;
 }
@@ -1042,7 +1042,7 @@ input, textarea, button {
 /* line 664, ../scss/common.scss */
 .popup__title a {
   float: right;
-  background: url('../img/icons-s812cfb257b.png') 0 -895px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -895px no-repeat;
   width: 17px;
   height: 17px;
 }
@@ -1087,21 +1087,21 @@ input, textarea, button {
 
 /* line 700, ../scss/common.scss */
 .popup__client_1 {
-  background: url('../img/icons-s812cfb257b.png') 0 -544px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -544px no-repeat;
   width: 32px;
   height: 32px;
 }
 
 /* line 701, ../scss/common.scss */
 .popup__client_2 {
-  background: url('../img/icons-s812cfb257b.png') 0 -480px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -480px no-repeat;
   width: 32px;
   height: 32px;
 }
 
 /* line 702, ../scss/common.scss */
 .popup__client_3 {
-  background: url('../img/icons-s812cfb257b.png') 0 -512px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -512px no-repeat;
   width: 32px;
   height: 32px;
 }
@@ -1173,7 +1173,7 @@ input, textarea, button {
   position: absolute;
   top: 1px;
   left: -20px;
-  background: url('../img/icons-s812cfb257b.png') 0 -1014px no-repeat;
+  background: url('../img/icons-sedb12026c5.png') 0 -1060px no-repeat;
   width: 14px;
   height: 16px;
 }
