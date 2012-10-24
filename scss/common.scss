@@ -441,6 +441,13 @@ input, textarea, button {
 	}
 	span {
 		color: #acacac;
+		a {
+			border-bottom: 1px solid #bbe4f1;
+			@include transition(border-color, 0.5s, linear);			
+			&:hover {
+				border-bottom: 1px solid #09c;
+			}
+		}
 	}
 }
 .comm {
