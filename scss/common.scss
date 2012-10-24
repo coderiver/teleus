@@ -49,12 +49,13 @@ input, textarea, button {
 	margin: 0 auto;
 }
 /*top*/
-.top {
+.header-out {
 	position: fixed;
 	width: 100%;
-	height: 180px;
+	height: 140px;
 	background: #fff;
-	z-index: 1000;
+	@include box-shadow(#6d6d6d 0px 0px 15px 3px);
+	z-index: 300;
 }
 .header-banner {
 	height: 60px;
@@ -81,7 +82,7 @@ input, textarea, button {
 		height: 42px;
 		text-indent: -20000px;
 		&:hover i {
-			@include animation(rotate, 0.4s, cubic-bezier(0.785, 0.135, 0.15, 0.86), both);
+			@include animation(rotate, 0.2s, cubic-bezier(0.785, 0.135, 0.15, 0.86), both);
 		}
 	}
 	i {
@@ -121,6 +122,10 @@ input, textarea, button {
 			font-size: 15px;
 			font-weight: bold;
 			color: #fff;
+			@include transition(border-color, 0.5s, linear);
+			&:hover {
+				border-bottom: 1px solid #fff;
+			}
 		}		
 	}
 	.nav__add {
@@ -135,13 +140,26 @@ input, textarea, button {
 			padding: 0;
 			border: 1px solid #006c90;
 			@include box-shadow(#ffecab 0px 1px 1px inset, #006c90 0px 2px 5px);
+			@include transition(background-color, 0.5s, linear);
 			i {
 				left: 7px;
+			}
+			&:hover {
+				border: 1px solid #006c90;	
+				@include box-shadow(#006c90 0px 2px 5px);			
+			}
+			&:active {
+				@include box-shadow(none);
+				background: #ff9e03;
+				@include background-image(linear-gradient(#ff9e03, #ffd856));
 			}
 		}
 		a {
 			color: #ffd75e;
 			border-bottom: 1px solid #88b88f;
+			&:hover {
+				border-bottom: 1px solid #ffd75f;
+			}
 		}
 		em {
 			position: absolute;
@@ -186,19 +204,21 @@ input, textarea, button {
 			padding-left: 15px;
 			margin-top: 15px;
 			border: 1px solid #006c90;
-			background: #24aedc;
-			@include background-image(linear-gradient(#24aedc, #0188b6));
+			background-color: #24aedc;
+			@include background-image(linear-gradient(rgba(36,174,220,0.6), rgba(1,136,182,0.8)));
 			@include box-shadow(#92d7ee 0px 1px 1px inset, #006c90 0px 2px 5px);
 			font-size: 14px;
 			font-weight: bold;
 			text-transform: none;
 			text-shadow: none;
-			&:hover, &:active {
-				background: #34b9e5;
-				@include background-image(linear-gradient(#34b9e5, #0294c5));
+			@include transition(background-color, 0.5s, linear);
+			&:hover {				
+				background-color: #92d7ee;
 			}
 			&:active {
-				line-height: 32px;
+				@include box-shadow(none);
+				background: #0188b6;
+				@include background-image(linear-gradient(#0188b6, #24aedc));
 			}
 		}
 		i {
@@ -216,6 +236,9 @@ input, textarea, button {
 	}
 }
 /*tape*/
+.tape-out {
+	padding-top: 140px;
+}
 .tape {		
 	background: url(../img/tape-bg.jpg);
 	color: #fff;
@@ -248,6 +271,10 @@ input, textarea, button {
 		a {
 			border-bottom: 1px solid #5b5b5b;
 			color: #fff;
+			@include transition(border-color, 0.5s, linear);
+			&:hover {
+				border-bottom: 1px solid #fff;
+			}
 		}
 		b {
 			margin: 0 5px;
@@ -316,6 +343,10 @@ input, textarea, button {
 		a {
 			border-bottom: 1px solid #a4cddb;
 			font-size: 14px;
+			@include transition(border-color, 0.5s, linear);
+			&:hover {
+				border-bottom: 1px solid #09c;
+			}
 		}
 		span {
 			margin: 0 5px;
@@ -391,6 +422,10 @@ input, textarea, button {
 	font-weight: bold;
 	border-bottom: 1px solid #bbe4f1;
 	line-height: 1.5;
+	@include transition(border-color, 0.5s, linear);
+	&:hover {
+		border-bottom: 1px solid #0099cc;
+	}
 }
 .block__desc {
 	margin: 15px 0 5px 0;
@@ -410,11 +445,15 @@ input, textarea, button {
 	margin-left: 25px;
 	border-bottom: 1px solid #bbe4f1;
 	font-size: 14px;
+	@include transition(border-color, 0.5s, linear);
 	i {
 		position: absolute;
 		top: 2px;
 		left: -25px;
 		@include sized-sprite($icons, comm1);
+	}
+	&:hover {
+		border-bottom: 1px solid #09c;
 	}
 }
 .comm_answer {
@@ -501,6 +540,16 @@ input, textarea, button {
 		line-height: 1.3;
 		font-weight: bold;
 		border-bottom: 1px solid #bbe4f1;
+		@include transition(border-color, 0.5s, linear);
+		&:hover {
+			border-bottom: 1px solid #09c;
+		}
+	}
+	.btn {
+		@include transition(background-color, 0.5s, linear);
+		&:hover {
+			border: 1px solid #ae6c00;
+		}		
 	}
 	p {
 		margin-top: 10px;
@@ -518,23 +567,27 @@ input, textarea, button {
 	border: 1px solid #ae6c00;
 	@include border-radius(3px);
 	@include box-shadow(#ffecab 0px 1px 1px inset, #d0d0d0 0px 1px 5px);
-	background: #ffd856;
-	@include background-image(linear-gradient(#ffd856, #ff9e03));
+	background-color: #ff9e03;
+	@include background-image(linear-gradient(rgba(255,216,86,0.6), rgba(255,158,3,0.8)));
 	color: #885400;
 	font-size: 13px;
 	text-shadow: 0 1px 1px #ffd856;
 	font-weight: bold;
+	@include transition(background-color, 0.5s, ease-out);
 	i {
 		position: absolute;
 		top: 7px;
 		left: 9px;
 		@include sized-sprite($icons, add);		
 	}
-	&:hover, &:active {
-		background: #ffe386;
-		@include background-image(linear-gradient(#ffe386, #ffac29));
+	&:hover {
+		background-color: #ffecab;
+		@include box-shadow(#d0d0d0 0px 1px 5px);
 	}
 	&:active {
+		@include box-shadow(none);
+		background: #ff9e03;
+		@include background-image(linear-gradient(#ff9e03, #ffd856));
 		line-height: 32px;
 		i {
 			top: 8px;
@@ -567,13 +620,13 @@ input, textarea, button {
 	width: 100%;
 	height: 100%;
 	background: rgba(0,0,0,0.5);
-	z-index: 100;
+	z-index: 400;
 }
 .popup {
 	position: fixed;	
 	padding: 30px;
 	background: #fff;
-	z-index: 200;
+	z-index: 500;
 	form {			
 		.btn {
 			float: left;
@@ -628,6 +681,10 @@ input, textarea, button {
 	a {
 		border-bottom: 1px solid #BBE4F1;
 		line-height: 1.5;
+		@include transition(border-color, 0.5s, linear);
+		&:hover {
+			border-bottom: 1px solid #09c;
+		}
 	}
 }
 .popup__social {
@@ -637,11 +694,17 @@ input, textarea, button {
 		display: block;
 		height: 24px;		
 		padding-left: 35px;
-		margin-bottom: 10px;
+		margin-bottom: 10px;		
+		&:hover {
+			span {
+				border-bottom: 1px solid #09c;
+			}			
+		}
 	}
 	span {
 		line-height: 24px;
 		border-bottom: 1px solid #BBE4F1;
+		@include transition(border-color, 0.5s, linear);
 	}
 	i {
 		position: absolute;

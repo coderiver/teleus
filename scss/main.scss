@@ -33,6 +33,10 @@ $icons: sprite-map("icons/*.png");
 		font-size: 14px;
 		font-weight: bold;
 		line-height: 1.5;
+		@include transition(border-color, 0.5s, linear);
+		&:hover {
+			border-bottom: 1px solid #09c;
+		}
 	}
 }
 .slider__nav, .pagination__nav {
@@ -51,20 +55,22 @@ $icons: sprite-map("icons/*.png");
 		line-height: 30px;		
 		cursor: pointer;
 		border: 1px solid #ae6c00;			
-		background: #ffd856;
-		@include background-image(linear-gradient(#ffd856, #ff9e03));			
+		background-color: #ff9e03;
+		@include background-image(linear-gradient(rgba(255,216,86,0.6), rgba(255,158,3,0.8)));		
 		@include box-shadow(0);
+		@include transition(all, 0.5s, linear);
 		z-index: 5;
 		i {
 			position: absolute;
 			top: 11px;
 			left: 12px;
 		}
-		&:hover, &:active {
-			background: #ffe386;
-			@include background-image(linear-gradient(#ffe386, #ffac29));
+		&:hover {
+			background-color: #ffecab;	
 		}
 		&:active {
+			background: #ff9e03;
+			@include background-image(linear-gradient(#ff9e03, #ffd856));
 			i {
 				top: 12px;
 			}
@@ -157,6 +163,10 @@ $icons: sprite-map("icons/*.png");
 		border-bottom: 1px solid #bbe4f1;
 		font-weight: bold;
 		line-height: 1.5;
+		@include transition(border-color, 0.5s, linear);
+		&:hover {
+			border-bottom: 1px solid #09c;
+		}
 	}
 	span {
 		display: block;

@@ -1,6 +1,9 @@
 $(document).ready(function () {
 
 /*tabs all*/
+$('.tabs__link a').click(function() {
+	return false;
+});
 $('.tabs__content_all li:not(:first)').hide();
 $('.tabs__link_all a').hover(
   function () {
@@ -55,6 +58,7 @@ $(function(){
 });
 
 /*text area*/
+if ($('.add-comm__txt textarea').length>0) {
 $('.add-comm__txt textarea').htmlarea({
     toolbar: [
 	    ["bold", "italic", "underline", "strikethrough",
@@ -69,11 +73,18 @@ $('.add-comm__txt textarea').htmlarea({
 		  "link", "html"]
 		]
 });
+};
 
 });
 
-
-/*window scroll*/
-$(window).scroll(function () {
-	
+$(document).keypress(function(e) {
+	document_height = $(window).height();	
+	document_height = document_height - 150;
+	if ($('body').hasClass('no-space')) {
+		if (e.which == 32) {
+			body_top = $('body').scrollTop();			
+			$('body').scrollTo(body_top+document_height, 500);
+			return false;
+		}
+	};
 });

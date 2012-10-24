@@ -8,9 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="css/screen.css" />
 	<script src="js/jquery.tools.min.js"></script>
 	<script src="js/jquery.li-scroller.1.0.js"></script>
-	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>	
 	<script src="js/common.js"></script>	
-	<script src="//vk.com/js/api/openapi.js?60"></script>
+	<!--<script src="//vk.com/js/api/openapi.js?60"></script>-->
 </head>
 <body>
 <!-- Facebook -->
@@ -22,11 +21,10 @@
   js.src = "//connect.facebook.net/uk_UA/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<!-- BEGIN .top -->
-<div class="top">
+<!-- BEGIN .header -->	
+<div class="header-out">
 	<div class="container">
-		<div class="header-banner"></div>
-		<!-- BEGIN .header -->		
+		<div class="header-banner"></div>			
 		<div class="header">
 			<h1 class="logo">
 				<a href="#">Teleus<i></i></a>
@@ -51,10 +49,12 @@
 					</li>			
 				</ul>
 			</div>
-		</div>
-		<!-- END .header -->
+		</div>		
 	</div>
-	<!-- BEGIN .tape -->
+</div>
+<!-- END .header -->
+<!-- BEGIN .tape -->
+<div class="tape-out">
 	<div class="tape">
 		<div class="container">
 			<div class="tape__fife"></div>
@@ -73,9 +73,8 @@
 			</div>		
 		</div>
 	</div>
-	<!-- END .tape -->
 </div>
-<!-- END .top -->
+<!-- END .tape -->
 <!-- BEGIN .content -->
 <div class="container">
 	<div class="cols">
@@ -141,6 +140,7 @@
 		</div>
 		<div class="col-2">
 			<div class="col-3">
+				<h2 class="h2">Приложения</h2>
 				<div class="tabs">
 					<div class="tabs__shadow"></div>
 					<ul class="tabs__link tabs__link_all">

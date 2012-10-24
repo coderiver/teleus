@@ -1,27 +1,156 @@
 @-webkit-keyframes rotate {
   /* line 24, ../scss/_base.scss */
   0% {
-    -webkit-transform: rotate(-30deg);
+    -webkit-transform: rotate(-10deg);
   }
 
   /* line 27, ../scss/_base.scss */
-  25% {
-    -webkit-transform: rotate(30deg);
+  10% {
+    -webkit-transform: rotate(0deg);
   }
 
   /* line 30, ../scss/_base.scss */
-  50% {
-    -webkit-transform: rotate(-15deg);
+  20% {
+    -webkit-transform: rotate(10deg);
   }
 
   /* line 33, ../scss/_base.scss */
-  75% {
-    -webkit-transform: rotate(15deg);
+  30% {
+    -webkit-transform: rotate(0deg);
   }
 
   /* line 36, ../scss/_base.scss */
+  40% {
+    -webkit-transform: rotate(-10deg);
+  }
+
+  /* line 39, ../scss/_base.scss */
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 42, ../scss/_base.scss */
+  60% {
+    -webkit-transform: rotate(10deg);
+  }
+
+  /* line 45, ../scss/_base.scss */
+  70% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 48, ../scss/_base.scss */
+  80% {
+    -webkit-transform: rotate(-10deg);
+  }
+
+  /* line 51, ../scss/_base.scss */
   100% {
     -webkit-transform: rotate(0deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  /* line 56, ../scss/_base.scss */
+  0% {
+    -moz-transform: rotate(-10deg);
+  }
+
+  /* line 59, ../scss/_base.scss */
+  10% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 62, ../scss/_base.scss */
+  20% {
+    -moz-transform: rotate(10deg);
+  }
+
+  /* line 65, ../scss/_base.scss */
+  30% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 68, ../scss/_base.scss */
+  40% {
+    -moz-transform: rotate(-10deg);
+  }
+
+  /* line 71, ../scss/_base.scss */
+  50% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 74, ../scss/_base.scss */
+  60% {
+    -moz-transform: rotate(10deg);
+  }
+
+  /* line 77, ../scss/_base.scss */
+  70% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 80, ../scss/_base.scss */
+  80% {
+    -moz-transform: rotate(-10deg);
+  }
+
+  /* line 83, ../scss/_base.scss */
+  100% {
+    -moz-transform: rotate(0deg);
+  }
+}
+
+@-o-keyframes rotate {
+  /* line 88, ../scss/_base.scss */
+  0% {
+    -o-transform: rotate(-10deg);
+  }
+
+  /* line 91, ../scss/_base.scss */
+  10% {
+    -o-transform: rotate(0deg);
+  }
+
+  /* line 94, ../scss/_base.scss */
+  20% {
+    -o-transform: rotate(10deg);
+  }
+
+  /* line 97, ../scss/_base.scss */
+  30% {
+    -o-transform: rotate(0deg);
+  }
+
+  /* line 100, ../scss/_base.scss */
+  40% {
+    -o-transform: rotate(-10deg);
+  }
+
+  /* line 103, ../scss/_base.scss */
+  50% {
+    -o-transform: rotate(0deg);
+  }
+
+  /* line 106, ../scss/_base.scss */
+  60% {
+    -o-transform: rotate(10deg);
+  }
+
+  /* line 109, ../scss/_base.scss */
+  70% {
+    -o-transform: rotate(0deg);
+  }
+
+  /* line 112, ../scss/_base.scss */
+  80% {
+    -o-transform: rotate(-10deg);
+  }
+
+  /* line 115, ../scss/_base.scss */
+  100% {
+    -o-transform: rotate(0deg);
   }
 }
 
@@ -29,7 +158,7 @@
 /* line 3, ../scss/layouts.scss */
 .cols {
   position: relative;
-  padding: 180px 0 90px 0;
+  padding: 0 0 90px 0;
   overflow: hidden;
   background: #fff;
   z-index: 20;

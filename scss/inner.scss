@@ -71,6 +71,11 @@ $icons: sprite-map("icons/*.png");
 	}	
 }
 .article__content {
+	img {
+		float: left;
+		margin: 0 30px 15px 0;
+		border: 1px solid #939393;
+	}
 	h4 {
 		margin-bottom: 15px;
 		font-size: 16px;
@@ -113,6 +118,7 @@ $icons: sprite-map("icons/*.png");
 	}
 }
 .article__date {
+	margin-bottom: 20px;
 	overflow: hidden;
 	span {
 		float: left;
@@ -122,13 +128,10 @@ $icons: sprite-map("icons/*.png");
 		float: right;
 		border-bottom: 1px solid #BBE4F1;
 		font-size: 14px;
-	}
-}
-.article__pic {
-	margin: 20px 0;
-	overflow: hidden;
-	img {
-		float: left;
+		@include transition(border-color, 0.5s, linear);
+		&:hover {
+			border-bottom: 1px solid #09c;
+		}
 	}
 }
 /*add comment*/
@@ -184,7 +187,7 @@ $icons: sprite-map("icons/*.png");
 	.block {
 		span {
 			display: block;
-			margin-bottom: 40px;
+			margin-bottom: 20px;
 		}
 	}
 	p {

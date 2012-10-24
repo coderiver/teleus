@@ -9,10 +9,11 @@
 	<script src="js/jquery.tools.min.js"></script>
 	<script src="js/jquery.li-scroller.1.0.js"></script>
 	<script src="js/jHtmlArea-0.7.5.min.js"></script>
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>	
 	<script src="js/common.js"></script>
 	<!--<script src="//vk.com/js/api/openapi.js?60"></script>-->
 </head>
-<body>
+<body class="no-space">
 <!-- Facebook -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -22,11 +23,10 @@
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<!-- BEGIN .top -->
-<div class="top">
+<!-- BEGIN .header -->	
+<div class="header-out">
 	<div class="container">
-		<div class="header-banner"></div>
-		<!-- BEGIN .header -->		
+		<div class="header-banner"></div>			
 		<div class="header">
 			<h1 class="logo">
 				<a href="#">Teleus<i></i></a>
@@ -55,10 +55,12 @@
 					</li>			
 				</ul>
 			</div>
-		</div>
-		<!-- END .header -->
+		</div>		
 	</div>
-	<!-- BEGIN .tape -->
+</div>
+<!-- END .header -->
+<!-- BEGIN .tape -->
+<div class="tape-out">
 	<div class="tape">
 		<div class="container">
 			<div class="tape__fife"></div>
@@ -77,9 +79,8 @@
 			</div>		
 		</div>
 	</div>
-	<!-- END .tape -->
 </div>
-<!-- END .top -->
+<!-- END .tape -->
 <!-- BEGIN .content -->
 <div class="container">
 	<div class="cols">
@@ -89,17 +90,16 @@
 				<div class="article__date">
 					<span>28 февраля</span>
 					<a href="#">Возврат к списку статтей</a>
-				</div>
-				<div class="article__pic">
-					<img src="img/pic3.jpg" alt="">
-				</div>
+				</div>					
 				<div class="article__content">
+					<img src="img/pic3.jpg" alt="">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					proident, sunt in c fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -182,7 +182,7 @@
 					<h3 class="h3">Комментарии</h3>
 					<div class="block">						
 						<div class="block__desc">
-							<a href="#"><img src="img/pic1.jpg" alt=""></a>
+							<a href="#"><img src="img/pic4.jpg" alt=""></a>
 							<a class="block_title user" href="#">Оля Кошкина<i></i></a>		
 							<span>28 февраля</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -288,11 +288,11 @@
 				<ul class="tabs__content tabs__content_sb">
 					<li id="tab5">
 						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
-						<span><a href="#">Username</a> • 28 февраля</span>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
-						<span><a href="#">Username</a> • 28 февраля</span>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
-						<span><a href="#">Username</a> • 28 февраля</span>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						<div class="all-reviews">
 							<a href="#" class="btn complaint">Добавить жалобу<i></i></a>
 							<a class="all-reviews__link" href="#">Все отзывы</a>
@@ -300,9 +300,9 @@
 					</li>
 					<li id="tab6" style="display: none; ">
 						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
-						<span><a href="#">Username</a> • 28 февраля</span>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
-						<span><a href="#">Username</a> • 28 февраля</span>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						<div class="all-reviews">
 							<a href="#" class="btn complaint">Добавить жалобу<i></i></a>
 							<a class="all-reviews__link" href="#">Все отзывы</a>
@@ -310,11 +310,11 @@
 					</li>
 					<li id="tab7" style="display: none; ">
 						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
-						<span><a href="#">Username</a> • 28 февраля</span>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
-						<span><a href="#">Username</a> • 28 февраля</span>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
-						<span><a href="#">Username</a> • 28 февраля</span>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						<div class="all-reviews">
 							<a href="#" class="btn complaint">Добавить жалобу<i></i></a>
 							<a class="all-reviews__link" href="#">Все отзывы</a>
