@@ -1335,10 +1335,10 @@ input, textarea, button {
 .popup_complaint {
   display: none;
   left: 50%;
-  top: 180px;
+  top: 50%;
   width: 670px;
   height: 340px;
-  margin-left: -600px;
+  margin: -170px 0 0 -335px;
 }
 /* line 750, ../scss/common.scss */
 .popup_complaint form .btn {
@@ -2444,10 +2444,11 @@ input, textarea, button {
 
 /* line 154, ../scss/inner.scss */
 .add-comm__btn {
+  position: relative;
   padding: 20px 0;
   overflow: hidden;
 }
-/* line 157, ../scss/inner.scss */
+/* line 158, ../scss/inner.scss */
 .add-comm__btn .btn {
   float: left;
   width: 95px;
@@ -2457,22 +2458,22 @@ input, textarea, button {
   line-height: 28px;
   cursor: pointer;
 }
-/* line 165, ../scss/inner.scss */
+/* line 166, ../scss/inner.scss */
 .add-comm__btn .btn:active {
   line-height: 30px;
 }
-/* line 169, ../scss/inner.scss */
+/* line 170, ../scss/inner.scss */
 .add-comm__btn p {
   float: left;
   margin: 0;
   line-height: 30px;
 }
-/* line 174, ../scss/inner.scss */
+/* line 175, ../scss/inner.scss */
 .add-comm__btn a {
   margin-left: 25px;
   border-bottom: 1px solid #BBE4F1;
 }
-/* line 177, ../scss/inner.scss */
+/* line 178, ../scss/inner.scss */
 .add-comm__btn a i {
   background: url('../img/icons-sedb12026c5.png') 0 -1076px no-repeat;
   width: 14px;
@@ -2480,53 +2481,53 @@ input, textarea, button {
 }
 
 /*comments*/
-/* line 184, ../scss/inner.scss */
+/* line 185, ../scss/inner.scss */
 .comms h3 {
   margin: 35px 0;
 }
-/* line 188, ../scss/inner.scss */
+/* line 189, ../scss/inner.scss */
 .comms .block span {
   display: block;
   margin-bottom: 20px;
 }
-/* line 193, ../scss/inner.scss */
+/* line 194, ../scss/inner.scss */
 .comms p {
   margin-bottom: 10px;
 }
 
-/* line 197, ../scss/inner.scss */
+/* line 198, ../scss/inner.scss */
 .all-reviews {
   margin-top: 30px;
   padding-bottom: 5px;
   overflow: hidden;
 }
-/* line 201, ../scss/inner.scss */
+/* line 202, ../scss/inner.scss */
 .all-reviews a {
   float: left;
 }
-/* line 204, ../scss/inner.scss */
+/* line 205, ../scss/inner.scss */
 .all-reviews .all-reviews__link {
   margin: 6px 0 0 30px;
   border-bottom: 1px solid #BBE4F1;
 }
 
 /*text area*/
-/* line 210, ../scss/inner.scss */
+/* line 211, ../scss/inner.scss */
 .jHtmlArea {
   background: #fff;
 }
-/* line 212, ../scss/inner.scss */
+/* line 213, ../scss/inner.scss */
 .jHtmlArea iframe {
   border: none;
 }
-/* line 216, ../scss/inner.scss */
+/* line 217, ../scss/inner.scss */
 .jHtmlArea .ToolBar ul {
   padding: 5px;
   background: #f8f8f8;
   border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
 }
-/* line 222, ../scss/inner.scss */
+/* line 223, ../scss/inner.scss */
 .jHtmlArea .ToolBar li {
   float: left;
   margin-right: 5px;
@@ -2545,55 +2546,77 @@ input, textarea, button {
   background-image: linear-gradient(#ffffff, #ebeaea);
   border: 1px solid #bebebe;
 }
-/* line 229, ../scss/inner.scss */
+/* line 230, ../scss/inner.scss */
 .jHtmlArea .ToolBar li:hover {
   border: solid 1px #8d8d8d;
 }
-/* line 233, ../scss/inner.scss */
+/* line 234, ../scss/inner.scss */
 .jHtmlArea .ToolBar a {
   display: block;
   width: 23px;
   height: 23px;
 }
-/* line 238, ../scss/inner.scss */
+/* line 239, ../scss/inner.scss */
 .jHtmlArea .ToolBar .bold {
   background: url('../img/icons-sedb12026c5.png') 0 -1214px no-repeat;
   width: 23px;
   height: 23px;
 }
-/* line 241, ../scss/inner.scss */
+/* line 242, ../scss/inner.scss */
 .jHtmlArea .ToolBar .italic {
   background: url('../img/icons-sedb12026c5.png') 0 -1260px no-repeat;
   width: 23px;
   height: 23px;
 }
-/* line 244, ../scss/inner.scss */
+/* line 245, ../scss/inner.scss */
 .jHtmlArea .ToolBar .underline {
   background: url('../img/icons-sedb12026c5.png') 0 -1108px no-repeat;
   width: 23px;
   height: 23px;
 }
-/* line 247, ../scss/inner.scss */
+/* line 248, ../scss/inner.scss */
 .jHtmlArea .ToolBar .strikethrough {
   background: url('../img/icons-sedb12026c5.png') 0 -1037px no-repeat;
   width: 23px;
   height: 23px;
 }
-/* line 250, ../scss/inner.scss */
+/* line 251, ../scss/inner.scss */
 .jHtmlArea .ToolBar .link {
   background: url('../img/icons-sedb12026c5.png') 0 -966px no-repeat;
   width: 23px;
   height: 23px;
 }
-/* line 253, ../scss/inner.scss */
+/* line 254, ../scss/inner.scss */
 .jHtmlArea .ToolBar .html {
   background: url('../img/icons-sedb12026c5.png') 0 -1131px no-repeat;
   width: 55px;
   height: 23px;
 }
-/* line 256, ../scss/inner.scss */
+/* line 257, ../scss/inner.scss */
 .jHtmlArea .ToolBar .quote {
   background: url('../img/icons-sedb12026c5.png') 0 -1237px no-repeat;
   width: 23px;
   height: 23px;
+}
+
+/* line 2, ../scss/ie.scss */
+.ltie8 .popup {
+  border: 1px solid #999;
+}
+/* line 6, ../scss/ie.scss */
+.ltie8 .tabs__link li {
+  border-right: none;
+  border-left: 1px solid #999;
+}
+/* line 9, ../scss/ie.scss */
+.ltie8 .tabs__link li:first-child {
+  border-left: none;
+}
+/* line 13, ../scss/ie.scss */
+.ltie8 .tabs__link a {
+  border-bottom: 1px solid #999;
+}
+/* line 16, ../scss/ie.scss */
+.ltie8 .tabs__link .tab7, .ltie8 .tabs__link .tab4 {
+  border-right: none;
 }

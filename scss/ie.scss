@@ -1,5 +1,22 @@
 .ltie8 {
-	
+	.popup {
+		border: 1px solid #999;
+	}
+	.tabs__link {	
+		li {
+			border-right: none;
+			border-left: 1px solid #999;	
+			&:first-child {
+				border-left: none;
+			}
+		}	
+		a {			
+			border-bottom: 1px solid #999;
+		}
+		.tab7, .tab4 {
+			border-right: none;
+		}
+	}
 }
 
 

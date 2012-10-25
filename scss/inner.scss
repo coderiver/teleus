@@ -152,6 +152,7 @@ $icons: sprite-map("icons/*.png");
 	}
 }
 .add-comm__btn {
+	position: relative;
 	padding: 20px 0;
 	overflow: hidden;
 	.btn {

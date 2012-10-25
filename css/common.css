@@ -1335,10 +1335,10 @@ input, textarea, button {
 .popup_complaint {
   display: none;
   left: 50%;
-  top: 180px;
+  top: 50%;
   width: 670px;
   height: 340px;
-  margin-left: -600px;
+  margin: -170px 0 0 -335px;
 }
 /* line 750, ../scss/common.scss */
 .popup_complaint form .btn {

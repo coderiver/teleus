@@ -9,7 +9,10 @@
 	<script src="js/jquery.tools.min.js"></script>
 	<script src="js/jquery.li-scroller.1.0.js"></script>
 	<script src="js/common.js"></script>	
-	<!--<script src="//vk.com/js/api/openapi.js?60"></script>-->
+	<!--[if lt IE 9]> 
+   	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+ 	<![endif]-->
+	<script src="//vk.com/js/api/openapi.js?60"></script>
 </head>
 <body>
 <!-- Facebook -->
@@ -25,14 +28,14 @@
 <div class="header-out">
 	<div class="container">
 		<div class="header-banner"></div>			
-		<div class="header">
+		<header class="header">
 			<h1 class="logo">
 				<a href="#">Teleus<i></i></a>
 			</h1>		
 			<div class="logo-txt">
 				Всё о ловушках операторов
 			</div>
-			<div class="nav">
+			<nav class="nav">
 				<ul>
 					<li><a href="#">Новости</a></li>
 					<li><a href="#">Статьи</a></li>					
@@ -48,8 +51,8 @@
 						<a href="#">Usernameverylongveryvery</a><i></i><em></em>
 					</li>			
 				</ul>
-			</div>
-		</div>		
+			</nav>
+		</header>		
 	</div>
 </div>
 <!-- END .header -->
@@ -78,9 +81,9 @@
 <!-- BEGIN .content -->
 <div class="container">
 	<div class="cols">
-		<div class="col-1">
+		<section class="col-1">
 			<h2 class="h2">Новости</h2>
-			<div class="block">
+			<article class="block">
 				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
 				<div class="block__desc">
 					<a href="#"><img src="img/pic1.jpg" alt=""></a>
@@ -89,8 +92,8 @@
 					tempor incididunt ut consectetur adipisicing labore et dolore magna aliqua consectetur adipisicing.</p>
 					<a class="comm" href="#">345 комментариев<i></i></a>
 				</div>				
-			</div>
-			<div class="block">
+			</article>
+			<article class="block">
 				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
 				<div class="block__desc">
 					<span>28 февраля</span>
@@ -98,8 +101,8 @@
 					tempor incididunt ut consectetur adipisicing labore et dolore magna aliqua consectetur adipisicing.</p>
 					<a class="comm" href="#">Обсудить<i></i></a>
 				</div>				
-			</div>
-			<div class="block">
+			</article>
+			<article class="block">
 				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
 				<div class="block__desc">
 					<a href="#"><img src="img/pic1.jpg" alt=""></a>
@@ -108,8 +111,8 @@
 					tempor incididunt ut consectetur adipisicing labore et dolore magna aliqua consectetur adipisicing.</p>
 					<a class="comm" href="#">345 комментариев<i></i></a>
 				</div>				
-			</div>
-			<div class="block">
+			</article>
+			<article class="block">
 				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
 				<div class="block__desc">
 					<span>28 февраля</span>
@@ -117,8 +120,8 @@
 					tempor incididunt ut consectetur adipisicing labore et dolore magna aliqua consectetur adipisicing.</p>
 					<a class="comm" href="#">Обсудить<i></i></a>
 				</div>				
-			</div>
-			<div class="block">
+			</article>
+			<article class="block">
 				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
 				<div class="block__desc">
 					<a href="#"><img src="img/pic1.jpg" alt=""></a>
@@ -127,8 +130,8 @@
 					tempor incididunt ut consectetur adipisicing labore et dolore magna aliqua consectetur adipisicing.</p>
 					<a class="comm" href="#">345 комментариев<i></i></a>
 				</div>				
-			</div>
-			<div class="block">
+			</article>
+			<article class="block">
 				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
 				<div class="block__desc">
 					<span>28 февраля</span>
@@ -136,10 +139,10 @@
 					tempor incididunt ut consectetur adipisicing labore et dolore magna aliqua consectetur adipisicing.</p>
 					<a class="comm" href="#">Обсудить<i></i></a>
 				</div>				
-			</div>
-		</div>
-		<div class="col-2">
-			<div class="col-3">
+			</article>
+		</section>
+		<section class="col-2">
+			<section class="col-3">
 				<h2 class="h2">Приложения</h2>
 				<div class="tabs">
 					<div class="tabs__shadow"></div>
@@ -177,8 +180,8 @@
 					<img src="img/pic2.jpg" alt="">
 					<a href="#">МТС предлагает новый сервис</a>
 				</div>
-			</div>
-			<div class="col-1">
+			</section>
+			<aside class="col-1">
 				<h2 class="h2">Статьи</h2>
 				<div class="block">
 					<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
@@ -199,7 +202,7 @@
 						<a class="comm" href="#">Обсудить<i></i></a>
 					</div>					
 				</div>
-			</div>
+			</aside>
 			<div class="clr"></div>
 			<!-- BEGIN .slider -->
 			<div class="slider">
@@ -403,7 +406,7 @@
 			<h2 class="h2">Новости телефонов</h2>
 			<!-- BEGIN .main-news -->
 			<div class="main-news">
-				<div class="block">
+				<article class="block">
 					<a class="block_title" href="#">Как операторы зарабатывают на «Локаторах»</a>
 					<div class="block__desc">
 						<span>28 февраля</span>
@@ -411,8 +414,8 @@
 						tempor incididunt ut consectetur adipisicing labore et dolore magna aliqua consectetur adipisicing.</p>
 					</div>
 					<a class="comm" href="#">Обсудить<i></i></a>
-				</div>
-				<div class="block">
+				</article>
+				<article class="block">
 					<a class="block_title" href="#">Как операторы зарабатывают на «Локаторах»</a>
 					<div class="block__desc">
 						<span>28 февраля</span>
@@ -420,8 +423,8 @@
 						tempor incididunt ut consectetur adipisicing labore et dolore.</p>
 					</div>
 					<a class="comm" href="#">Обсудить<i></i></a>
-				</div>
-				<div class="block">
+				</article>
+				<article class="block">
 					<a class="block_title" href="#">Как операторы зарабатывают на «Локаторах»</a>
 					<div class="block__desc">
 						<span>28 февраля</span>
@@ -429,7 +432,7 @@
 						tempor incididunt.</p>
 					</div>
 					<a class="comm" href="#">Обсудить<i></i></a>
-				</div>
+				</article>
 			</div>
 			<!-- END .main-news -->
 			<h2 class="h2">абоненты</h2>
@@ -484,7 +487,7 @@
 </div>
 <!-- END .content -->
 <!-- BEGIN .footer -->
-<div class="footer">
+<footer class="footer">
 	<div class="container">
 		<div class="footer__info">
 			<div class="footer__logo"></div>
@@ -519,7 +522,7 @@
 			<div id="vk_groups"></div>
 		</div>
 	</div>		
-</div>
+</footer>
 <!-- END .footer -->
 <!-- BEGIN .popups -->
 <div class="popup-bg"></div>

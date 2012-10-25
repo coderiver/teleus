@@ -1,0 +1,21 @@
+/* line 2, ../scss/ie.scss */
+.ltie8 .popup {
+  border: 1px solid #999;
+}
+/* line 6, ../scss/ie.scss */
+.ltie8 .tabs__link li {
+  border-right: none;
+  border-left: 1px solid #999;
+}
+/* line 9, ../scss/ie.scss */
+.ltie8 .tabs__link li:first-child {
+  border-left: none;
+}
+/* line 13, ../scss/ie.scss */
+.ltie8 .tabs__link a {
+  border-bottom: 1px solid #999;
+}
+/* line 16, ../scss/ie.scss */
+.ltie8 .tabs__link .tab7, .ltie8 .tabs__link .tab4 {
+  border-right: none;
+}
