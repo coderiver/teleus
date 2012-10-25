@@ -527,20 +527,12 @@ input, textarea, button {
 	.active {
 		background: #fff;
 	}
-	i {
+	img {
 		position: absolute;
 		top: 17px;
 		left: 17px;
 	}		
 }
-.tabs__link-1 {@include sized-sprite($icons, tabs-1);}
-.tabs__link-2 {@include sized-sprite($icons, tabs-2);}
-.tabs__link-3 {@include sized-sprite($icons, tabs-3);}
-.tabs__link-4 {@include sized-sprite($icons, tabs-4);}
-.tabs__link-5 {@include sized-sprite($icons, tabs-5);}
-.tabs__link-6 {@include sized-sprite($icons, tabs-6);}
-.tabs__link-7 {@include sized-sprite($icons, tabs-7);}
-.tabs__link-8 {@include sized-sprite($icons, tabs-8);}
 .tabs__content {
 	position: relative;
 	padding: 30px 35px;

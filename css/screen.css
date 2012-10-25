@@ -262,7 +262,7 @@ input, textarea, button {
 .logo {
   float: left;
   margin: -1px 15px 0 0;
-  background: url('../img/icons-sedb12026c5.png') 0 -576px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -276px no-repeat;
   width: 145px;
   height: 42px;
 }
@@ -286,7 +286,7 @@ input, textarea, button {
   position: absolute;
   top: 9px;
   left: 95px;
-  background: url('../img/icons-sedb12026c5.png') 0 -912px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -612px no-repeat;
   width: 25px;
   height: 32px;
 }
@@ -409,7 +409,7 @@ input, textarea, button {
 .nav .nav__add em {
   position: absolute;
   top: 0;
-  background: url('../img/icons-sedb12026c5.png') 0 -1154px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -854px no-repeat;
   width: 2px;
   height: 60px;
 }
@@ -438,7 +438,7 @@ input, textarea, button {
   position: absolute;
   top: 23px;
   left: -20px;
-  background: url('../img/icons-sedb12026c5.png') 0 -1092px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -792px no-repeat;
   width: 14px;
   height: 16px;
 }
@@ -447,7 +447,7 @@ input, textarea, button {
   position: absolute;
   top: 10px;
   right: 0;
-  background: url('../img/icons-sedb12026c5.png') 0 -668px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -368px no-repeat;
   width: 37px;
   height: 43px;
 }
@@ -510,14 +510,14 @@ input, textarea, button {
 /* line 231, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_fb {
   left: 127px;
-  background: url('../img/icons-sedb12026c5.png') 0 -840px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -540px no-repeat;
   width: 16px;
   height: 16px;
 }
 /* line 235, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_vk {
   left: 147px;
-  background: url('../img/icons-sedb12026c5.png') 0 -824px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -524px no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -589,7 +589,7 @@ input, textarea, button {
   position: absolute;
   top: 2px;
   left: -20px;
-  background: url('../img/icons-sedb12026c5.png') 0 -1283px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -983px no-repeat;
   width: 14px;
   height: 13px;
 }
@@ -599,7 +599,7 @@ input, textarea, button {
   position: absolute;
   top: 7px;
   left: 2px;
-  background: url('../img/icons-sedb12026c5.png') 0 -944px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -644px no-repeat;
   width: 26px;
   height: 22px;
   z-index: 30;
@@ -615,7 +615,7 @@ input, textarea, button {
 .tape__shadow-l {
   top: 3px;
   left: 25px;
-  background: url('../img/icons-sedb12026c5.png') 0 -711px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -411px no-repeat;
   width: 75px;
   height: 26px;
 }
@@ -624,7 +624,7 @@ input, textarea, button {
 .tape__shadow-r {
   top: 6px;
   right: 0;
-  background: url('../img/icons-sedb12026c5.png') 0 -618px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -318px no-repeat;
   width: 75px;
   height: 26px;
 }
@@ -693,7 +693,7 @@ input, textarea, button {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../img/icons-sedb12026c5.png') 0 -856px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -556px no-repeat;
   width: 30px;
   height: 39px;
 }
@@ -737,7 +737,7 @@ input, textarea, button {
   position: absolute;
   top: 6px;
   right: 7px;
-  background: url('../img/icons-sedb12026c5.png') 0 -1021px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -721px no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -774,28 +774,28 @@ input, textarea, button {
 
 /* line 416, ../scss/common.scss */
 .social__fb {
-  background: url('../img/icons-sedb12026c5.png') 0 -785px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -485px no-repeat;
   width: 24px;
   height: 24px;
 }
 
 /* line 417, ../scss/common.scss */
 .social__vk {
-  background: url('../img/icons-sedb12026c5.png') 0 -737px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -437px no-repeat;
   width: 24px;
   height: 24px;
 }
 
 /* line 418, ../scss/common.scss */
 .social__rss {
-  background: url('../img/icons-sedb12026c5.png') 0 -644px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -344px no-repeat;
   width: 24px;
   height: 24px;
 }
 
 /* line 419, ../scss/common.scss */
 .social__tw {
-  background: url('../img/icons-sedb12026c5.png') 0 -761px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -461px no-repeat;
   width: 24px;
   height: 24px;
 }
@@ -869,7 +869,7 @@ input, textarea, button {
   position: absolute;
   top: 2px;
   left: -25px;
-  background: url('../img/icons-sedb12026c5.png') 0 -809px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -509px no-repeat;
   width: 19px;
   height: 15px;
 }
@@ -884,7 +884,7 @@ input, textarea, button {
 }
 /* line 471, ../scss/common.scss */
 .comm_answer i {
-  background: url('../img/icons-sedb12026c5.png') 0 -989px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -689px no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -970,76 +970,20 @@ input, textarea, button {
   background: #fff;
 }
 /* line 530, ../scss/common.scss */
-.tabs__link i {
+.tabs__link img {
   position: absolute;
   top: 17px;
   left: 17px;
 }
 
 /* line 536, ../scss/common.scss */
-.tabs__link-1 {
-  background: url('../img/icons-sedb12026c5.png') 0 -300px no-repeat;
-  width: 60px;
-  height: 60px;
-}
-
-/* line 537, ../scss/common.scss */
-.tabs__link-2 {
-  background: url('../img/icons-sedb12026c5.png') 0 -240px no-repeat;
-  width: 60px;
-  height: 60px;
-}
-
-/* line 538, ../scss/common.scss */
-.tabs__link-3 {
-  background: url('../img/icons-sedb12026c5.png') 0 -120px no-repeat;
-  width: 60px;
-  height: 60px;
-}
-
-/* line 539, ../scss/common.scss */
-.tabs__link-4 {
-  background: url('../img/icons-sedb12026c5.png') 0 -180px no-repeat;
-  width: 60px;
-  height: 60px;
-}
-
-/* line 540, ../scss/common.scss */
-.tabs__link-5 {
-  background: url('../img/icons-sedb12026c5.png') 0 0 no-repeat;
-  width: 60px;
-  height: 60px;
-}
-
-/* line 541, ../scss/common.scss */
-.tabs__link-6 {
-  background: url('../img/icons-sedb12026c5.png') 0 -420px no-repeat;
-  width: 60px;
-  height: 60px;
-}
-
-/* line 542, ../scss/common.scss */
-.tabs__link-7 {
-  background: url('../img/icons-sedb12026c5.png') 0 -360px no-repeat;
-  width: 60px;
-  height: 60px;
-}
-
-/* line 543, ../scss/common.scss */
-.tabs__link-8 {
-  background: url('../img/icons-sedb12026c5.png') 0 -60px no-repeat;
-  width: 60px;
-  height: 60px;
-}
-
-/* line 544, ../scss/common.scss */
 .tabs__content {
   position: relative;
   padding: 30px 35px;
   background: #fff;
   z-index: 10;
 }
-/* line 549, ../scss/common.scss */
+/* line 541, ../scss/common.scss */
 .tabs__content a {
   line-height: 1.3;
   font-weight: bold;
@@ -1050,11 +994,11 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 554, ../scss/common.scss */
+/* line 546, ../scss/common.scss */
 .tabs__content a:hover {
   border-bottom: 1px solid #09c;
 }
-/* line 558, ../scss/common.scss */
+/* line 550, ../scss/common.scss */
 .tabs__content .btn {
   -moz-transition: background-color 0.5s linear;
   -webkit-transition: background-color 0.5s linear;
@@ -1062,18 +1006,18 @@ input, textarea, button {
   -ms-transition: background-color 0.5s linear;
   transition: background-color 0.5s linear;
 }
-/* line 560, ../scss/common.scss */
+/* line 552, ../scss/common.scss */
 .tabs__content .btn:hover {
   border: 1px solid #ae6c00;
 }
-/* line 564, ../scss/common.scss */
+/* line 556, ../scss/common.scss */
 .tabs__content p {
   margin-top: 10px;
   line-height: 1.5;
 }
 
 /*general*/
-/* line 570, ../scss/common.scss */
+/* line 562, ../scss/common.scss */
 .btn {
   position: relative;
   display: block;
@@ -1108,23 +1052,23 @@ input, textarea, button {
   -ms-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 587, ../scss/common.scss */
+/* line 579, ../scss/common.scss */
 .btn i {
   position: absolute;
   top: 7px;
   left: 9px;
-  background: url('../img/icons-sedb12026c5.png') 0 -1005px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -705px no-repeat;
   width: 16px;
   height: 16px;
 }
-/* line 593, ../scss/common.scss */
+/* line 585, ../scss/common.scss */
 .btn:hover {
   background-color: #ffecab;
   -webkit-box-shadow: #d0d0d0 0px 1px 5px;
   -moz-box-shadow: #d0d0d0 0px 1px 5px;
   box-shadow: #d0d0d0 0px 1px 5px;
 }
-/* line 597, ../scss/common.scss */
+/* line 589, ../scss/common.scss */
 .btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1139,35 +1083,35 @@ input, textarea, button {
   background-image: linear-gradient(#ff9e03, #ffd856);
   line-height: 32px;
 }
-/* line 602, ../scss/common.scss */
+/* line 594, ../scss/common.scss */
 .btn:active i {
   top: 8px;
 }
 
-/* line 607, ../scss/common.scss */
+/* line 599, ../scss/common.scss */
 .likes {
   float: left;
   padding: 10px 0 10px 15px;
   border: 1px solid #d3d3d3;
 }
-/* line 611, ../scss/common.scss */
+/* line 603, ../scss/common.scss */
 .likes .fb-like {
   float: left;
   margin-right: 15px;
 }
-/* line 615, ../scss/common.scss */
+/* line 607, ../scss/common.scss */
 .likes iframe {
   float: left;
   margin-right: 5px;
 }
-/* line 619, ../scss/common.scss */
+/* line 611, ../scss/common.scss */
 .likes #vk_like {
   float: left;
   clear: none !important;
 }
 
 /*popup*/
-/* line 625, ../scss/common.scss */
+/* line 617, ../scss/common.scss */
 .popup-bg {
   display: none;
   position: fixed;
@@ -1179,14 +1123,14 @@ input, textarea, button {
   z-index: 400;
 }
 
-/* line 635, ../scss/common.scss */
+/* line 627, ../scss/common.scss */
 .popup {
   position: fixed;
   padding: 30px;
   background: #fff;
   z-index: 500;
 }
-/* line 641, ../scss/common.scss */
+/* line 633, ../scss/common.scss */
 .popup form .btn {
   float: left;
   margin-right: 20px;
@@ -1196,7 +1140,7 @@ input, textarea, button {
   line-height: 1;
 }
 
-/* line 651, ../scss/common.scss */
+/* line 643, ../scss/common.scss */
 .txt-field {
   width: 220px;
   height: 26px;
@@ -1214,18 +1158,18 @@ input, textarea, button {
   font-size: 13px;
 }
 
-/* line 663, ../scss/common.scss */
+/* line 655, ../scss/common.scss */
 .txt-field_1 {
   width: 40px;
   margin-right: 5px;
 }
 
-/* line 667, ../scss/common.scss */
+/* line 659, ../scss/common.scss */
 .txt-field_2 {
   width: 90px;
 }
 
-/* line 670, ../scss/common.scss */
+/* line 662, ../scss/common.scss */
 .popup_enter {
   display: none;
   top: 180px;
@@ -1234,27 +1178,27 @@ input, textarea, button {
   margin-left: 260px;
 }
 
-/* line 677, ../scss/common.scss */
+/* line 669, ../scss/common.scss */
 .popup__btn {
   overflow: hidden;
 }
-/* line 679, ../scss/common.scss */
+/* line 671, ../scss/common.scss */
 .popup__btn .popup__check {
   float: left;
   margin: 7px 7px 0 0;
 }
-/* line 683, ../scss/common.scss */
+/* line 675, ../scss/common.scss */
 .popup__btn span {
   float: left;
   margin-top: 7px;
 }
 
-/* line 688, ../scss/common.scss */
+/* line 680, ../scss/common.scss */
 .popup__links {
   width: 150px;
   margin-top: 15px;
 }
-/* line 691, ../scss/common.scss */
+/* line 683, ../scss/common.scss */
 .popup__links a {
   border-bottom: 1px solid #BBE4F1;
   line-height: 1.5;
@@ -1264,16 +1208,16 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 695, ../scss/common.scss */
+/* line 687, ../scss/common.scss */
 .popup__links a:hover {
   border-bottom: 1px solid #09c;
 }
 
-/* line 700, ../scss/common.scss */
+/* line 692, ../scss/common.scss */
 .popup__social {
   margin-bottom: 20px;
 }
-/* line 702, ../scss/common.scss */
+/* line 694, ../scss/common.scss */
 .popup__social a {
   position: relative;
   display: block;
@@ -1281,11 +1225,11 @@ input, textarea, button {
   padding-left: 35px;
   margin-bottom: 10px;
 }
-/* line 709, ../scss/common.scss */
+/* line 701, ../scss/common.scss */
 .popup__social a:hover span {
   border-bottom: 1px solid #09c;
 }
-/* line 714, ../scss/common.scss */
+/* line 706, ../scss/common.scss */
 .popup__social span {
   line-height: 24px;
   border-bottom: 1px solid #BBE4F1;
@@ -1295,43 +1239,43 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 719, ../scss/common.scss */
+/* line 711, ../scss/common.scss */
 .popup__social i {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 724, ../scss/common.scss */
+/* line 716, ../scss/common.scss */
 .popup__social .popup__social-fb {
-  background: url('../img/icons-sedb12026c5.png') 0 -785px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -485px no-repeat;
   width: 24px;
   height: 24px;
 }
-/* line 727, ../scss/common.scss */
+/* line 719, ../scss/common.scss */
 .popup__social .popup__social-vk {
-  background: url('../img/icons-sedb12026c5.png') 0 -737px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -437px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 731, ../scss/common.scss */
+/* line 723, ../scss/common.scss */
 .popup__title {
   margin-bottom: 20px;
   overflow: hidden;
 }
-/* line 734, ../scss/common.scss */
+/* line 726, ../scss/common.scss */
 .popup__title b {
   float: left;
 }
-/* line 737, ../scss/common.scss */
+/* line 729, ../scss/common.scss */
 .popup__title a {
   float: right;
-  background: url('../img/icons-sedb12026c5.png') 0 -895px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -595px no-repeat;
   width: 17px;
   height: 17px;
 }
 
-/* line 742, ../scss/common.scss */
+/* line 734, ../scss/common.scss */
 .popup_complaint {
   display: none;
   left: 50%;
@@ -1340,105 +1284,105 @@ input, textarea, button {
   height: 340px;
   margin: -170px 0 0 -335px;
 }
-/* line 750, ../scss/common.scss */
+/* line 742, ../scss/common.scss */
 .popup_complaint form .btn {
   width: 95px;
 }
 
-/* line 755, ../scss/common.scss */
+/* line 747, ../scss/common.scss */
 .popup__client {
   overflow: hidden;
 }
-/* line 757, ../scss/common.scss */
+/* line 749, ../scss/common.scss */
 .popup__client li {
   float: left;
   width: 140px;
 }
-/* line 760, ../scss/common.scss */
+/* line 752, ../scss/common.scss */
 .popup__client li input {
   float: left;
   margin: 10px 10px 0 0;
 }
-/* line 764, ../scss/common.scss */
+/* line 756, ../scss/common.scss */
 .popup__client li i {
   float: left;
   margin-right: 10px;
 }
-/* line 768, ../scss/common.scss */
+/* line 760, ../scss/common.scss */
 .popup__client li span {
   line-height: 32px;
 }
 
-/* line 773, ../scss/common.scss */
+/* line 765, ../scss/common.scss */
 .popup__client_1 {
-  background: url('../img/icons-sedb12026c5.png') 0 -544px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -244px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-/* line 774, ../scss/common.scss */
+/* line 766, ../scss/common.scss */
 .popup__client_2 {
-  background: url('../img/icons-sedb12026c5.png') 0 -480px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -180px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-/* line 775, ../scss/common.scss */
+/* line 767, ../scss/common.scss */
 .popup__client_3 {
-  background: url('../img/icons-sedb12026c5.png') 0 -512px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -212px no-repeat;
   width: 32px;
   height: 32px;
 }
 
-/* line 776, ../scss/common.scss */
+/* line 768, ../scss/common.scss */
 .popup__info {
   margin: 20px 0 10px 0;
   overflow: hidden;
 }
-/* line 779, ../scss/common.scss */
+/* line 771, ../scss/common.scss */
 .popup__info span {
   display: block;
   margin-bottom: 15px;
 }
 
-/* line 784, ../scss/common.scss */
+/* line 776, ../scss/common.scss */
 .popup__mobile {
   float: left;
   margin-right: 40px;
 }
-/* line 787, ../scss/common.scss */
+/* line 779, ../scss/common.scss */
 .popup__mobile span {
   display: block;
   margin-bottom: 15px;
 }
-/* line 791, ../scss/common.scss */
+/* line 783, ../scss/common.scss */
 .popup__mobile input {
   width: 250px;
 }
 
-/* line 795, ../scss/common.scss */
+/* line 787, ../scss/common.scss */
 .popup__phone {
   float: left;
   margin-right: 40px;
 }
-/* line 798, ../scss/common.scss */
+/* line 790, ../scss/common.scss */
 .popup__phone b {
   float: left;
   margin-right: 5px;
   line-height: 27px;
   font-weight: normal;
 }
-/* line 804, ../scss/common.scss */
+/* line 796, ../scss/common.scss */
 .popup__phone input {
   float: left;
 }
 
-/* line 809, ../scss/common.scss */
+/* line 801, ../scss/common.scss */
 .popup__comm span {
   display: block;
   margin-bottom: 15px;
 }
-/* line 813, ../scss/common.scss */
+/* line 805, ../scss/common.scss */
 .popup__comm .txt-field {
   width: 650px;
   height: 65px;
@@ -1447,17 +1391,17 @@ input, textarea, button {
 }
 
 /*user*/
-/* line 821, ../scss/common.scss */
+/* line 813, ../scss/common.scss */
 .user {
   position: relative;
   margin-left: 20px;
 }
-/* line 824, ../scss/common.scss */
+/* line 816, ../scss/common.scss */
 .user i {
   position: absolute;
   top: 1px;
   left: -20px;
-  background: url('../img/icons-sedb12026c5.png') 0 -1060px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -760px no-repeat;
   width: 14px;
   height: 16px;
 }
@@ -1948,13 +1892,13 @@ input, textarea, button {
 }
 /* line 83, ../scss/main.scss */
 .slider__nav .disabled .slider__prev-l, .pagination__nav .disabled .slider__prev-l {
-  background: url('../img/icons-sedb12026c5.png') 0 -1310px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -1010px no-repeat;
   width: 4px;
   height: 7px;
 }
 /* line 86, ../scss/main.scss */
 .slider__nav .disabled .slider__next-r, .pagination__nav .disabled .slider__next-r {
-  background: url('../img/icons-sedb12026c5.png') 0 -1296px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -996px no-repeat;
   width: 4px;
   height: 7px;
 }
@@ -1996,14 +1940,14 @@ input, textarea, button {
 
 /* line 108, ../scss/main.scss */
 .slider__prev-l, .pagination__prev-l {
-  background: url('../img/icons-sedb12026c5.png') 0 -1303px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -1003px no-repeat;
   width: 4px;
   height: 7px;
 }
 
 /* line 111, ../scss/main.scss */
 .slider__next-r, .pagination__next-r {
-  background: url('../img/icons-sedb12026c5.png') 0 -1317px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -1017px no-repeat;
   width: 4px;
   height: 7px;
 }
@@ -2475,7 +2419,7 @@ input, textarea, button {
 }
 /* line 178, ../scss/inner.scss */
 .add-comm__btn a i {
-  background: url('../img/icons-sedb12026c5.png') 0 -1076px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -776px no-repeat;
   width: 14px;
   height: 16px;
 }
@@ -2558,43 +2502,43 @@ input, textarea, button {
 }
 /* line 239, ../scss/inner.scss */
 .jHtmlArea .ToolBar .bold {
-  background: url('../img/icons-sedb12026c5.png') 0 -1214px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -914px no-repeat;
   width: 23px;
   height: 23px;
 }
 /* line 242, ../scss/inner.scss */
 .jHtmlArea .ToolBar .italic {
-  background: url('../img/icons-sedb12026c5.png') 0 -1260px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -960px no-repeat;
   width: 23px;
   height: 23px;
 }
 /* line 245, ../scss/inner.scss */
 .jHtmlArea .ToolBar .underline {
-  background: url('../img/icons-sedb12026c5.png') 0 -1108px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -808px no-repeat;
   width: 23px;
   height: 23px;
 }
 /* line 248, ../scss/inner.scss */
 .jHtmlArea .ToolBar .strikethrough {
-  background: url('../img/icons-sedb12026c5.png') 0 -1037px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -737px no-repeat;
   width: 23px;
   height: 23px;
 }
 /* line 251, ../scss/inner.scss */
 .jHtmlArea .ToolBar .link {
-  background: url('../img/icons-sedb12026c5.png') 0 -966px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -666px no-repeat;
   width: 23px;
   height: 23px;
 }
 /* line 254, ../scss/inner.scss */
 .jHtmlArea .ToolBar .html {
-  background: url('../img/icons-sedb12026c5.png') 0 -1131px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -831px no-repeat;
   width: 55px;
   height: 23px;
 }
 /* line 257, ../scss/inner.scss */
 .jHtmlArea .ToolBar .quote {
-  background: url('../img/icons-sedb12026c5.png') 0 -1237px no-repeat;
+  background: url('../img/icons-s187175c381.png') 0 -937px no-repeat;
   width: 23px;
   height: 23px;
 }
