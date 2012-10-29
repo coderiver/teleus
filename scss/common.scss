@@ -129,7 +129,11 @@ input, textarea, button {
 			&:hover {
 				border-bottom: 1px solid #fff;
 			}
-		}		
+		}	
+		.active, .active:hover {
+			border: none;
+			color: #FFD75E;
+		}	
 	}
 	.nav__add {
 		position: relative;
@@ -736,8 +740,8 @@ input, textarea, button {
 	left: 50%;
 	top: 50%;
 	width: 670px;
-	height: 340px;
-	margin: -170px 0 0 -335px;
+	height: 380px;
+	margin: -190px 0 0 -335px;
 	form {
 		.btn {
 			width: 95px;
@@ -748,12 +752,13 @@ input, textarea, button {
 	overflow: hidden;
 	li {
 		float: left;
-		width: 140px;
+		width: 165px;
+		margin: 0 0 20px 0;
 		input {
 			float: left;
 			margin: 10px 10px 0 0;
 		}
-		i {
+		img {
 			float: left;
 			margin-right: 10px;				
 		}
@@ -762,11 +767,8 @@ input, textarea, button {
 		}
 	}
 }
-.popup__client_1 {@include sized-sprite($icons, cl1);}
-.popup__client_2 {@include sized-sprite($icons, cl2);}
-.popup__client_3 {@include sized-sprite($icons, cl3);}
 .popup__info {
-	margin: 20px 0 10px 0;
+	margin: 0 0 10px 0;
 	overflow: hidden;
 	span {
 		display: block;
@@ -818,5 +820,55 @@ input, textarea, button {
 		top: 1px;
 		left: -20px;
 		@include sized-sprite($icons, user-b);
+	}
+}
+/*div for input, label, button*/
+.form-field {
+	.form-field__txt {
+		width: 220px;
+		height: 26px;
+		line-height: 26px;
+		padding-left: 8px;
+		margin: 0 20px 20px 0;
+		border-top: 1px solid #A6A6A6;
+		border-left: 1px solid #A6A6A6;
+		@include border-radius(3px);
+		border-radius: 3px;
+		background: #F4F4F4;
+		font-size: 13px;
+	}
+	.form-field__btn {
+		position: relative;
+		display: block;
+		height: 30px;
+		padding: 0 10px;
+		margin: 0 20px 20px 0;
+		line-height: 1;
+		border: 1px solid #ae6c00;
+		@include border-radius(3px);
+		@include box-shadow(#ffecab 0px 1px 1px inset, #d0d0d0 0px 1px 5px);
+		background-color: #ff9e03;
+		@include background-image(linear-gradient(rgba(255,216,86,0.6), rgba(255,158,3,0.8)));
+		color: #885400;
+		font-size: 13px;
+		text-shadow: 0 1px 1px #ffd856;
+		font-weight: bold;
+		@include transition(background-color, 0.5s, ease-out);
+		cursor: pointer;
+		&:hover {
+			background-color: #ffecab;
+			@include box-shadow(#d0d0d0 0px 1px 5px);
+		}
+		&:active {
+			@include box-shadow(none);
+			background: #ff9e03;
+			@include background-image(linear-gradient(#ff9e03, #ffd856));
+			line-height: 30px;
+		}
+	}
+	label {
+		display: inline-block;
+		height: 26px;
+		line-height: 26px;
 	}
 }
