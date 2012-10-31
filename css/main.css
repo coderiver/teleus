@@ -290,14 +290,14 @@
   background-image: linear-gradient(#f6f6f6, #dbdbdb);
 }
 /* line 83, ../scss/main.scss */
-.slider__nav .disabled .slider__prev-l, .pagination__nav .disabled .slider__prev-l {
-  background: url('../img/icons-sedb12026c5.png') 0 -1310px no-repeat;
+.slider__nav .disabled .slider__prev-l, .slider__nav .disabled .pagination__prev-l, .pagination__nav .disabled .slider__prev-l, .pagination__nav .disabled .pagination__prev-l {
+  background: url('../img/icons-sc460f711e1.png') 0 -830px no-repeat;
   width: 4px;
   height: 7px;
 }
 /* line 86, ../scss/main.scss */
-.slider__nav .disabled .slider__next-r, .pagination__nav .disabled .slider__next-r {
-  background: url('../img/icons-sedb12026c5.png') 0 -1296px no-repeat;
+.slider__nav .disabled .slider__next-r, .slider__nav .disabled .pagination__prev-r, .pagination__nav .disabled .slider__next-r, .pagination__nav .disabled .pagination__prev-r {
+  background: url('../img/icons-sc460f711e1.png') 0 -816px no-repeat;
   width: 4px;
   height: 7px;
 }
@@ -339,14 +339,14 @@
 
 /* line 108, ../scss/main.scss */
 .slider__prev-l, .pagination__prev-l {
-  background: url('../img/icons-sedb12026c5.png') 0 -1303px no-repeat;
+  background: url('../img/icons-sc460f711e1.png') 0 -823px no-repeat;
   width: 4px;
   height: 7px;
 }
 
 /* line 111, ../scss/main.scss */
 .slider__next-r, .pagination__next-r {
-  background: url('../img/icons-sedb12026c5.png') 0 -1317px no-repeat;
+  background: url('../img/icons-sc460f711e1.png') 0 -837px no-repeat;
   width: 4px;
   height: 7px;
 }

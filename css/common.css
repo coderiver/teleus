@@ -203,11 +203,12 @@ input, textarea, button {
 
 /* line 37, ../scss/common.scss */
 .h3 {
+  padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
 }
 
-/* line 41, ../scss/common.scss */
+/* line 42, ../scss/common.scss */
 .clr {
   clear: both;
   height: 1px;
@@ -215,14 +216,14 @@ input, textarea, button {
   line-height: 1px;
 }
 
-/* line 47, ../scss/common.scss */
+/* line 48, ../scss/common.scss */
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 
 /*top*/
-/* line 52, ../scss/common.scss */
+/* line 53, ../scss/common.scss */
 .header-out {
   position: relative;
   width: 100%;
@@ -234,19 +235,19 @@ input, textarea, button {
   z-index: 300;
 }
 
-/* line 60, ../scss/common.scss */
+/* line 61, ../scss/common.scss */
 .header-out_fixed {
   position: fixed;
   top: -60px;
 }
 
-/* line 64, ../scss/common.scss */
+/* line 65, ../scss/common.scss */
 .header-banner {
   height: 60px;
   background-color: #ebebeb;
 }
 
-/* line 68, ../scss/common.scss */
+/* line 69, ../scss/common.scss */
 .header {
   position: relative;
   top: 0;
@@ -258,7 +259,7 @@ input, textarea, button {
   z-index: 100;
 }
 
-/* line 78, ../scss/common.scss */
+/* line 79, ../scss/common.scss */
 .logo {
   float: left;
   margin: -1px 15px 0 0;
@@ -266,7 +267,7 @@ input, textarea, button {
   width: 145px;
   height: 42px;
 }
-/* line 82, ../scss/common.scss */
+/* line 83, ../scss/common.scss */
 .logo a {
   position: relative;
   display: block;
@@ -274,14 +275,14 @@ input, textarea, button {
   height: 42px;
   text-indent: -20000px;
 }
-/* line 88, ../scss/common.scss */
+/* line 89, ../scss/common.scss */
 .logo a:hover i {
   -moz-animatiom: rotate 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s 1 normal both;
   -webkit-animation: rotate 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s 1 normal both;
   -o-animation: rotate 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s 1 normal both;
   animation: rotate 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s 1 normal both;
 }
-/* line 92, ../scss/common.scss */
+/* line 93, ../scss/common.scss */
 .logo i {
   position: absolute;
   top: 9px;
@@ -291,7 +292,7 @@ input, textarea, button {
   height: 32px;
 }
 
-/* line 99, ../scss/common.scss */
+/* line 100, ../scss/common.scss */
 .logo-txt {
   float: left;
   width: 120px;
@@ -303,7 +304,7 @@ input, textarea, button {
   font-size: 13px;
 }
 
-/* line 109, ../scss/common.scss */
+/* line 110, ../scss/common.scss */
 .nav {
   float: right;
   width: 840px;
@@ -321,18 +322,18 @@ input, textarea, button {
   background-image: -o-linear-gradient(#0099cc, #008cba);
   background-image: linear-gradient(#0099cc, #008cba);
 }
-/* line 115, ../scss/common.scss */
+/* line 116, ../scss/common.scss */
 .nav ul {
   overflow: hidden;
 }
-/* line 118, ../scss/common.scss */
+/* line 119, ../scss/common.scss */
 .nav li {
   float: left;
   padding-left: 29px;
   height: 60px;
   line-height: 60px;
 }
-/* line 123, ../scss/common.scss */
+/* line 124, ../scss/common.scss */
 .nav li a {
   border-bottom: 1px solid #32abd4;
   text-transform: uppercase;
@@ -344,22 +345,22 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 129, ../scss/common.scss */
+/* line 130, ../scss/common.scss */
 .nav li a:hover {
   border-bottom: 1px solid #fff;
 }
-/* line 133, ../scss/common.scss */
+/* line 134, ../scss/common.scss */
 .nav li .active, .nav li .active:hover {
   border: none;
   color: #FFD75E;
 }
-/* line 138, ../scss/common.scss */
+/* line 139, ../scss/common.scss */
 .nav .nav__add {
   position: relative;
   width: 140px;
   padding-left: 45px;
 }
-/* line 142, ../scss/common.scss */
+/* line 143, ../scss/common.scss */
 .nav .nav__add .btn {
   position: absolute;
   top: 15px;
@@ -376,18 +377,18 @@ input, textarea, button {
   -ms-transition: background-color 0.5s linear;
   transition: background-color 0.5s linear;
 }
-/* line 151, ../scss/common.scss */
+/* line 152, ../scss/common.scss */
 .nav .nav__add .btn i {
   left: 7px;
 }
-/* line 154, ../scss/common.scss */
+/* line 155, ../scss/common.scss */
 .nav .nav__add .btn:hover {
   border: 1px solid #006c90;
   -webkit-box-shadow: #006c90 0px 2px 5px;
   -moz-box-shadow: #006c90 0px 2px 5px;
   box-shadow: #006c90 0px 2px 5px;
 }
-/* line 158, ../scss/common.scss */
+/* line 159, ../scss/common.scss */
 .nav .nav__add .btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -401,16 +402,16 @@ input, textarea, button {
   background-image: -o-linear-gradient(#ff9e03, #ffd856);
   background-image: linear-gradient(#ff9e03, #ffd856);
 }
-/* line 164, ../scss/common.scss */
+/* line 165, ../scss/common.scss */
 .nav .nav__add a {
   color: #ffd75e;
   border-bottom: 1px solid #88b88f;
 }
-/* line 167, ../scss/common.scss */
+/* line 168, ../scss/common.scss */
 .nav .nav__add a:hover {
   border-bottom: 1px solid #ffd75f;
 }
-/* line 171, ../scss/common.scss */
+/* line 172, ../scss/common.scss */
 .nav .nav__add em {
   position: absolute;
   top: 0;
@@ -418,27 +419,27 @@ input, textarea, button {
   width: 2px;
   height: 60px;
 }
-/* line 177, ../scss/common.scss */
+/* line 178, ../scss/common.scss */
 .nav .nav__divider-l {
   left: 21px;
 }
-/* line 180, ../scss/common.scss */
+/* line 181, ../scss/common.scss */
 .nav .nav__divider-r {
   right: 0;
 }
-/* line 183, ../scss/common.scss */
+/* line 184, ../scss/common.scss */
 .nav .nav__user-log {
   position: relative;
   float: right;
   width: 170px;
   padding-left: 0px;
 }
-/* line 188, ../scss/common.scss */
+/* line 189, ../scss/common.scss */
 .nav .nav__user-log a {
   font-size: 14px;
   text-transform: none;
 }
-/* line 192, ../scss/common.scss */
+/* line 193, ../scss/common.scss */
 .nav .nav__user-log i {
   position: absolute;
   top: 23px;
@@ -447,7 +448,7 @@ input, textarea, button {
   width: 14px;
   height: 16px;
 }
-/* line 198, ../scss/common.scss */
+/* line 199, ../scss/common.scss */
 .nav .nav__user-log em {
   position: absolute;
   top: 10px;
@@ -456,13 +457,13 @@ input, textarea, button {
   width: 37px;
   height: 43px;
 }
-/* line 205, ../scss/common.scss */
+/* line 206, ../scss/common.scss */
 .nav .nav__user-no-log {
   float: right;
   width: 193px;
   padding: 0px;
 }
-/* line 209, ../scss/common.scss */
+/* line 210, ../scss/common.scss */
 .nav .nav__user-no-log .btn {
   width: 160px;
   padding-left: 15px;
@@ -489,11 +490,11 @@ input, textarea, button {
   -ms-transition: background-color 0.5s linear;
   transition: background-color 0.5s linear;
 }
-/* line 222, ../scss/common.scss */
+/* line 223, ../scss/common.scss */
 .nav .nav__user-no-log .btn:hover {
   background-color: #92d7ee;
 }
-/* line 225, ../scss/common.scss */
+/* line 226, ../scss/common.scss */
 .nav .nav__user-no-log .btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -507,19 +508,19 @@ input, textarea, button {
   background-image: -o-linear-gradient(#0188b6, #24aedc);
   background-image: linear-gradient(#0188b6, #24aedc);
 }
-/* line 231, ../scss/common.scss */
+/* line 232, ../scss/common.scss */
 .nav .nav__user-no-log i {
   position: absolute;
   top: 7px;
 }
-/* line 235, ../scss/common.scss */
+/* line 236, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_fb {
   left: 127px;
   background: url('../img/icons-sc460f711e1.png') 0 -360px no-repeat;
   width: 16px;
   height: 16px;
 }
-/* line 239, ../scss/common.scss */
+/* line 240, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_vk {
   left: 147px;
   background: url('../img/icons-sc460f711e1.png') 0 -344px no-repeat;
@@ -528,19 +529,19 @@ input, textarea, button {
 }
 
 /*tape*/
-/* line 249, ../scss/common.scss */
+/* line 250, ../scss/common.scss */
 .tape {
   background: url(../img/tape-bg.jpg);
   color: #fff;
   overflow: hidden;
 }
-/* line 253, ../scss/common.scss */
+/* line 254, ../scss/common.scss */
 .tape .container {
   position: relative;
   height: 40px;
   line-height: 40px;
 }
-/* line 258, ../scss/common.scss */
+/* line 259, ../scss/common.scss */
 .tape .tape__container {
   position: relative;
   width: 1150px;
@@ -548,7 +549,7 @@ input, textarea, button {
   margin-left: 50px;
   overflow: hidden;
 }
-/* line 264, ../scss/common.scss */
+/* line 265, ../scss/common.scss */
 .tape .tape__container ul {
   position: absolute;
   top: 0;
@@ -556,16 +557,16 @@ input, textarea, button {
   width: 20000px;
   z-index: 10;
 }
-/* line 271, ../scss/common.scss */
+/* line 272, ../scss/common.scss */
 .tape .tape__container li {
   float: left;
   margin-right: 27px;
 }
-/* line 275, ../scss/common.scss */
+/* line 276, ../scss/common.scss */
 .tape .tape__container span {
   color: #8c8c8c;
 }
-/* line 278, ../scss/common.scss */
+/* line 279, ../scss/common.scss */
 .tape .tape__container a {
   border-bottom: 1px solid #5b5b5b;
   color: #fff;
@@ -575,21 +576,21 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 282, ../scss/common.scss */
+/* line 283, ../scss/common.scss */
 .tape .tape__container a:hover {
   border-bottom: 1px solid #fff;
 }
-/* line 286, ../scss/common.scss */
+/* line 287, ../scss/common.scss */
 .tape .tape__container b {
   margin: 0 5px;
 }
 
-/* line 291, ../scss/common.scss */
+/* line 292, ../scss/common.scss */
 .tape__comm {
   position: relative;
   margin-left: 36px;
 }
-/* line 294, ../scss/common.scss */
+/* line 295, ../scss/common.scss */
 .tape__comm i {
   position: absolute;
   top: 2px;
@@ -599,7 +600,7 @@ input, textarea, button {
   height: 13px;
 }
 
-/* line 301, ../scss/common.scss */
+/* line 302, ../scss/common.scss */
 .tape__fife {
   position: absolute;
   top: 7px;
@@ -610,13 +611,13 @@ input, textarea, button {
   z-index: 30;
 }
 
-/* line 308, ../scss/common.scss */
+/* line 309, ../scss/common.scss */
 .tape__shadow {
   position: absolute;
   z-index: 20;
 }
 
-/* line 312, ../scss/common.scss */
+/* line 313, ../scss/common.scss */
 .tape__shadow-l {
   top: 3px;
   left: 25px;
@@ -625,7 +626,7 @@ input, textarea, button {
   height: 26px;
 }
 
-/* line 317, ../scss/common.scss */
+/* line 318, ../scss/common.scss */
 .tape__shadow-r {
   top: 6px;
   right: 0;
@@ -635,7 +636,7 @@ input, textarea, button {
 }
 
 /*footer*/
-/* line 323, ../scss/common.scss */
+/* line 324, ../scss/common.scss */
 .footer {
   position: relative;
   margin-top: -35px;
@@ -645,13 +646,13 @@ input, textarea, button {
   z-index: 10;
 }
 
-/* line 331, ../scss/common.scss */
+/* line 332, ../scss/common.scss */
 .footer__info {
   position: relative;
   float: left;
   padding-left: 60px;
 }
-/* line 335, ../scss/common.scss */
+/* line 336, ../scss/common.scss */
 .footer__info form {
   position: relative;
   width: 228px;
@@ -659,20 +660,20 @@ input, textarea, button {
   margin-top: 15px;
 }
 
-/* line 342, ../scss/common.scss */
+/* line 343, ../scss/common.scss */
 .footer__nav {
   overflow: hidden;
 }
-/* line 344, ../scss/common.scss */
+/* line 345, ../scss/common.scss */
 .footer__nav ul {
   overflow: hidden;
 }
-/* line 347, ../scss/common.scss */
+/* line 348, ../scss/common.scss */
 .footer__nav li {
   float: left;
   padding-bottom: 10px;
 }
-/* line 350, ../scss/common.scss */
+/* line 351, ../scss/common.scss */
 .footer__nav li a {
   border-bottom: 1px solid #a4cddb;
   font-size: 14px;
@@ -682,18 +683,18 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 354, ../scss/common.scss */
+/* line 355, ../scss/common.scss */
 .footer__nav li a:hover {
   border-bottom: 1px solid #09c;
 }
-/* line 358, ../scss/common.scss */
+/* line 359, ../scss/common.scss */
 .footer__nav li span {
   margin: 0 5px;
   color: #acacac;
   font-weight: bold;
 }
 
-/* line 365, ../scss/common.scss */
+/* line 366, ../scss/common.scss */
 .footer__logo {
   position: absolute;
   top: 0;
@@ -703,24 +704,24 @@ input, textarea, button {
   height: 39px;
 }
 
-/* line 371, ../scss/common.scss */
+/* line 372, ../scss/common.scss */
 .copyright {
   position: relative;
   margin-bottom: 15px;
 }
-/* line 374, ../scss/common.scss */
+/* line 375, ../scss/common.scss */
 .copyright span {
   position: absolute;
   top: 0;
   left: -12px;
 }
 
-/* line 380, ../scss/common.scss */
+/* line 381, ../scss/common.scss */
 .footer__nav_b {
   font-weight: bold;
 }
 
-/* line 383, ../scss/common.scss */
+/* line 384, ../scss/common.scss */
 .footer__search-txt {
   width: 188px;
   height: 26px;
@@ -737,7 +738,7 @@ input, textarea, button {
   background: #f4f4f4;
 }
 
-/* line 392, ../scss/common.scss */
+/* line 393, ../scss/common.scss */
 .footer__search-btn {
   position: absolute;
   top: 6px;
@@ -748,57 +749,57 @@ input, textarea, button {
   cursor: pointer;
 }
 
-/* line 399, ../scss/common.scss */
+/* line 400, ../scss/common.scss */
 .facebook {
   float: right;
   background: #fff;
 }
 
-/* line 403, ../scss/common.scss */
+/* line 404, ../scss/common.scss */
 .vkontakte {
   float: right;
   margin-right: 35px;
 }
 
-/* line 407, ../scss/common.scss */
+/* line 408, ../scss/common.scss */
 .social {
   overflow: hidden;
   margin-top: 23px;
 }
-/* line 410, ../scss/common.scss */
+/* line 411, ../scss/common.scss */
 .social li {
   float: left;
   margin-right: 7px;
 }
-/* line 413, ../scss/common.scss */
+/* line 414, ../scss/common.scss */
 .social li a {
   display: block;
   width: 24px;
   height: 24px;
 }
 
-/* line 420, ../scss/common.scss */
+/* line 421, ../scss/common.scss */
 .social__fb {
   background: url('../img/icons-sc460f711e1.png') 0 -305px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 421, ../scss/common.scss */
+/* line 422, ../scss/common.scss */
 .social__vk {
   background: url('../img/icons-sc460f711e1.png') 0 -257px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 422, ../scss/common.scss */
+/* line 423, ../scss/common.scss */
 .social__rss {
   background: url('../img/icons-sc460f711e1.png') 0 -164px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 423, ../scss/common.scss */
+/* line 424, ../scss/common.scss */
 .social__tw {
   background: url('../img/icons-sc460f711e1.png') 0 -281px no-repeat;
   width: 24px;
@@ -806,12 +807,12 @@ input, textarea, button {
 }
 
 /*block*/
-/* line 425, ../scss/common.scss */
+/* line 426, ../scss/common.scss */
 .block {
   margin-bottom: 20px;
 }
 
-/* line 428, ../scss/common.scss */
+/* line 429, ../scss/common.scss */
 .block_title {
   font-weight: bold;
   border-bottom: 1px solid #bbe4f1;
@@ -822,28 +823,28 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 433, ../scss/common.scss */
+/* line 434, ../scss/common.scss */
 .block_title:hover {
   border-bottom: 1px solid #0099cc;
 }
 
-/* line 437, ../scss/common.scss */
+/* line 438, ../scss/common.scss */
 .block__desc {
   margin: 15px 0 5px 0;
   line-height: 1.5;
   overflow: hidden;
 }
-/* line 441, ../scss/common.scss */
+/* line 442, ../scss/common.scss */
 .block__desc img {
   float: left;
   margin-right: 15px;
   border: 1px solid #939393;
 }
-/* line 446, ../scss/common.scss */
+/* line 447, ../scss/common.scss */
 .block__desc span {
   color: #acacac;
 }
-/* line 448, ../scss/common.scss */
+/* line 449, ../scss/common.scss */
 .block__desc span a {
   border-bottom: 1px solid #bbe4f1;
   -moz-transition: border-color 0.5s linear;
@@ -852,12 +853,12 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 451, ../scss/common.scss */
+/* line 452, ../scss/common.scss */
 .block__desc span a:hover {
   border-bottom: 1px solid #09c;
 }
 
-/* line 457, ../scss/common.scss */
+/* line 458, ../scss/common.scss */
 .comm {
   position: relative;
   margin-left: 25px;
@@ -869,7 +870,7 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 463, ../scss/common.scss */
+/* line 464, ../scss/common.scss */
 .comm i {
   position: absolute;
   top: 2px;
@@ -878,16 +879,16 @@ input, textarea, button {
   width: 19px;
   height: 15px;
 }
-/* line 469, ../scss/common.scss */
+/* line 470, ../scss/common.scss */
 .comm:hover {
   border-bottom: 1px solid #09c;
 }
 
-/* line 473, ../scss/common.scss */
+/* line 474, ../scss/common.scss */
 .comm_answer {
   margin-left: 40px;
 }
-/* line 475, ../scss/common.scss */
+/* line 476, ../scss/common.scss */
 .comm_answer i {
   background: url('../img/icons-sc460f711e1.png') 0 -509px no-repeat;
   width: 16px;
@@ -895,11 +896,11 @@ input, textarea, button {
 }
 
 /*block-img*/
-/* line 480, ../scss/common.scss */
+/* line 481, ../scss/common.scss */
 .block-img {
   position: relative;
 }
-/* line 482, ../scss/common.scss */
+/* line 483, ../scss/common.scss */
 .block-img a {
   position: absolute;
   left: 0;
@@ -916,12 +917,12 @@ input, textarea, button {
 }
 
 /*tabs*/
-/* line 498, ../scss/common.scss */
+/* line 499, ../scss/common.scss */
 .tabs {
   position: relative;
 }
 
-/* line 501, ../scss/common.scss */
+/* line 502, ../scss/common.scss */
 .tabs__shadow {
   position: absolute;
   height: 220px;
@@ -939,22 +940,22 @@ input, textarea, button {
   z-index: 5;
 }
 
-/* line 511, ../scss/common.scss */
+/* line 512, ../scss/common.scss */
 .tabs__link {
   position: relative;
   overflow: hidden;
   z-index: 10;
 }
-/* line 515, ../scss/common.scss */
+/* line 516, ../scss/common.scss */
 .tabs__link li {
   float: left;
   border-right: 1px solid #fff;
 }
-/* line 518, ../scss/common.scss */
+/* line 519, ../scss/common.scss */
 .tabs__link li:last-child {
   border: none;
 }
-/* line 522, ../scss/common.scss */
+/* line 523, ../scss/common.scss */
 .tabs__link a {
   position: relative;
   display: block;
@@ -970,25 +971,25 @@ input, textarea, button {
   background-image: -o-linear-gradient(#f9f9f9 60%, #e0e0e0);
   background-image: linear-gradient(#f9f9f9 60%, #e0e0e0);
 }
-/* line 531, ../scss/common.scss */
+/* line 532, ../scss/common.scss */
 .tabs__link .active {
   background: #fff;
 }
-/* line 534, ../scss/common.scss */
+/* line 535, ../scss/common.scss */
 .tabs__link img {
   position: absolute;
   top: 17px;
   left: 17px;
 }
 
-/* line 540, ../scss/common.scss */
+/* line 541, ../scss/common.scss */
 .tabs__content {
   position: relative;
   padding: 30px 35px;
   background: #fff;
   z-index: 10;
 }
-/* line 545, ../scss/common.scss */
+/* line 546, ../scss/common.scss */
 .tabs__content a {
   line-height: 1.3;
   font-weight: bold;
@@ -999,11 +1000,11 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 550, ../scss/common.scss */
+/* line 551, ../scss/common.scss */
 .tabs__content a:hover {
   border-bottom: 1px solid #09c;
 }
-/* line 554, ../scss/common.scss */
+/* line 555, ../scss/common.scss */
 .tabs__content .btn {
   -moz-transition: background-color 0.5s linear;
   -webkit-transition: background-color 0.5s linear;
@@ -1011,18 +1012,18 @@ input, textarea, button {
   -ms-transition: background-color 0.5s linear;
   transition: background-color 0.5s linear;
 }
-/* line 556, ../scss/common.scss */
+/* line 557, ../scss/common.scss */
 .tabs__content .btn:hover {
   border: 1px solid #ae6c00;
 }
-/* line 560, ../scss/common.scss */
+/* line 561, ../scss/common.scss */
 .tabs__content p {
   margin-top: 10px;
   line-height: 1.5;
 }
 
 /*general*/
-/* line 566, ../scss/common.scss */
+/* line 567, ../scss/common.scss */
 .btn {
   position: relative;
   display: block;
@@ -1057,7 +1058,7 @@ input, textarea, button {
   -ms-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 583, ../scss/common.scss */
+/* line 584, ../scss/common.scss */
 .btn i {
   position: absolute;
   top: 7px;
@@ -1066,14 +1067,14 @@ input, textarea, button {
   width: 16px;
   height: 16px;
 }
-/* line 589, ../scss/common.scss */
+/* line 590, ../scss/common.scss */
 .btn:hover {
   background-color: #ffecab;
   -webkit-box-shadow: #d0d0d0 0px 1px 5px;
   -moz-box-shadow: #d0d0d0 0px 1px 5px;
   box-shadow: #d0d0d0 0px 1px 5px;
 }
-/* line 593, ../scss/common.scss */
+/* line 594, ../scss/common.scss */
 .btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1088,35 +1089,35 @@ input, textarea, button {
   background-image: linear-gradient(#ff9e03, #ffd856);
   line-height: 32px;
 }
-/* line 598, ../scss/common.scss */
+/* line 599, ../scss/common.scss */
 .btn:active i {
   top: 8px;
 }
 
-/* line 603, ../scss/common.scss */
+/* line 604, ../scss/common.scss */
 .likes {
   float: left;
   padding: 10px 0 10px 15px;
   border: 1px solid #d3d3d3;
 }
-/* line 607, ../scss/common.scss */
+/* line 608, ../scss/common.scss */
 .likes .fb-like {
   float: left;
   margin-right: 15px;
 }
-/* line 611, ../scss/common.scss */
+/* line 612, ../scss/common.scss */
 .likes iframe {
   float: left;
   margin-right: 5px;
 }
-/* line 615, ../scss/common.scss */
+/* line 616, ../scss/common.scss */
 .likes #vk_like {
   float: left;
   clear: none !important;
 }
 
 /*popup*/
-/* line 621, ../scss/common.scss */
+/* line 622, ../scss/common.scss */
 .popup-bg {
   display: none;
   position: fixed;
@@ -1128,14 +1129,14 @@ input, textarea, button {
   z-index: 400;
 }
 
-/* line 631, ../scss/common.scss */
+/* line 632, ../scss/common.scss */
 .popup {
   position: fixed;
   padding: 30px;
   background: #fff;
   z-index: 500;
 }
-/* line 637, ../scss/common.scss */
+/* line 638, ../scss/common.scss */
 .popup form .btn {
   float: left;
   margin-right: 20px;
@@ -1145,7 +1146,7 @@ input, textarea, button {
   line-height: 1;
 }
 
-/* line 647, ../scss/common.scss */
+/* line 648, ../scss/common.scss */
 .txt-field {
   width: 220px;
   height: 26px;
@@ -1163,18 +1164,18 @@ input, textarea, button {
   font-size: 13px;
 }
 
-/* line 659, ../scss/common.scss */
+/* line 660, ../scss/common.scss */
 .txt-field_1 {
   width: 40px;
   margin-right: 5px;
 }
 
-/* line 663, ../scss/common.scss */
+/* line 664, ../scss/common.scss */
 .txt-field_2 {
   width: 90px;
 }
 
-/* line 666, ../scss/common.scss */
+/* line 667, ../scss/common.scss */
 .popup_enter {
   display: none;
   top: 180px;
@@ -1183,27 +1184,27 @@ input, textarea, button {
   margin-left: 260px;
 }
 
-/* line 673, ../scss/common.scss */
+/* line 674, ../scss/common.scss */
 .popup__btn {
   overflow: hidden;
 }
-/* line 675, ../scss/common.scss */
+/* line 676, ../scss/common.scss */
 .popup__btn .popup__check {
   float: left;
   margin: 7px 7px 0 0;
 }
-/* line 679, ../scss/common.scss */
+/* line 680, ../scss/common.scss */
 .popup__btn span {
   float: left;
   margin-top: 7px;
 }
 
-/* line 684, ../scss/common.scss */
+/* line 685, ../scss/common.scss */
 .popup__links {
   width: 150px;
   margin-top: 15px;
 }
-/* line 687, ../scss/common.scss */
+/* line 688, ../scss/common.scss */
 .popup__links a {
   border-bottom: 1px solid #BBE4F1;
   line-height: 1.5;
@@ -1213,16 +1214,16 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 691, ../scss/common.scss */
+/* line 692, ../scss/common.scss */
 .popup__links a:hover {
   border-bottom: 1px solid #09c;
 }
 
-/* line 696, ../scss/common.scss */
+/* line 697, ../scss/common.scss */
 .popup__social {
   margin-bottom: 20px;
 }
-/* line 698, ../scss/common.scss */
+/* line 699, ../scss/common.scss */
 .popup__social a {
   position: relative;
   display: block;
@@ -1230,11 +1231,11 @@ input, textarea, button {
   padding-left: 35px;
   margin-bottom: 10px;
 }
-/* line 705, ../scss/common.scss */
+/* line 706, ../scss/common.scss */
 .popup__social a:hover span {
   border-bottom: 1px solid #09c;
 }
-/* line 710, ../scss/common.scss */
+/* line 711, ../scss/common.scss */
 .popup__social span {
   line-height: 24px;
   border-bottom: 1px solid #BBE4F1;
@@ -1244,35 +1245,35 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 715, ../scss/common.scss */
+/* line 716, ../scss/common.scss */
 .popup__social i {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 720, ../scss/common.scss */
+/* line 721, ../scss/common.scss */
 .popup__social .popup__social-fb {
   background: url('../img/icons-sc460f711e1.png') 0 -305px no-repeat;
   width: 24px;
   height: 24px;
 }
-/* line 723, ../scss/common.scss */
+/* line 724, ../scss/common.scss */
 .popup__social .popup__social-vk {
   background: url('../img/icons-sc460f711e1.png') 0 -257px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 727, ../scss/common.scss */
+/* line 728, ../scss/common.scss */
 .popup__title {
   margin-bottom: 20px;
   overflow: hidden;
 }
-/* line 730, ../scss/common.scss */
+/* line 731, ../scss/common.scss */
 .popup__title b {
   float: left;
 }
-/* line 733, ../scss/common.scss */
+/* line 734, ../scss/common.scss */
 .popup__title a {
   float: right;
   background: url('../img/icons-sc460f711e1.png') 0 -415px no-repeat;
@@ -1280,7 +1281,7 @@ input, textarea, button {
   height: 17px;
 }
 
-/* line 738, ../scss/common.scss */
+/* line 739, ../scss/common.scss */
 .popup_complaint {
   display: none;
   left: 50%;
@@ -1289,85 +1290,85 @@ input, textarea, button {
   height: 380px;
   margin: -190px 0 0 -335px;
 }
-/* line 746, ../scss/common.scss */
+/* line 747, ../scss/common.scss */
 .popup_complaint form .btn {
   width: 95px;
 }
 
-/* line 751, ../scss/common.scss */
+/* line 752, ../scss/common.scss */
 .popup__client {
   overflow: hidden;
 }
-/* line 753, ../scss/common.scss */
+/* line 754, ../scss/common.scss */
 .popup__client li {
   float: left;
   width: 165px;
   margin: 0 0 20px 0;
 }
-/* line 757, ../scss/common.scss */
+/* line 758, ../scss/common.scss */
 .popup__client li input {
   float: left;
   margin: 10px 10px 0 0;
 }
-/* line 761, ../scss/common.scss */
+/* line 762, ../scss/common.scss */
 .popup__client li img {
   float: left;
   margin-right: 10px;
 }
-/* line 765, ../scss/common.scss */
+/* line 766, ../scss/common.scss */
 .popup__client li span {
   line-height: 32px;
 }
 
-/* line 770, ../scss/common.scss */
+/* line 771, ../scss/common.scss */
 .popup__info {
   margin: 0 0 10px 0;
   overflow: hidden;
 }
-/* line 773, ../scss/common.scss */
+/* line 774, ../scss/common.scss */
 .popup__info span {
   display: block;
   margin-bottom: 15px;
 }
 
-/* line 778, ../scss/common.scss */
+/* line 779, ../scss/common.scss */
 .popup__mobile {
   float: left;
   margin-right: 40px;
 }
-/* line 781, ../scss/common.scss */
+/* line 782, ../scss/common.scss */
 .popup__mobile span {
   display: block;
   margin-bottom: 15px;
 }
-/* line 785, ../scss/common.scss */
+/* line 786, ../scss/common.scss */
 .popup__mobile input {
   width: 250px;
 }
 
-/* line 789, ../scss/common.scss */
+/* line 790, ../scss/common.scss */
 .popup__phone {
   float: left;
   margin-right: 40px;
 }
-/* line 792, ../scss/common.scss */
+/* line 793, ../scss/common.scss */
 .popup__phone b {
   float: left;
   margin-right: 5px;
   line-height: 27px;
   font-weight: normal;
 }
-/* line 798, ../scss/common.scss */
+/* line 799, ../scss/common.scss */
 .popup__phone input {
   float: left;
 }
 
-/* line 803, ../scss/common.scss */
+/* line 804, ../scss/common.scss */
 .popup__comm span {
   display: block;
   margin-bottom: 15px;
 }
-/* line 807, ../scss/common.scss */
+/* line 808, ../scss/common.scss */
 .popup__comm .txt-field {
   width: 650px;
   height: 65px;
@@ -1376,12 +1377,12 @@ input, textarea, button {
 }
 
 /*user*/
-/* line 815, ../scss/common.scss */
+/* line 816, ../scss/common.scss */
 .user {
   position: relative;
   margin-left: 20px;
 }
-/* line 818, ../scss/common.scss */
+/* line 819, ../scss/common.scss */
 .user i {
   position: absolute;
   top: 1px;
@@ -1392,7 +1393,7 @@ input, textarea, button {
 }
 
 /*div for input, label, button*/
-/* line 827, ../scss/common.scss */
+/* line 828, ../scss/common.scss */
 .form-field .form-field__txt {
   display: block;
   width: 302px;
@@ -1411,7 +1412,7 @@ input, textarea, button {
   background: #F4F4F4;
   font-size: 13px;
 }
-/* line 841, ../scss/common.scss */
+/* line 842, ../scss/common.scss */
 .form-field textarea {
   width: 290px;
   height: 50px;
@@ -1430,7 +1431,7 @@ input, textarea, button {
   font-family: Tahoma, Arial, sans-serif;
   font-size: 13px;
 }
-/* line 855, ../scss/common.scss */
+/* line 856, ../scss/common.scss */
 .form-field .form-field__btn {
   position: relative;
   display: block;
@@ -1466,14 +1467,14 @@ input, textarea, button {
   transition: background-color 0.5s ease-out;
   cursor: pointer;
 }
-/* line 873, ../scss/common.scss */
+/* line 874, ../scss/common.scss */
 .form-field .form-field__btn:hover {
   background-color: #ffecab;
   -webkit-box-shadow: #d0d0d0 0px 1px 5px;
   -moz-box-shadow: #d0d0d0 0px 1px 5px;
   box-shadow: #d0d0d0 0px 1px 5px;
 }
-/* line 877, ../scss/common.scss */
+/* line 878, ../scss/common.scss */
 .form-field .form-field__btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1488,15 +1489,76 @@ input, textarea, button {
   background-image: linear-gradient(#ff9e03, #ffd856);
   line-height: 30px;
 }
-/* line 884, ../scss/common.scss */
+/* line 885, ../scss/common.scss */
 .form-field .form-field__check, .form-field .form-field__radio {
   position: relative;
   margin-bottom: 20px;
   padding-left: 20px;
 }
-/* line 888, ../scss/common.scss */
+/* line 889, ../scss/common.scss */
 .form-field .form-field__check input, .form-field .form-field__radio input {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+/*calendar*/
+/* line 898, ../scss/common.scss */
+.calendar .ui-datepicker-prev, .calendar .ui-datepicker-next {
+  display: none;
+}
+/* line 901, ../scss/common.scss */
+.calendar .ui-datepicker-month {
+  width: 105px;
+  height: 23px;
+  margin-right: 10px;
+  outline: none;
+}
+/* line 907, ../scss/common.scss */
+.calendar .ui-datepicker-year {
+  width: 88px;
+  height: 23px;
+  outline: none;
+}
+
+/* line 913, ../scss/common.scss */
+.ui-datepicker-calendar {
+  font-size: 14px;
+}
+/* line 915, ../scss/common.scss */
+.ui-datepicker-calendar td, .ui-datepicker-calendar th {
+  width: 37px;
+  height: 37px;
+}
+/* line 919, ../scss/common.scss */
+.ui-datepicker-calendar td {
+  text-align: center;
+  background: #f4f4f4;
+  color: #929292;
+}
+/* line 924, ../scss/common.scss */
+.ui-datepicker-calendar th span {
+  display: block;
+  color: #b2b2b2;
+  font-weight: normal;
+  text-align: left;
+}
+/* line 930, ../scss/common.scss */
+.ui-datepicker-calendar .ui-datepicker-other-month {
+  background: #fff !important;
+}
+/* line 933, ../scss/common.scss */
+.ui-datepicker-calendar .ui-state-disabled {
+  background: #cfedff;
+  color: #0099cc;
+}
+/* line 936, ../scss/common.scss */
+.ui-datepicker-calendar .ui-state-disabled span {
+  background: #cfedff;
+  color: #0099cc;
+}
+/* line 941, ../scss/common.scss */
+.ui-datepicker-calendar .ui-state-default {
+  background: #f4f4f4;
+  color: #929292;
 }

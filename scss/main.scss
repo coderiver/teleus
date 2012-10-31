@@ -80,10 +80,10 @@ $icons: sprite-map("icons/*.png");
 		border: 1px solid #a6a6a6;
 		background: #f6f6f6;
 		@include background-image(linear-gradient(#f6f6f6, #dbdbdb));
-		.slider__prev-l {
+		.slider__prev-l, .pagination__prev-l {
 			@include sized-sprite($icons, arr1);
 		}
-		.slider__next-r {
+		.slider__next-r, .pagination__prev-r {
 			@include sized-sprite($icons, arr2);
 		}
 		&:hover, &:active {

@@ -1,5 +1,33 @@
 $(document).ready(function () {
 
+/*calendar*/
+if ($('.calendar').length>0) {
+	$(function() {
+    $('.calendar').datepicker({
+      inline: true,
+      monthNames: ['Январь','Февраль','Март','Апрель','Май','Июнь',
+      'Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
+      monthNamesShort: ['Январь','Февраль','Март','Апрель','Май','Июнь',
+      'Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
+      dayNames: ['воскресенье','понедельник','вторник','среда','четверг','пятница','суббота'],
+      dayNamesShort: ['вск','пнд','втр','срд','чтв','птн','сбт'],
+      dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
+      weekHeader: 'Не',
+      dateFormat: 'dd.mm.yy',
+      firstDay: 1,
+      isRTL: false,
+      showMonthAfterYear: false,
+      minDate: 0,
+      hideIfNoPrevNext: true,
+      changeMonth: true,
+      changeYear: true,
+      afterAdjustDate: function(){      	
+        $('.ui-datepicker-month').wrap('<div class="month"></div>')
+    	}
+  });
+});
+};
+
 /*tabs all*/
 $('.tabs__link a').click(function() {
 	return false;

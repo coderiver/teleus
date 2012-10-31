@@ -35,6 +35,7 @@ input, textarea, button {
 	text-transform: uppercase;
 }
 .h3 {
+	padding-bottom: 15px;
 	font-size: 16px;		
 	text-transform: uppercase;
 }
@@ -892,3 +893,56 @@ input, textarea, button {
 		}
 	}
 }
+/*calendar*/
+.calendar {
+	.ui-datepicker-prev, .ui-datepicker-next {
+		display: none;
+	}
+	.ui-datepicker-month {
+		width: 105px;
+		height: 23px;
+		margin-right: 10px;
+		outline: none;		
+	}
+	.ui-datepicker-year {
+		width: 88px;
+		height: 23px;
+		outline: none;
+	}
+}
+.ui-datepicker-calendar {
+	font-size: 14px;
+	td, th {
+		width: 37px;
+		height: 37px;
+	}
+	td {
+		text-align: center;
+		background: #f4f4f4;
+		color: #929292;
+	}
+	th span {
+		display: block;
+		color: #b2b2b2;
+		font-weight: normal;
+		text-align: left;		
+	}
+	.ui-datepicker-other-month {
+		background: #fff !important;
+	}
+	.ui-state-disabled {
+		background: #cfedff;
+		color: #0099cc;
+		span {
+			background: #cfedff;
+			color: #0099cc;
+		}
+	}
+	.ui-state-default {
+		background: #f4f4f4;
+		color: #929292;
+	}
+}
+
+
+
