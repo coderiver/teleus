@@ -1,7 +1,5 @@
 @import "compass/css3";
 @import "base";
-$icons-layout: smart;
-$icons: sprite-map("icons/*.png");
 /*resets*/
 * { margin: 0; padding: 0;}
 body {
@@ -37,7 +35,6 @@ input, textarea, button {
 .h3 {
 	padding-bottom: 15px;
 	font-size: 16px;		
-	text-transform: uppercase;
 }
 .clr {
 	clear: both;
@@ -317,7 +314,7 @@ input, textarea, button {
 }
 .tape__shadow-r {
 	top: 6px;
-	right: 0;
+	right: -2px;
 	@include sized-sprite($icons, tape-sr);
 }
 /*footer*/

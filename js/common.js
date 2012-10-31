@@ -119,7 +119,7 @@ $(window).scroll(function() {
 
 $(document).keypress(function(e) {
 	document_height = $(window).height();	
-	document_height = document_height - 150;
+	document_height = document_height - 170;
 	if ($('body').hasClass('no-space')) {
 		if (e.which == 32) {
 			body_top = $('body').scrollTop();			
