@@ -1533,32 +1533,31 @@ input, textarea, button {
 /* line 916, ../scss/common.scss */
 .ui-datepicker-calendar td {
   text-align: center;
-  background: #f4f4f4;
-  color: #929292;
+  background: #cfedff;
 }
-/* line 921, ../scss/common.scss */
+/* line 919, ../scss/common.scss */
+.ui-datepicker-calendar td a {
+  background: #cfedff;
+  color: #0099cc;
+}
+/* line 924, ../scss/common.scss */
 .ui-datepicker-calendar th span {
   display: block;
   color: #b2b2b2;
   font-weight: normal;
   text-align: left;
 }
-/* line 927, ../scss/common.scss */
+/* line 930, ../scss/common.scss */
 .ui-datepicker-calendar .ui-datepicker-other-month {
   background: #fff !important;
 }
-/* line 930, ../scss/common.scss */
-.ui-datepicker-calendar .ui-state-disabled {
-  background: #cfedff;
-  color: #0099cc;
-}
 /* line 933, ../scss/common.scss */
-.ui-datepicker-calendar .ui-state-disabled span {
-  background: #cfedff;
-  color: #0099cc;
+.ui-datepicker-calendar .ui-state-disabled {
+  background: #f4f4f4;
+  color: #929292;
 }
-/* line 938, ../scss/common.scss */
-.ui-datepicker-calendar .ui-state-default {
+/* line 936, ../scss/common.scss */
+.ui-datepicker-calendar .ui-state-disabled span {
   background: #f4f4f4;
   color: #929292;
 }

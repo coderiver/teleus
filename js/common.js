@@ -15,15 +15,16 @@ if ($('.calendar').length>0) {
       weekHeader: 'Не',
       dateFormat: 'dd.mm.yy',
       firstDay: 1,
-      isRTL: false,
-      showMonthAfterYear: false,
-      minDate: 0,
+      //isRTL: false,
+      //showMonthAfterYear: false,
+      maxDate: 0,
       hideIfNoPrevNext: true,
       changeMonth: true,
       changeYear: true,
       afterAdjustDate: function(){      	
         $('.ui-datepicker-month').wrap('<div class="month"></div>')
-    	}
+    	},
+    	onSelect: function(){ alert(date); }
   });
 });
 };

@@ -915,8 +915,11 @@ input, textarea, button {
 	}
 	td {
 		text-align: center;
-		background: #f4f4f4;
-		color: #929292;
+		background: #cfedff;
+		a {
+			background: #cfedff;
+			color: #0099cc;
+		}
 	}
 	th span {
 		display: block;
@@ -928,16 +931,12 @@ input, textarea, button {
 		background: #fff !important;
 	}
 	.ui-state-disabled {
-		background: #cfedff;
-		color: #0099cc;
-		span {
-			background: #cfedff;
-			color: #0099cc;
-		}
-	}
-	.ui-state-default {
 		background: #f4f4f4;
 		color: #929292;
+		span {
+			background: #f4f4f4;
+			color: #929292;
+		}
 	}
 }
 
