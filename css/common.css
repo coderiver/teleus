@@ -263,7 +263,7 @@ input, textarea, button {
 .logo {
   float: left;
   margin: -1px 15px 0 0;
-  background: url('../img/icons-sdc326c2acf.png') 0 -111px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -111px no-repeat;
   width: 145px;
   height: 42px;
 }
@@ -287,7 +287,7 @@ input, textarea, button {
   position: absolute;
   top: 9px;
   left: 95px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -512px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -512px no-repeat;
   width: 25px;
   height: 32px;
 }
@@ -320,6 +320,7 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#0099cc, #008cba);
   background-image: -moz-linear-gradient(#0099cc, #008cba);
   background-image: -o-linear-gradient(#0099cc, #008cba);
+  background-image: -ms-linear-gradient(#0099cc, #008cba);
   background-image: linear-gradient(#0099cc, #008cba);
 }
 /* line 113, ../scss/common.scss */
@@ -400,6 +401,7 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#ff9e03, #ffd856);
   background-image: -moz-linear-gradient(#ff9e03, #ffd856);
   background-image: -o-linear-gradient(#ff9e03, #ffd856);
+  background-image: -ms-linear-gradient(#ff9e03, #ffd856);
   background-image: linear-gradient(#ff9e03, #ffd856);
 }
 /* line 162, ../scss/common.scss */
@@ -415,7 +417,7 @@ input, textarea, button {
 .nav .nav__add em {
   position: absolute;
   top: 0;
-  background: url('../img/icons-sdc326c2acf.png') 0 -814px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -814px no-repeat;
   width: 2px;
   height: 60px;
 }
@@ -444,26 +446,42 @@ input, textarea, button {
   position: absolute;
   top: 23px;
   left: -20px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -737px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -737px no-repeat;
   width: 14px;
   height: 16px;
 }
 /* line 196, ../scss/common.scss */
+.nav .nav__user-log i.over {
+  opacity: 0;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -1005px no-repeat;
+  width: 14px;
+  height: 16px;
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+/* line 201, ../scss/common.scss */
 .nav .nav__user-log em {
   position: absolute;
   top: 10px;
   right: 0;
-  background: url('../img/icons-sdc326c2acf.png') 0 -218px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -218px no-repeat;
   width: 37px;
   height: 43px;
 }
-/* line 203, ../scss/common.scss */
+/* line 208, ../scss/common.scss */
+.nav .nav__user-log:hover i.over {
+  opacity: 1;
+}
+/* line 213, ../scss/common.scss */
 .nav .nav__user-no-log {
   float: right;
   width: 193px;
   padding: 0px;
 }
-/* line 207, ../scss/common.scss */
+/* line 217, ../scss/common.scss */
 .nav .nav__user-no-log .btn {
   width: 160px;
   padding-left: 15px;
@@ -476,6 +494,7 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
   background-image: -moz-linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
   background-image: -o-linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
+  background-image: -ms-linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
   background-image: linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
   -webkit-box-shadow: #92d7ee 0px 1px 1px inset, #006c90 0px 2px 5px;
   -moz-box-shadow: #92d7ee 0px 1px 1px inset, #006c90 0px 2px 5px;
@@ -490,11 +509,11 @@ input, textarea, button {
   -ms-transition: background-color 0.5s linear;
   transition: background-color 0.5s linear;
 }
-/* line 220, ../scss/common.scss */
+/* line 230, ../scss/common.scss */
 .nav .nav__user-no-log .btn:hover {
   background-color: #92d7ee;
 }
-/* line 223, ../scss/common.scss */
+/* line 233, ../scss/common.scss */
 .nav .nav__user-no-log .btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -506,42 +525,43 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#0188b6, #24aedc);
   background-image: -moz-linear-gradient(#0188b6, #24aedc);
   background-image: -o-linear-gradient(#0188b6, #24aedc);
+  background-image: -ms-linear-gradient(#0188b6, #24aedc);
   background-image: linear-gradient(#0188b6, #24aedc);
 }
-/* line 229, ../scss/common.scss */
+/* line 239, ../scss/common.scss */
 .nav .nav__user-no-log i {
   position: absolute;
   top: 7px;
 }
-/* line 233, ../scss/common.scss */
+/* line 243, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_fb {
   left: 127px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -425px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -425px no-repeat;
   width: 16px;
   height: 16px;
 }
-/* line 237, ../scss/common.scss */
+/* line 247, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_vk {
   left: 147px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -404px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -404px no-repeat;
   width: 16px;
   height: 16px;
 }
 
 /*tape*/
-/* line 247, ../scss/common.scss */
+/* line 257, ../scss/common.scss */
 .tape {
   background: url(../img/tape-bg.jpg);
   color: #fff;
   overflow: hidden;
 }
-/* line 251, ../scss/common.scss */
+/* line 261, ../scss/common.scss */
 .tape .container {
   position: relative;
   height: 40px;
   line-height: 40px;
 }
-/* line 256, ../scss/common.scss */
+/* line 266, ../scss/common.scss */
 .tape .tape__container {
   position: relative;
   width: 1150px;
@@ -549,7 +569,7 @@ input, textarea, button {
   margin-left: 50px;
   overflow: hidden;
 }
-/* line 262, ../scss/common.scss */
+/* line 272, ../scss/common.scss */
 .tape .tape__container ul {
   position: absolute;
   top: 0;
@@ -557,16 +577,16 @@ input, textarea, button {
   width: 20000px;
   z-index: 10;
 }
-/* line 269, ../scss/common.scss */
+/* line 279, ../scss/common.scss */
 .tape .tape__container li {
   float: left;
   margin-right: 27px;
 }
-/* line 273, ../scss/common.scss */
+/* line 283, ../scss/common.scss */
 .tape .tape__container span {
   color: #8c8c8c;
 }
-/* line 276, ../scss/common.scss */
+/* line 286, ../scss/common.scss */
 .tape .tape__container a {
   border-bottom: 1px solid #5b5b5b;
   color: #fff;
@@ -576,67 +596,67 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 280, ../scss/common.scss */
+/* line 290, ../scss/common.scss */
 .tape .tape__container a:hover {
   border-bottom: 1px solid #fff;
 }
-/* line 284, ../scss/common.scss */
+/* line 294, ../scss/common.scss */
 .tape .tape__container b {
   margin: 0 5px;
 }
 
-/* line 289, ../scss/common.scss */
+/* line 299, ../scss/common.scss */
 .tape__comm {
   position: relative;
   margin-left: 36px;
 }
-/* line 292, ../scss/common.scss */
+/* line 302, ../scss/common.scss */
 .tape__comm i {
   position: absolute;
   top: 2px;
   left: -20px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -963px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -963px no-repeat;
   width: 14px;
   height: 13px;
 }
 
-/* line 299, ../scss/common.scss */
+/* line 309, ../scss/common.scss */
 .tape__fife {
   position: absolute;
   top: 7px;
   left: 2px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -549px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -549px no-repeat;
   width: 26px;
   height: 22px;
   z-index: 30;
 }
 
-/* line 306, ../scss/common.scss */
+/* line 316, ../scss/common.scss */
 .tape__shadow {
   position: absolute;
   z-index: 20;
 }
 
-/* line 310, ../scss/common.scss */
+/* line 320, ../scss/common.scss */
 .tape__shadow-l {
   top: 3px;
   left: 25px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -266px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -266px no-repeat;
   width: 75px;
   height: 26px;
 }
 
-/* line 315, ../scss/common.scss */
+/* line 325, ../scss/common.scss */
 .tape__shadow-r {
   top: 6px;
   right: -2px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -158px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -158px no-repeat;
   width: 75px;
   height: 26px;
 }
 
 /*footer*/
-/* line 321, ../scss/common.scss */
+/* line 331, ../scss/common.scss */
 .footer {
   position: relative;
   margin-top: -35px;
@@ -646,13 +666,13 @@ input, textarea, button {
   z-index: 10;
 }
 
-/* line 329, ../scss/common.scss */
+/* line 339, ../scss/common.scss */
 .footer__info {
   position: relative;
   float: left;
   padding-left: 60px;
 }
-/* line 333, ../scss/common.scss */
+/* line 343, ../scss/common.scss */
 .footer__info form {
   position: relative;
   width: 228px;
@@ -660,20 +680,20 @@ input, textarea, button {
   margin-top: 15px;
 }
 
-/* line 340, ../scss/common.scss */
+/* line 350, ../scss/common.scss */
 .footer__nav {
   overflow: hidden;
 }
-/* line 342, ../scss/common.scss */
+/* line 352, ../scss/common.scss */
 .footer__nav ul {
   overflow: hidden;
 }
-/* line 345, ../scss/common.scss */
+/* line 355, ../scss/common.scss */
 .footer__nav li {
   float: left;
   padding-bottom: 10px;
 }
-/* line 348, ../scss/common.scss */
+/* line 358, ../scss/common.scss */
 .footer__nav li a {
   border-bottom: 1px solid #a4cddb;
   font-size: 14px;
@@ -683,45 +703,45 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 352, ../scss/common.scss */
+/* line 362, ../scss/common.scss */
 .footer__nav li a:hover {
   border-bottom: 1px solid #09c;
 }
-/* line 356, ../scss/common.scss */
+/* line 366, ../scss/common.scss */
 .footer__nav li span {
   margin: 0 5px;
   color: #acacac;
   font-weight: bold;
 }
 
-/* line 363, ../scss/common.scss */
+/* line 373, ../scss/common.scss */
 .footer__logo {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../img/icons-sdc326c2acf.png') 0 -446px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -446px no-repeat;
   width: 30px;
   height: 39px;
 }
 
-/* line 369, ../scss/common.scss */
+/* line 379, ../scss/common.scss */
 .copyright {
   position: relative;
   margin-bottom: 15px;
 }
-/* line 372, ../scss/common.scss */
+/* line 382, ../scss/common.scss */
 .copyright span {
   position: absolute;
   top: 0;
   left: -12px;
 }
 
-/* line 378, ../scss/common.scss */
+/* line 388, ../scss/common.scss */
 .footer__nav_b {
   font-weight: bold;
 }
 
-/* line 381, ../scss/common.scss */
+/* line 391, ../scss/common.scss */
 .footer__search-txt {
   width: 188px;
   height: 26px;
@@ -738,81 +758,81 @@ input, textarea, button {
   background: #f4f4f4;
 }
 
-/* line 390, ../scss/common.scss */
+/* line 400, ../scss/common.scss */
 .footer__search-btn {
   position: absolute;
   top: 6px;
   right: 7px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -646px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -646px no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
 }
 
-/* line 397, ../scss/common.scss */
+/* line 407, ../scss/common.scss */
 .facebook {
   float: right;
   background: #fff;
 }
 
-/* line 401, ../scss/common.scss */
+/* line 411, ../scss/common.scss */
 .vkontakte {
   float: right;
   margin-right: 35px;
 }
 
-/* line 405, ../scss/common.scss */
+/* line 415, ../scss/common.scss */
 .social {
   overflow: hidden;
   margin-top: 23px;
 }
-/* line 408, ../scss/common.scss */
+/* line 418, ../scss/common.scss */
 .social li {
   float: left;
   margin-right: 7px;
 }
-/* line 411, ../scss/common.scss */
+/* line 421, ../scss/common.scss */
 .social li a {
   display: block;
   width: 24px;
   height: 24px;
 }
 
-/* line 418, ../scss/common.scss */
+/* line 428, ../scss/common.scss */
 .social__fb {
-  background: url('../img/icons-sdc326c2acf.png') 0 -355px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -355px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 419, ../scss/common.scss */
+/* line 429, ../scss/common.scss */
 .social__vk {
-  background: url('../img/icons-sdc326c2acf.png') 0 -297px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -297px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 420, ../scss/common.scss */
+/* line 430, ../scss/common.scss */
 .social__rss {
-  background: url('../img/icons-sdc326c2acf.png') 0 -189px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -189px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 421, ../scss/common.scss */
+/* line 431, ../scss/common.scss */
 .social__tw {
-  background: url('../img/icons-sdc326c2acf.png') 0 -326px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -326px no-repeat;
   width: 24px;
   height: 24px;
 }
 
 /*block*/
-/* line 423, ../scss/common.scss */
+/* line 433, ../scss/common.scss */
 .block {
   margin-bottom: 20px;
 }
 
-/* line 426, ../scss/common.scss */
+/* line 436, ../scss/common.scss */
 .block_title {
   font-weight: bold;
   border-bottom: 1px solid #bbe4f1;
@@ -823,28 +843,28 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 431, ../scss/common.scss */
+/* line 441, ../scss/common.scss */
 .block_title:hover {
   border-bottom: 1px solid #0099cc;
 }
 
-/* line 435, ../scss/common.scss */
+/* line 445, ../scss/common.scss */
 .block__desc {
   margin: 15px 0 5px 0;
   line-height: 1.5;
   overflow: hidden;
 }
-/* line 439, ../scss/common.scss */
+/* line 449, ../scss/common.scss */
 .block__desc img {
   float: left;
   margin-right: 15px;
   border: 1px solid #939393;
 }
-/* line 444, ../scss/common.scss */
+/* line 454, ../scss/common.scss */
 .block__desc span {
   color: #acacac;
 }
-/* line 446, ../scss/common.scss */
+/* line 456, ../scss/common.scss */
 .block__desc span a {
   border-bottom: 1px solid #bbe4f1;
   -moz-transition: border-color 0.5s linear;
@@ -853,12 +873,12 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 449, ../scss/common.scss */
+/* line 459, ../scss/common.scss */
 .block__desc span a:hover {
   border-bottom: 1px solid #09c;
 }
 
-/* line 455, ../scss/common.scss */
+/* line 465, ../scss/common.scss */
 .comm {
   position: relative;
   margin-left: 25px;
@@ -870,37 +890,37 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 461, ../scss/common.scss */
+/* line 471, ../scss/common.scss */
 .comm i {
   position: absolute;
   top: 2px;
   left: -25px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -384px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -384px no-repeat;
   width: 19px;
   height: 15px;
 }
-/* line 467, ../scss/common.scss */
+/* line 477, ../scss/common.scss */
 .comm:hover {
   border-bottom: 1px solid #09c;
 }
 
-/* line 471, ../scss/common.scss */
+/* line 481, ../scss/common.scss */
 .comm_answer {
   margin-left: 40px;
 }
-/* line 473, ../scss/common.scss */
+/* line 483, ../scss/common.scss */
 .comm_answer i {
-  background: url('../img/icons-sdc326c2acf.png') 0 -604px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -604px no-repeat;
   width: 16px;
   height: 16px;
 }
 
 /*block-img*/
-/* line 478, ../scss/common.scss */
+/* line 488, ../scss/common.scss */
 .block-img {
   position: relative;
 }
-/* line 480, ../scss/common.scss */
+/* line 490, ../scss/common.scss */
 .block-img a {
   position: absolute;
   left: 0;
@@ -917,12 +937,12 @@ input, textarea, button {
 }
 
 /*tabs*/
-/* line 496, ../scss/common.scss */
+/* line 506, ../scss/common.scss */
 .tabs {
   position: relative;
 }
 
-/* line 499, ../scss/common.scss */
+/* line 509, ../scss/common.scss */
 .tabs__shadow {
   position: absolute;
   height: 220px;
@@ -940,22 +960,22 @@ input, textarea, button {
   z-index: 5;
 }
 
-/* line 509, ../scss/common.scss */
+/* line 519, ../scss/common.scss */
 .tabs__link {
   position: relative;
   overflow: hidden;
   z-index: 10;
 }
-/* line 513, ../scss/common.scss */
+/* line 523, ../scss/common.scss */
 .tabs__link li {
   float: left;
   border-right: 1px solid #fff;
 }
-/* line 516, ../scss/common.scss */
+/* line 526, ../scss/common.scss */
 .tabs__link li:last-child {
   border: none;
 }
-/* line 520, ../scss/common.scss */
+/* line 530, ../scss/common.scss */
 .tabs__link a {
   position: relative;
   display: block;
@@ -969,27 +989,28 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#f9f9f9 60%, #e0e0e0);
   background-image: -moz-linear-gradient(#f9f9f9 60%, #e0e0e0);
   background-image: -o-linear-gradient(#f9f9f9 60%, #e0e0e0);
+  background-image: -ms-linear-gradient(#f9f9f9 60%, #e0e0e0);
   background-image: linear-gradient(#f9f9f9 60%, #e0e0e0);
 }
-/* line 529, ../scss/common.scss */
+/* line 539, ../scss/common.scss */
 .tabs__link .active {
   background: #fff;
 }
-/* line 532, ../scss/common.scss */
+/* line 542, ../scss/common.scss */
 .tabs__link img {
   position: absolute;
   top: 17px;
   left: 17px;
 }
 
-/* line 538, ../scss/common.scss */
+/* line 548, ../scss/common.scss */
 .tabs__content {
   position: relative;
   padding: 30px 35px;
   background: #fff;
   z-index: 10;
 }
-/* line 543, ../scss/common.scss */
+/* line 553, ../scss/common.scss */
 .tabs__content a {
   line-height: 1.3;
   font-weight: bold;
@@ -1000,11 +1021,11 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 548, ../scss/common.scss */
+/* line 558, ../scss/common.scss */
 .tabs__content a:hover {
   border-bottom: 1px solid #09c;
 }
-/* line 552, ../scss/common.scss */
+/* line 562, ../scss/common.scss */
 .tabs__content .btn {
   -moz-transition: background-color 0.5s linear;
   -webkit-transition: background-color 0.5s linear;
@@ -1012,18 +1033,18 @@ input, textarea, button {
   -ms-transition: background-color 0.5s linear;
   transition: background-color 0.5s linear;
 }
-/* line 554, ../scss/common.scss */
+/* line 564, ../scss/common.scss */
 .tabs__content .btn:hover {
   border: 1px solid #ae6c00;
 }
-/* line 558, ../scss/common.scss */
+/* line 568, ../scss/common.scss */
 .tabs__content p {
   margin-top: 10px;
   line-height: 1.5;
 }
 
 /*general*/
-/* line 564, ../scss/common.scss */
+/* line 574, ../scss/common.scss */
 .btn {
   position: relative;
   display: block;
@@ -1047,6 +1068,7 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: -moz-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: -o-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
+  background-image: -ms-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   color: #885400;
   font-size: 13px;
@@ -1058,23 +1080,23 @@ input, textarea, button {
   -ms-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 581, ../scss/common.scss */
+/* line 591, ../scss/common.scss */
 .btn i {
   position: absolute;
   top: 7px;
   left: 9px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -625px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -625px no-repeat;
   width: 16px;
   height: 16px;
 }
-/* line 587, ../scss/common.scss */
+/* line 597, ../scss/common.scss */
 .btn:hover {
   background-color: #ffecab;
   -webkit-box-shadow: #d0d0d0 0px 1px 5px;
   -moz-box-shadow: #d0d0d0 0px 1px 5px;
   box-shadow: #d0d0d0 0px 1px 5px;
 }
-/* line 591, ../scss/common.scss */
+/* line 601, ../scss/common.scss */
 .btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1086,38 +1108,39 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#ff9e03, #ffd856);
   background-image: -moz-linear-gradient(#ff9e03, #ffd856);
   background-image: -o-linear-gradient(#ff9e03, #ffd856);
+  background-image: -ms-linear-gradient(#ff9e03, #ffd856);
   background-image: linear-gradient(#ff9e03, #ffd856);
   line-height: 32px;
 }
-/* line 596, ../scss/common.scss */
+/* line 606, ../scss/common.scss */
 .btn:active i {
   top: 8px;
 }
 
-/* line 601, ../scss/common.scss */
+/* line 611, ../scss/common.scss */
 .likes {
   float: left;
   padding: 10px 0 10px 15px;
   border: 1px solid #d3d3d3;
 }
-/* line 605, ../scss/common.scss */
+/* line 615, ../scss/common.scss */
 .likes .fb-like {
   float: left;
   margin-right: 15px;
 }
-/* line 609, ../scss/common.scss */
+/* line 619, ../scss/common.scss */
 .likes iframe {
   float: left;
   margin-right: 5px;
 }
-/* line 613, ../scss/common.scss */
+/* line 623, ../scss/common.scss */
 .likes #vk_like {
   float: left;
   clear: none !important;
 }
 
 /*popup*/
-/* line 619, ../scss/common.scss */
+/* line 629, ../scss/common.scss */
 .popup-bg {
   display: none;
   position: fixed;
@@ -1129,14 +1152,14 @@ input, textarea, button {
   z-index: 400;
 }
 
-/* line 629, ../scss/common.scss */
+/* line 639, ../scss/common.scss */
 .popup {
   position: fixed;
   padding: 30px;
   background: #fff;
   z-index: 500;
 }
-/* line 635, ../scss/common.scss */
+/* line 645, ../scss/common.scss */
 .popup form .btn {
   float: left;
   margin-right: 20px;
@@ -1146,7 +1169,7 @@ input, textarea, button {
   line-height: 1;
 }
 
-/* line 645, ../scss/common.scss */
+/* line 655, ../scss/common.scss */
 .txt-field {
   width: 220px;
   height: 26px;
@@ -1164,18 +1187,18 @@ input, textarea, button {
   font-size: 13px;
 }
 
-/* line 657, ../scss/common.scss */
+/* line 667, ../scss/common.scss */
 .txt-field_1 {
   width: 40px;
   margin-right: 5px;
 }
 
-/* line 661, ../scss/common.scss */
+/* line 671, ../scss/common.scss */
 .txt-field_2 {
   width: 90px;
 }
 
-/* line 664, ../scss/common.scss */
+/* line 674, ../scss/common.scss */
 .popup_enter {
   display: none;
   top: 180px;
@@ -1184,27 +1207,27 @@ input, textarea, button {
   margin-left: 260px;
 }
 
-/* line 671, ../scss/common.scss */
+/* line 681, ../scss/common.scss */
 .popup__btn {
   overflow: hidden;
 }
-/* line 673, ../scss/common.scss */
+/* line 683, ../scss/common.scss */
 .popup__btn .popup__check {
   float: left;
   margin: 7px 7px 0 0;
 }
-/* line 677, ../scss/common.scss */
+/* line 687, ../scss/common.scss */
 .popup__btn span {
   float: left;
   margin-top: 7px;
 }
 
-/* line 682, ../scss/common.scss */
+/* line 692, ../scss/common.scss */
 .popup__links {
   width: 150px;
   margin-top: 15px;
 }
-/* line 685, ../scss/common.scss */
+/* line 695, ../scss/common.scss */
 .popup__links a {
   border-bottom: 1px solid #BBE4F1;
   line-height: 1.5;
@@ -1214,16 +1237,16 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 689, ../scss/common.scss */
+/* line 699, ../scss/common.scss */
 .popup__links a:hover {
   border-bottom: 1px solid #09c;
 }
 
-/* line 694, ../scss/common.scss */
+/* line 704, ../scss/common.scss */
 .popup__social {
   margin-bottom: 20px;
 }
-/* line 696, ../scss/common.scss */
+/* line 706, ../scss/common.scss */
 .popup__social a {
   position: relative;
   display: block;
@@ -1231,11 +1254,11 @@ input, textarea, button {
   padding-left: 35px;
   margin-bottom: 10px;
 }
-/* line 703, ../scss/common.scss */
+/* line 713, ../scss/common.scss */
 .popup__social a:hover span {
   border-bottom: 1px solid #09c;
 }
-/* line 708, ../scss/common.scss */
+/* line 718, ../scss/common.scss */
 .popup__social span {
   line-height: 24px;
   border-bottom: 1px solid #BBE4F1;
@@ -1245,43 +1268,43 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 713, ../scss/common.scss */
+/* line 723, ../scss/common.scss */
 .popup__social i {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 718, ../scss/common.scss */
+/* line 728, ../scss/common.scss */
 .popup__social .popup__social-fb {
-  background: url('../img/icons-sdc326c2acf.png') 0 -355px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -355px no-repeat;
   width: 24px;
   height: 24px;
 }
-/* line 721, ../scss/common.scss */
+/* line 731, ../scss/common.scss */
 .popup__social .popup__social-vk {
-  background: url('../img/icons-sdc326c2acf.png') 0 -297px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -297px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 725, ../scss/common.scss */
+/* line 735, ../scss/common.scss */
 .popup__title {
   margin-bottom: 20px;
   overflow: hidden;
 }
-/* line 728, ../scss/common.scss */
+/* line 738, ../scss/common.scss */
 .popup__title b {
   float: left;
 }
-/* line 731, ../scss/common.scss */
+/* line 741, ../scss/common.scss */
 .popup__title a {
   float: right;
-  background: url('../img/icons-sdc326c2acf.png') 0 -490px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -490px no-repeat;
   width: 17px;
   height: 17px;
 }
 
-/* line 736, ../scss/common.scss */
+/* line 746, ../scss/common.scss */
 .popup_complaint {
   display: none;
   left: 50%;
@@ -1290,85 +1313,85 @@ input, textarea, button {
   height: 380px;
   margin: -190px 0 0 -335px;
 }
-/* line 744, ../scss/common.scss */
+/* line 754, ../scss/common.scss */
 .popup_complaint form .btn {
   width: 95px;
 }
 
-/* line 749, ../scss/common.scss */
+/* line 759, ../scss/common.scss */
 .popup__client {
   overflow: hidden;
 }
-/* line 751, ../scss/common.scss */
+/* line 761, ../scss/common.scss */
 .popup__client li {
   float: left;
   width: 165px;
   margin: 0 0 20px 0;
 }
-/* line 755, ../scss/common.scss */
+/* line 765, ../scss/common.scss */
 .popup__client li input {
   float: left;
   margin: 10px 10px 0 0;
 }
-/* line 759, ../scss/common.scss */
+/* line 769, ../scss/common.scss */
 .popup__client li img {
   float: left;
   margin-right: 10px;
 }
-/* line 763, ../scss/common.scss */
+/* line 773, ../scss/common.scss */
 .popup__client li span {
   line-height: 32px;
 }
 
-/* line 768, ../scss/common.scss */
+/* line 778, ../scss/common.scss */
 .popup__info {
   margin: 0 0 10px 0;
   overflow: hidden;
 }
-/* line 771, ../scss/common.scss */
+/* line 781, ../scss/common.scss */
 .popup__info span {
   display: block;
   margin-bottom: 15px;
 }
 
-/* line 776, ../scss/common.scss */
+/* line 786, ../scss/common.scss */
 .popup__mobile {
   float: left;
   margin-right: 40px;
 }
-/* line 779, ../scss/common.scss */
+/* line 789, ../scss/common.scss */
 .popup__mobile span {
   display: block;
   margin-bottom: 15px;
 }
-/* line 783, ../scss/common.scss */
+/* line 793, ../scss/common.scss */
 .popup__mobile input {
   width: 250px;
 }
 
-/* line 787, ../scss/common.scss */
+/* line 797, ../scss/common.scss */
 .popup__phone {
   float: left;
   margin-right: 40px;
 }
-/* line 790, ../scss/common.scss */
+/* line 800, ../scss/common.scss */
 .popup__phone b {
   float: left;
   margin-right: 5px;
   line-height: 27px;
   font-weight: normal;
 }
-/* line 796, ../scss/common.scss */
+/* line 806, ../scss/common.scss */
 .popup__phone input {
   float: left;
 }
 
-/* line 801, ../scss/common.scss */
+/* line 811, ../scss/common.scss */
 .popup__comm span {
   display: block;
   margin-bottom: 15px;
 }
-/* line 805, ../scss/common.scss */
+/* line 815, ../scss/common.scss */
 .popup__comm .txt-field {
   width: 650px;
   height: 65px;
@@ -1377,23 +1400,23 @@ input, textarea, button {
 }
 
 /*user*/
-/* line 813, ../scss/common.scss */
+/* line 823, ../scss/common.scss */
 .user {
   position: relative;
   margin-left: 20px;
 }
-/* line 816, ../scss/common.scss */
+/* line 826, ../scss/common.scss */
 .user i {
   position: absolute;
   top: 1px;
   left: -20px;
-  background: url('../img/icons-sdc326c2acf.png') 0 -695px no-repeat;
+  background: url('../img/icons-s4a3da26ac2.png') 0 -695px no-repeat;
   width: 14px;
   height: 16px;
 }
 
 /*div for input, label, button*/
-/* line 825, ../scss/common.scss */
+/* line 835, ../scss/common.scss */
 .form-field .form-field__txt {
   display: block;
   width: 302px;
@@ -1412,7 +1435,7 @@ input, textarea, button {
   background: #F4F4F4;
   font-size: 13px;
 }
-/* line 839, ../scss/common.scss */
+/* line 849, ../scss/common.scss */
 .form-field textarea {
   width: 290px;
   height: 50px;
@@ -1431,7 +1454,7 @@ input, textarea, button {
   font-family: Tahoma, Arial, sans-serif;
   font-size: 13px;
 }
-/* line 853, ../scss/common.scss */
+/* line 863, ../scss/common.scss */
 .form-field .form-field__btn {
   position: relative;
   display: block;
@@ -1455,6 +1478,7 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: -moz-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: -o-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
+  background-image: -ms-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   color: #885400;
   font-size: 13px;
@@ -1467,14 +1491,14 @@ input, textarea, button {
   transition: background-color 0.5s ease-out;
   cursor: pointer;
 }
-/* line 871, ../scss/common.scss */
+/* line 881, ../scss/common.scss */
 .form-field .form-field__btn:hover {
   background-color: #ffecab;
   -webkit-box-shadow: #d0d0d0 0px 1px 5px;
   -moz-box-shadow: #d0d0d0 0px 1px 5px;
   box-shadow: #d0d0d0 0px 1px 5px;
 }
-/* line 875, ../scss/common.scss */
+/* line 885, ../scss/common.scss */
 .form-field .form-field__btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1486,16 +1510,17 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#ff9e03, #ffd856);
   background-image: -moz-linear-gradient(#ff9e03, #ffd856);
   background-image: -o-linear-gradient(#ff9e03, #ffd856);
+  background-image: -ms-linear-gradient(#ff9e03, #ffd856);
   background-image: linear-gradient(#ff9e03, #ffd856);
   line-height: 30px;
 }
-/* line 882, ../scss/common.scss */
+/* line 892, ../scss/common.scss */
 .form-field .form-field__check, .form-field .form-field__radio {
   position: relative;
   margin-bottom: 20px;
   padding-left: 20px;
 }
-/* line 886, ../scss/common.scss */
+/* line 896, ../scss/common.scss */
 .form-field .form-field__check input, .form-field .form-field__radio input {
   position: absolute;
   top: 0;
@@ -1503,60 +1528,60 @@ input, textarea, button {
 }
 
 /*calendar*/
-/* line 895, ../scss/common.scss */
+/* line 905, ../scss/common.scss */
 .calendar .ui-datepicker-prev, .calendar .ui-datepicker-next {
   display: none;
 }
-/* line 898, ../scss/common.scss */
+/* line 908, ../scss/common.scss */
 .calendar .ui-datepicker-month {
   width: 105px;
   height: 23px;
   margin-right: 10px;
   outline: none;
 }
-/* line 904, ../scss/common.scss */
+/* line 914, ../scss/common.scss */
 .calendar .ui-datepicker-year {
   width: 88px;
   height: 23px;
   outline: none;
 }
 
-/* line 910, ../scss/common.scss */
+/* line 920, ../scss/common.scss */
 .ui-datepicker-calendar {
   font-size: 14px;
 }
-/* line 912, ../scss/common.scss */
+/* line 922, ../scss/common.scss */
 .ui-datepicker-calendar td, .ui-datepicker-calendar th {
   width: 37px;
   height: 37px;
 }
-/* line 916, ../scss/common.scss */
+/* line 926, ../scss/common.scss */
 .ui-datepicker-calendar td {
   text-align: center;
   background: #cfedff;
 }
-/* line 919, ../scss/common.scss */
+/* line 929, ../scss/common.scss */
 .ui-datepicker-calendar td a {
   background: #cfedff;
   color: #0099cc;
 }
-/* line 924, ../scss/common.scss */
+/* line 934, ../scss/common.scss */
 .ui-datepicker-calendar th span {
   display: block;
   color: #b2b2b2;
   font-weight: normal;
   text-align: left;
 }
-/* line 930, ../scss/common.scss */
+/* line 940, ../scss/common.scss */
 .ui-datepicker-calendar .ui-datepicker-other-month {
   background: #fff !important;
 }
-/* line 933, ../scss/common.scss */
+/* line 943, ../scss/common.scss */
 .ui-datepicker-calendar .ui-state-disabled {
   background: #f4f4f4;
   color: #929292;
 }
-/* line 936, ../scss/common.scss */
+/* line 946, ../scss/common.scss */
 .ui-datepicker-calendar .ui-state-disabled span {
   background: #f4f4f4;
   color: #929292;
