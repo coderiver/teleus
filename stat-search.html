@@ -9,20 +9,24 @@
 	<link rel="stylesheet" type="text/css" href="css/screen.css" />
 	<script src="js/jquery.tools.min.js"></script>
 	<script src="js/jquery.li-scroller.1.0.js"></script>
+	<script src="js/jHtmlArea-0.7.5.min.js"></script>
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>	
+	<script src="js/jquery-ui-1.9.1.custom.min.js"></script>	
+	<script src="js/jquery.validate.min	.js"></script>	
 	<script src="js/common.js"></script>
 	<!--[if lt IE 9]> 
    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
  	<![endif]-->
 	<!--<script src="//vk.com/js/api/openapi.js?60"></script>-->
 </head>
-<body>
+<body class="no-space">
 <!-- Facebook -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/uk_UA/all.js#xfbml=1";
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <!-- BEGIN .header -->	
@@ -38,8 +42,8 @@
 			</div>
 			<nav class="nav">
 				<ul>
-					<li><a class="active" href="#">Новости</a></li>
-					<li><a href="#">Статьи</a></li>					
+					<li><a href="#">Новости</a></li>
+					<li><a class="active" href="#">Статьи</a></li>			
 					<li><a href="#">Приложения</a></li>
 					<li><a href="#">Телефоны</a></li>	
 					<li class="nav__add">
@@ -48,8 +52,12 @@
 						<em class="nav__divider-l"></em>
 						<em class="nav__divider-r"></em>
 					</li>
-					<li class="nav__user-log">
-						<a class="profile-open" href="#">Usernameverylongveryvery<i></i><i class="over"></i></a><em></em>
+					<li class="nav__user-no-log">
+						<a class="btn enter-open" href="#">
+							Авторизация
+							<i class="nav__social_fb"></i>
+							<i class="nav__social_vk"></i>
+						</a>
 					</li>			
 				</ul>
 			</nav>
@@ -82,127 +90,48 @@
 <!-- BEGIN .content -->
 <div class="container">
 	<div class="cols">
-		<section class="col-4">
-			<h2 class="h2">Новости</h2>
-			<article class="block">
-				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
-				<div class="block__desc">
-					<a href="#"><img src="img/pic1.jpg" alt=""></a>
-					<span>28 февраля</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
-					<a class="comm" href="#">345 комментариев<i></i></a>
-				</div>	
-			</article>
-			<article class="block">
-				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
-				<div class="block__desc">
-					<a href="#"><img src="img/pic1.jpg" alt=""></a>
-					<span>28 февраля</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
-					<a class="comm" href="#">345 комментариев<i></i></a>
-				</div>	
-			</article>
-			<article class="block">
-				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
-				<div class="block__desc">
-					<a href="#"><img src="img/pic1.jpg" alt=""></a>
-					<span>28 февраля</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
-					<a class="comm" href="#">345 комментариев<i></i></a>
-				</div>	
-			</article>
-			<article class="block">
-				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
-				<div class="block__desc">
-					<a href="#"><img src="img/pic1.jpg" alt=""></a>
-					<span>28 февраля</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
-					<a class="comm" href="#">345 комментариев<i></i></a>
-				</div>	
-			</article>
-			<article class="block">
-				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
-				<div class="block__desc">
-					<span>28 февраля</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
-					<a class="comm" href="#">345 комментариев<i></i></a>
-				</div>	
-			</article>
-			<article class="block">
-				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
-				<div class="block__desc">
-					<a href="#"><img src="img/pic1.jpg" alt=""></a>
-					<span>28 февраля</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
-					<a class="comm" href="#">345 комментариев<i></i></a>
-				</div>	
-			</article>
-			<article class="block">
-				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
-				<div class="block__desc">
-					<a href="#"><img src="img/pic1.jpg" alt=""></a>
-					<span>28 февраля</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
-					<a class="comm" href="#">345 комментариев<i></i></a>
-				</div>	
-			</article>
-			<article class="block">
-				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
-				<div class="block__desc">
-					<a href="#"><img src="img/pic1.jpg" alt=""></a>
-					<span>28 февраля</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
-					<a class="comm" href="#">345 комментариев<i></i></a>
-				</div>	
-			</article>
-			<article class="block">
-				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
-				<div class="block__desc">
-					<a href="#"><img src="img/pic1.jpg" alt=""></a>
-					<span>28 февраля</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
-					<a class="comm" href="#">345 комментариев<i></i></a>
-				</div>	
-			</article>
-			<article class="block">
-				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
-				<div class="block__desc">
-					<span>28 февраля</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
-					<a class="comm" href="#">345 комментариев<i></i></a>
-				</div>	
-			</article>
-			<div class="pagination">
-				<p><b>Страницы</b><span>Показаны новости з 10 по 30 из 2030</span></p>
-				<div class="pagination__list">
-					<a class="active" href="#">1</a>
-					<a href="#">2</a>
-					<a href="#">3</a>
-					<a href="#">4</a>
-					<a href="#">5</a>
-					<a href="#">6</a>
-					<a href="#">7</a>
-					<a href="#">8</a>
-				</div>
-				<div class="pagination__nav">
-					<button class="pagination__prev disabled"><i class="pagination__prev-l"></i></button>
-					<button class="pagination__next"><i class="pagination__next-r"></i></button>
-				</div>
+		<section class="col-4">			
+			<!-- BEGIN .search -->
+			<div class="search-container">
+				<h2 class="h2">Результаты поиска</h3>
+				<form action="" class="search">
+					<input class="txt-field" type="text">
+					<div class="select">
+						<span>Область поиска</span><i></i>
+						<select>
+							<option value="Область поиска">Область поиска</option>
+							<option value="Новости">Новости</option>
+							<option value="Статьи">Статьи</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Поиск<i></i></button>
+				</form>
+				<ul class="search-result">
+					<li>
+						<a href="#">МТС оснастила кредитки NFC-чипом</a>
+						<p>... коммерции в России стремительно развивается. <span>Мобильный</span> телефон - один из лучших инструментов для проведения микротранзакций в Интернете и удобная замена пластиковым картам, по мнению генерального директора ЗАО "<span>Моби</span> Деньги" Максима Евдокимова . Мобильные платежи, в частности NFC-оплата, своевременно приходят на смену традиционным платежам.</p>
+						<p>Изменен: 31.10.2012</p>
+						<p>Путь: Публикация</p>
+					</li>
+					<li>
+						<a href="#">МТС оснастила кредитки NFC-чипом</a>
+						<p>... коммерции в России стремительно развивается. <span>Мобильный</span> телефон - один из лучших инструментов для проведения микротранзакций в Интернете и удобная замена пластиковым картам, по мнению генерального директора ЗАО "<span>Моби</span> Деньги" Максима Евдокимова . Мобильные платежи, в частности NFC-оплата, своевременно приходят на смену традиционным платежам.</p>
+						<p>Изменен: 31.10.2012</p>
+						<p>Путь: Публикация</p>
+					</li>
+					<li>
+						<a href="#">МТС оснастила кредитки NFC-чипом</a>
+						<p>... коммерции в России стремительно развивается. <span>Мобильный</span> телефон - один из лучших инструментов для проведения микротранзакций в Интернете и удобная замена пластиковым картам, по мнению генерального директора ЗАО "<span>Моби</span> Деньги" Максима Евдокимова . Мобильные платежи, в частности NFC-оплата, своевременно приходят на смену традиционным платежам.</p>
+						<p>Изменен: 31.10.2012</p>
+						<p>Путь: Публикация</p>
+					</li>
+				</ul>
 			</div>
+			<!-- END .search -->
 		</section>
 		<aside class="col-5">
 			<h2 class="h2">Статьи</h2>
-			<article class="block">
+			<div class="block">
 				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
 				<div class="block__desc">
 					<a href="#"><img src="img/pic1.jpg" alt=""></a>
@@ -211,8 +140,8 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
 					<a class="comm" href="#">345 комментариев<i></i></a>
 				</div>	
-			</article>
-			<article class="block">
+			</div>
+			<div class="block">
 				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
 				<div class="block__desc">
 					<a href="#"><img src="img/pic1.jpg" alt=""></a>
@@ -221,8 +150,8 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
 					<a class="comm" href="#">345 комментариев<i></i></a>
 				</div>	
-			</article>
-			<article class="block">
+			</div>
+			<div class="block">
 				<a class="block_title" href="#">Билайн объявил о завершении акции «Месяц интернета в подарок»</a>
 				<div class="block__desc">
 					<a href="#"><img src="img/pic1.jpg" alt=""></a>
@@ -231,7 +160,7 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>	
 					<a class="comm" href="#">345 комментариев<i></i></a>
 				</div>	
-			</article>
+			</div>			
 			<div class="tabs tabs_sidebar">
 				<div class="tabs__shadow"></div>
 				<ul class="tabs__link tabs__link_all">
@@ -260,6 +189,55 @@
 				</ul>
 			</div>
 			<div class="banner"></div>
+			<h3 class="h3">Абоненты</h3>
+			<div class="tabs">
+				<div class="tabs__shadow"></div>
+				<ul class="tabs__link tabs__link_sb">
+					<li><a class="active" href="tab5"><img src="img/tabs-6.png" alt=""></a></li>
+					<li><a href="tab6"><img src="img/tabs-7.png" alt=""></a></li>
+					<li><a href="tab7"><img src="img/tabs-8.png" alt=""></a></li>
+				</ul>
+				<ul class="tabs__content tabs__content_sb">
+					<li id="tab5">
+						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
+						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
+						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
+						<div class="all-reviews">
+							<a href="#" class="btn complaint-open">Добавить жалобу<i></i></a>
+							<a class="all-reviews__link" href="#">Все отзывы</a>
+						</div>
+					</li>
+					<li id="tab6" style="display: none; ">
+						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
+						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
+						<div class="all-reviews">
+							<a href="#" class="btn complaint-open">Добавить жалобу<i></i></a>
+							<a class="all-reviews__link" href="#">Все отзывы</a>
+						</div>
+					</li>
+					<li id="tab7" style="display: none; ">
+						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
+						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
+						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
+						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
+						<div class="all-reviews">
+							<a href="#" class="btn complaint-open">Добавить жалобу<i></i></a>
+							<a class="all-reviews__link" href="#">Все отзывы</a>
+						</div>
+					</li>
+				</ul>
+			</div>	
+			<h3 class="h3">Календар</h3>	
+			<div class="calendar">
+				
+			</div>				
 		</aside>
 	</div>
 </div>
@@ -297,13 +275,38 @@
 			<div class="fb-like-box" data-href="http://www.facebook.com/platform" data-width="300" data-height="140" data-show-faces="true" data-stream="false" data-header="true"></div>
 		</div>
 		<div class="vkontakte">			
-			<div id="vk_groups"></div>
+			<div id="vk_groups"></div>			
 		</div>
 	</div>		
 </footer>
 <!-- END .footer -->
 <!-- BEGIN .popups -->
 <div class="popup-bg"></div>
+<!-- BEGIN .enter -->
+<div class="popup enter">
+	<a class="popup-close" href="#"></a>
+	<!--<div class="enter__title"><b>Чтобы добавить жалобу, пожалуйста войдите на сайт</b></div>-->
+	<div class="enter__social">
+		<div class="popup__title">Через социальные сети</div>
+		<a class="enter__social-fb" href="#"><b><i></i></b><span>Войти через Facebook</span></a>
+		<a class="enter__social-vk" href="#"><b><i></i></b><span>Войти через Вконтакте</span></a>
+	</div>	
+	<form action="">
+		<div class="popup__title">Используя e-mail и пароль</div>
+		<input class="txt-field" type="text" placeholder="Email">
+		<input class="txt-field" type="text" placeholder="Пароль">
+		<div class="enter__btn">
+			<input type="submit" class="btn" value="Войти">
+			<input class="enter__check" type="checkbox">
+			<span>Запомнить</span>
+		</div>	
+		<div class="enter__links">
+			<a href="#">Напомнить пароль</a>
+			<a class="registration-open" href="#">Регистрация</a>
+		</div>	
+	</form>		
+</div>
+<!-- END .enter -->
 <!-- BEGIN .complaint -->
 <div class="popup complaint">
 	<a class="popup-close" href="#"></a>
@@ -375,27 +378,18 @@
 	</form>
 </div>
 <!-- END .complaint -->
-<!-- BEGIN .profile -->
-<form class="popup profile">
-	<a class="popup-close" href="#"></a>
-	<div class="popup__title">Профиль</div>
-	<div class="pic-load-out">
-		<div class="pic-load">
-			<div class="pic-load-change">
-				<span>Аватар</span><i></i>
-			</div>
-			<img src="img/profile.jpg" alt="">
-			<div class="pic-load-title">сменить аватар</div>
-			<input type="file">
-		</div>
-		<div class="pic-load-info">
-			<span>Загрузите аватар</span>
-			<span>Максимум 80КБ,</span>
-			<span>100х100 пикселей</span>
-		</div>		
+<!-- BEGIN .registration -->
+<form class="popup registration">
+	<a href="#" class="popup-close"></a>
+	<div class="popup__title">Регистрация</div>
+	<label>E-mail<span>*</span></label>
+	<input class="txt-field" type="text" name="email">
+	<label>Пароль<span>*</span></label>
+	<div class="field-eye">
+		<input class="txt-field field-eye__text" type="text" value="" name="password">
+		<input class="txt-field field-eye__pass" type="password" value="" name="password">
+		<i></i>
 	</div>
-	<input class="profile__param" type="text" value="Jack Daniel">
-	<input class="profile__param" type="text" value="jack_dan@mail.ru">
 	<div class="select">
 		<span>Москва</span><i></i>
 		<select>
@@ -405,29 +399,33 @@
 			<option value="Париж">Париж</option>
 		</select>
 	</div>
-	<div class="profile__pass">
-		<a href="#">Сненить пароль<i></i></a>
-		<div class="profile__pass-change">
-			<span>Текущий пароль</span>
-			<div class="field-eye">
-				<input class="txt-field field-eye__text" type="text" value="">
-				<input class="txt-field field-eye__pass" type="password" value="">
-				<i></i>
+	<label>Имя или псевдоним<span>*</span></label>
+	<input class="txt-field" type="text" name="username">
+	<label>Фамилия</label>
+	<input class="txt-field" type="text">
+	<div class="pic-load-out">
+		<div class="pic-load">
+			<div class="pic-load-change">
+				<span>Аватар</span><i></i>
 			</div>
-			<span>Новый пароль</span>
-			<div class="field-eye">
-				<input class="txt-field field-eye__text" type="text" value="">
-				<input class="txt-field field-eye__pass" type="password" value="">
-				<i></i>
-			</div>
+			<input type="file" style="display: inline-block; ">
+		</div>
+		<div class="pic-load-info" style="display: block; ">
+			<span>Загрузите аватар</span>
+			<span>Максимум 80КБ,</span>
+			<span>100х100 пикселей</span>
+		</div>		
+	</div>
+	<div class="registration__captcha-out">
+		<label>Введите защитный код</label>
+		<input class="txt-field" type="text" name="captcha">
+		<div class="registration__captcha">
+			<img src="img/captcha.jpg" alt="">
 		</div>
 	</div>
-	<div class="profile__btn">
-		<input class="btn btn-orange" type="button" value="Сохранить">
-		<input class="btn btn-blue" type="button" value="Выйти">
-	</div>
+	<input type="submit" class="btn" value="Зарегистрироваться">
 </form>
-<!-- END .profile -->
+<!-- END .registration -->
 <!-- END .popups -->
 <!-- Twitter -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 

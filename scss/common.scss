@@ -587,6 +587,7 @@ input, textarea, button {
 	text-shadow: 0 1px 1px #ffd856;
 	font-weight: bold;
 	@include transition(background-color, 0.5s, ease-out);
+	cursor: pointer;
 	i {
 		position: absolute;
 		top: 7px;
@@ -876,6 +877,25 @@ input, textarea, button {
 	width: 230px;
 	padding: 30px 30px 30px 50px;
 	margin: -200px 0 0 -155px;	
+	.select {
+		margin: 0 0 0 -10px;
+		border: 1px solid #fff;
+		@include border-radius(3px);
+		background: #fff;
+		@include background-image(linear-gradient(#fff, #fff));
+		i {
+			display: none;
+		}
+		&.active {
+			border: 1px solid #a6a6a6;
+			@include border-radius(3px);
+			background: #f5f5f5;
+			@include background-image(linear-gradient(#f5f5f5, #d8d8d8));
+			i {
+				display: block;
+			}
+		}
+	}
 }
 .pic-load-out {
 	margin-bottom: 10px;
@@ -971,7 +991,7 @@ input, textarea, button {
 		background: #F4F4F4;
 	}
 }
-.profile__city, .registration__city {
+.select {
 	position: relative;
 	width: 218px;
 	height: 24px;
@@ -980,16 +1000,10 @@ input, textarea, button {
 	padding-left: 10px;
 	margin-left: -10px;
 	z-index: 10;
- 	border: 1px solid #fff;
- 	&.active {
- 		border: 1px solid #a6a6a6;
- 		@include border-radius(3px);
- 		background: #f5f5f5;
- 		@include background-image(linear-gradient(#f5f5f5, #d8d8d8));
- 		i {
- 			display: block;
- 		}
- 	}
+ 	border: 1px solid #a6a6a6;
+	@include border-radius(3px);
+	background: #f5f5f5;
+	@include background-image(linear-gradient(#f5f5f5, #d8d8d8));
  	select {
  		position: absolute;
  		top: 0;
@@ -1000,7 +1014,6 @@ input, textarea, button {
  		filter: alpha(opacity=0);
  	}
  	i {
- 		display: none;
  		position: absolute;
  		top: 10px;
  		right: 12px;
@@ -1101,11 +1114,15 @@ input, textarea, button {
 }
 /*registration*/
 .registration {
+	display: none;
 	width: 250px;
-	margin: -300px 0 0 -125px;
+	margin: -340px 0 0 -125px;
 	.txt-field {
 		width: 240px;
 		margin-bottom: 0px;
+	}
+	input.error {
+		@include box-shadow(#ff0000 0 0 3px);
 	}
 	label {
 		display: block;
@@ -1115,6 +1132,9 @@ input, textarea, button {
 			margin-left: 5px;
 			color: #c10000;
 		}
+		&.error {
+			display: none !important;
+		}
 	}
 	.field-eye {
 		width: 250px;
@@ -1122,20 +1142,34 @@ input, textarea, button {
 	.pic-load-out {
 		margin-top: 20px;
 	}
+	.btn {
+		width: 155px;
+	}
 }
-.registration__city {
+.select {
 	width: 237px;
 	margin: 25px 0 20px 0;
 	border: 1px solid #a6a6a6;
 	@include border-radius(3px);
 	background: #f5f5f5;
 	@include background-image(linear-gradient(#f5f5f5, #d8d8d8));
-	i {
-		display: block;
-	}
 	select {
-		width: 250px;
+		width: 247px;
 	}
+}
+.registration__captcha-out {
+	position: relative;
+	margin-bottom: 30px;
+	.txt-field {
+		width: 140px;
+	}
+}
+.registration__captcha {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 95px;
+	height: 60px;
 }
 /*user*/
 .user {
@@ -1267,6 +1301,78 @@ input, textarea, button {
 		}
 	}
 }
-
+/*search*/
+.search-container {
+	width: 480px;
+	margin-left: 80px;
+	.h2 {
+		padding: 15px 0 35px 0;
+		margin-left: -40px;
+		text-transform: none;
+	}
+}
+.search {
+	margin-bottom: 50px;
+	overflow: hidden;
+	.txt-field {
+		width: 480px;
+		margin-bottom: 15px;
+		border-left: none;
+	}
+	.select {
+		float: left;
+		width: 160px;
+		margin: 0 10px 0 0;
+		select {
+			width: 170px;
+		}
+	}
+	.btn {
+		position: relative;
+		float: left;
+		width: 80px;
+		height: 26px;
+		padding-left: 11px;
+		line-height: 1;
+		text-align: left;
+		cursor: pointer;
+		i {
+			position: absolute;
+			top: 5px;
+			left: 58px;
+			@include sized-sprite($icons, search);
+		}
+		&:active {
+			line-height: 27px;
+			i {
+				top: 6px;
+			}
+		}
+	}
+}
+.search-result {	
+	li {
+		margin-top: 15px;
+		padding-top: 15px;
+		border-top: 1px solid #a6a6a6;
+		font-size: 13px;
+		a {
+			display: inline-block;
+			margin-bottom: 15px;
+			text-decoration: underline;
+		}
+		span {
+			background: #ffd755;
+		}
+		&:first-child {
+			margin-top: 0px;
+			padding-top: 0px;
+			border-top: none;
+		}
+		p {
+			line-height: 1.5;
+		}
+	}
+}
 
 

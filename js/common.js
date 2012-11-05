@@ -90,7 +90,7 @@ $('.pic-load').click(function() {
 	$('.pic-load img, .pic-load-title').hide();
 	$('.pic-load-info, .pic-load input').show();
 });
-$('.profile__city').hover(
+$('.profile .select').hover(
   function () {
     $(this).addClass('active');
   },
@@ -98,14 +98,11 @@ $('.profile__city').hover(
   	$(this).removeClass('active');
   }
 );
-$('.profile__city select').change(function() {
-	prof_city = $(this).val();
-	$('.profile__city span').html(prof_city);
+$('.select select').change(function() {
+	select_val = $(this).val();
+	$('.select span').html(select_val);
 });
-$('.registration__city select').change(function() {
-	reg_city = $(this).val();
-	$('.registration__city span').html(reg_city);
-});
+
 /*eye*/
 $('.field-eye__text').hide();
 $('.field-eye i').click(function() {
@@ -125,20 +122,32 @@ $('.field-eye i').click(function() {
 $('.profile__pass .field-eye i').dblclick(function() {
 	return false;
 });
+
 /*pass change*/
 $('.profile__pass a').click(function() {
 	$(this).hide();
 	$(this).next().show();
 	return false;
 });
+
 /*btn orange*/
-$('.profile__param, .profile__city, .profile__pass a').click(function() {
+$('.profile__param, .select, .profile__pass a').click(function() {
 	$('.profile__btn .btn-orange').show();
 });
 
 $('.popup-close, .popup-bg').click(function() {
 	$('.popup-bg, .enter, .complaint, .profile, .registration').fadeOut(300);
 	return false;
+});
+
+/*form validation*/
+$('.registration').validate({
+	rules : {
+		username : "required",
+		password : "required",
+		captcha : "required",
+		email: "required email"
+	}
 });
 
 /*auto scroll*/
