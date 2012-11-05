@@ -186,6 +186,11 @@ input, textarea, button {
 		a {
 			font-size: 14px;
 			text-transform: none;
+			&:hover{
+				i.over{
+					opacity:1;
+				}
+			}
 		}
 		i {
 			position: absolute;
@@ -203,12 +208,7 @@ input, textarea, button {
 			top: 10px;
 			right: 0;
 			@include sized-sprite($icons, user-s);
-		}
-		&:hover{
-			i.over{
-				opacity:1;
-			}
-		}
+		}		
 	}		
 	.nav__user-no-log {
 		float: right;
@@ -576,7 +576,6 @@ input, textarea, button {
 	display: block;
 	width: 130px;
 	height: 30px;
-	padding-left: 33px;
 	line-height: 30px;
 	border: 1px solid #ae6c00;
 	@include border-radius(3px);
@@ -638,24 +637,22 @@ input, textarea, button {
 }
 .popup {
 	position: fixed;	
+	top: 50%;
+	left: 50%;
 	padding: 30px;
 	background: #fff;
 	z-index: 500;
-	form {			
-		.btn {
-			float: left;
-			margin-right: 20px;
-			width: 65px;
-			padding: 0;
-			cursor: pointer;
-			line-height: 1;
-		}		
-	}	
+}
+.popup-close {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	@include sized-sprite($icons, close);
 }
 .txt-field {
 	width: 220px;
-	height: 26px;
-	line-height: 26px;
+	height: 25px;
+	line-height: 25px;
 	padding-left: 8px;
 	margin-bottom: 18px;
 	border-top: 1px solid #a6a6a6;
@@ -671,16 +668,29 @@ input, textarea, button {
 .txt-field_2 {
 	width: 90px;
 }
-.popup_enter {
-	display: none;
-	top: 180px;
-	left: 50%;
-	width: 280px;	
-	margin-left: 260px;	
+.popup__title {
+	margin-bottom: 20px;
+	font-weight: bold;
 }
-.popup__btn {
+/*popup_enter*/
+.enter {
+	display: none;	
+	width: 570px;	
+	padding: 30px 30px 30px 80px;
+	margin: -170px 0 0 -325px;	
+	form {
+		float: left;
+		width: 230px;
+	}
+}
+.enter__title {
+	margin-bottom: 20px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.enter__btn {
 	overflow: hidden;
-	.popup__check {
+	.enter__check {
 		float: left;
 		margin: 7px 7px 0 0;
 	}
@@ -688,65 +698,106 @@ input, textarea, button {
 		float: left;
 		margin-top: 7px;
 	}
+	.btn {
+		float: left;
+		margin-right: 18px;
+		width: 64px;
+	}
 }
-.popup__links {
+.enter__links {
 	width: 150px;
 	margin-top: 15px;
 	a {
 		border-bottom: 1px solid #BBE4F1;
 		line-height: 1.5;
+		font-size: 14px;
 		@include transition(border-color, 0.5s, linear);
 		&:hover {
 			border-bottom: 1px solid #09c;
 		}
 	}
 }
-.popup__social {
-	margin-bottom: 20px;
+.enter__social {
+	float: left;
+	width: 255px;
+	@include transition(border-color, 0.5s, linear);
 	a {
-		position: relative;
 		display: block;
-		height: 24px;		
-		padding-left: 35px;
-		margin-bottom: 10px;		
-		&:hover {
-			span {
-				border-bottom: 1px solid #09c;
-			}			
+		width: 203px;
+		height: 26px;
+		margin-bottom: 18px;
+		line-height: 26px;
+		@include border-radius(3px);
+		b {
+			position: relative;
+			float: left;
+			width: 24px;
+			height: 26px;			
+		}
+		span {
+			float: left;
+			padding-left: 10px;
+			font-size: 13px;
+			color: #fff;			
+		}
+		i {
+			position: absolute;
+			top: 6px;
+			left: 9px;
 		}
 	}
-	span {
-		line-height: 24px;
-		border-bottom: 1px solid #BBE4F1;
-		@include transition(border-color, 0.5s, linear);
+	.enter__social-fb {
+		background: #5d78ae;
+		@include background-image(linear-gradient(#5d78ae, #39507a));
+		@include box-shadow(#3d537f 0px 1px 2px inset);
+		b {
+			border-right: 1px solid #49608c;
+		}
+		span {
+			border-left: 1px solid #59709d;
+		}
+		i {
+			@include sized-sprite($icons, fb-enter);
+		}
+		&:hover {
+			@include box-shadow(#2c3e5f 0px 1px 2px inset);
+			background: #384f79;
+			@include background-image(linear-gradient(#384f79, #5c77ad));
+		}
+		&:active {
+			background: #3a517b;
+			@include box-shadow(#182133 0px 0px 5px inset);
+		}
 	}
-	i {
-		position: absolute;
-		top: 0;
-		left: 0;
+	.enter__social-vk {
+		background: #6186ad;
+		@include background-image(linear-gradient(#6186ad, #3f6690));
+		@include box-shadow(#3c5775 0px 1px 2px inset);
+		b {
+			border-right: 1px solid #456587;
+		}
+		span {
+			border-left: 1px solid #5f82a8;
+		}
+		i {
+			top: 4px;
+			left: 8px;
+			@include sized-sprite($icons, vk-enter);
+		}
+		&:hover {
+			@include box-shadow(#314f70 0px 1px 2px inset);
+			background: #3e658f;
+			@include background-image(linear-gradient(#3e658f, #6085ac));
+		}
+		&:active {
+			background: #3a5e85;
+			@include box-shadow(#253451 0px 0px 5px inset);
+		}
 	}
-	.popup__social-fb {
-		@include sized-sprite($icons, fb);	
-	}
-	.popup__social-vk {
-		@include sized-sprite($icons, vk);	
-	}	
 } 
-.popup__title {
-	margin-bottom: 20px;
-	overflow: hidden;
-	b {
-		float: left;
-	}
-	a {
-		float: right;
-		@include sized-sprite($icons, close);
-	}
-}
-.popup_complaint {
+/*popup_complaint*/
+.complaint {
 	display: none;
-	left: 50%;
-	top: 50%;
 	width: 670px;
 	height: 380px;
 	margin: -190px 0 0 -335px;
@@ -756,7 +807,7 @@ input, textarea, button {
 		}
 	}	
 }
-.popup__client {
+.complaint__client {
 	overflow: hidden;
 	li {
 		float: left;
@@ -775,7 +826,7 @@ input, textarea, button {
 		}
 	}
 }
-.popup__info {
+.complaint__info {
 	margin: 0 0 10px 0;
 	overflow: hidden;
 	span {
@@ -783,7 +834,7 @@ input, textarea, button {
 		margin-bottom: 15px;
 	}
 }
-.popup__mobile {
+.complaint__mobile {
 	float: left;
 	margin-right: 40px;
 	span {
@@ -794,7 +845,7 @@ input, textarea, button {
 		width: 250px;
 	}
 }
-.popup__phone {
+.complaint__phone {
 	float: left;
 	margin-right: 40px;	
 	b {
@@ -807,7 +858,7 @@ input, textarea, button {
 		float: left;
 	}	
 }
-.popup__comm {
+.complaint__comm {
 	span {
 		display: block;
 		margin-bottom: 15px;
@@ -817,6 +868,273 @@ input, textarea, button {
 		height: 65px;
 		padding: 5px 10px;
 		font-family: Arial, sans-serif;
+	}
+}
+/*popup_profile*/
+.profile {
+	display: none;
+	width: 230px;
+	padding: 30px 30px 30px 50px;
+	margin: -200px 0 0 -155px;	
+}
+.pic-load-out {
+	margin-bottom: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.pic-load {
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right: 25px;
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 10;
+	}
+	&:hover {
+		.pic-load-title {
+			display: block;
+		}
+	}
+	input {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 230px;
+		height: 100px;
+		cursor: pointer;		
+		opacity: 0;
+		filter: alpha(opacity=0);
+		z-index: 20;
+	}
+}
+.pic-load-change {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 94px;
+	height: 94px;
+	border: 3px dashed #a6a6a6;
+	@include border-radius(10px);
+	z-index: 5;
+	span {
+		display: block;
+		margin-top: 20px;
+		text-align: center;
+	}
+	i {
+		position: absolute;
+		top: 50px;
+		left: 37px;
+		@include sized-sprite($icons, avatar);
+	}
+}
+.pic-load-title {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	background: rgba(0,0,0,0.7);
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+	z-index: 15;
+}
+.pic-load-info {
+	display: none;
+	font-size: 12px;
+	span {
+		display: block;
+		margin-top: 15px;
+	}
+}
+.profile__param {
+	margin-left: -10px;
+	width: 220px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 10px;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	font-size: 13px;
+	&:hover {
+		border-top: 1px solid #A6A6A6;
+		border-left: 1px solid #A6A6A6;
+		@include border-radius(3px);
+		background: #F4F4F4;
+	}
+}
+.profile__city, .registration__city {
+	position: relative;
+	width: 218px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 13px;
+	padding-left: 10px;
+	margin-left: -10px;
+	z-index: 10;
+ 	border: 1px solid #fff;
+ 	&.active {
+ 		border: 1px solid #a6a6a6;
+ 		@include border-radius(3px);
+ 		background: #f5f5f5;
+ 		@include background-image(linear-gradient(#f5f5f5, #d8d8d8));
+ 		i {
+ 			display: block;
+ 		}
+ 	}
+ 	select {
+ 		position: absolute;
+ 		top: 0;
+ 		left: 0;
+ 		width: 228px;
+ 		height: 24px;
+ 		opacity: 0;
+ 		filter: alpha(opacity=0);
+ 	}
+ 	i {
+ 		display: none;
+ 		position: absolute;
+ 		top: 10px;
+ 		right: 12px;
+ 		@include sized-sprite($icons, arr5);
+ 	}
+}
+.profile__pass {
+	position: relative;
+	z-index: 5;
+	a {
+		position: relative;
+		font-size: 13px;
+		border-bottom: 1px dashed #BBE4F1;
+		line-height: 25px;
+		@include transition(border-color, 0.5s, linear);
+		&:hover {
+			border-bottom: 1px dashed #09c;
+		}
+		i {
+			position: absolute;
+			top: 4px;
+			right: -15px;
+			@include sized-sprite($icons, pass);
+		}
+	}
+	.field-eye {
+		width: 230px;
+		margin-left: -10px;
+	}
+	span {
+		display: block;
+		height: 26px;
+		line-height: 26px;
+		font-size: 13px;
+	}
+}
+.profile__pass-change {
+	display: none;
+}
+.profile__btn {
+	padding: 20px 0 3px 0;
+	overflow: hidden;
+	.btn {
+		float: left;
+		cursor: pointer;
+	}
+	.btn-orange {
+		display: none;
+		width: 95px;
+		margin-right: 50px;
+		line-height: 1;
+		&:active {
+			line-height: 31px;
+		}
+	}
+	.btn-blue {
+		width: 75px;
+		border: 1px solid #006c90;
+		background-color: #24aedc;
+		@include background-image(linear-gradient(rgba(36,174,220,0.6), rgba(1,136,182,0.8)));
+		@include box-shadow(#92d7ee 0px 1px 1px inset, #D0D0D0 0px 1px 5px);
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: none;
+		text-shadow: none;
+		color: #fff;
+		@include transition(background-color, 0.5s, linear);
+		&:hover {				
+			background-color: #92d7ee;
+		}
+		&:active {
+			@include box-shadow(none);
+			background: #0188b6;
+			@include background-image(linear-gradient(#0188b6, #24aedc));
+		}
+	}
+}
+/*field-eye*/
+.field-eye {
+	position: relative;	
+	width: 230px;
+	height: 25px;
+	i {
+		position: absolute;
+		top: 6px;
+		right: 8px;			
+		@include sized-sprite($icons, eye-close);
+		cursor: pointer;			
+	}
+	input {
+		margin-bottom: 0px;
+	}
+}
+.field-eye_open {
+	i {
+		@include sized-sprite($icons, eye-open);
+	}
+}
+/*registration*/
+.registration {
+	width: 250px;
+	margin: -300px 0 0 -125px;
+	.txt-field {
+		width: 240px;
+		margin-bottom: 0px;
+	}
+	label {
+		display: block;
+		margin: 20px 0 15px 0;
+		font-size: 13px;
+		span {
+			margin-left: 5px;
+			color: #c10000;
+		}
+	}
+	.field-eye {
+		width: 250px;
+	}
+	.pic-load-out {
+		margin-top: 20px;
+	}
+}
+.registration__city {
+	width: 237px;
+	margin: 25px 0 20px 0;
+	border: 1px solid #a6a6a6;
+	@include border-radius(3px);
+	background: #f5f5f5;
+	@include background-image(linear-gradient(#f5f5f5, #d8d8d8));
+	i {
+		display: block;
+	}
+	select {
+		width: 250px;
 	}
 }
 /*user*/

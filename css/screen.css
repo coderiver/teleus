@@ -1,168 +1,168 @@
 /**/
 @-webkit-keyframes rotate {
-  /* line 28, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 28, ../scss/_base.scss */
   0% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 31, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 31, ../scss/_base.scss */
   10% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 34, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 34, ../scss/_base.scss */
   20% {
     -webkit-transform: rotate(10deg);
   }
 
-  /* line 37, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 37, ../scss/_base.scss */
   30% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 40, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 40, ../scss/_base.scss */
   40% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 43, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 43, ../scss/_base.scss */
   50% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 46, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 46, ../scss/_base.scss */
   60% {
     -webkit-transform: rotate(10deg);
   }
 
-  /* line 49, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 49, ../scss/_base.scss */
   70% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 52, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 52, ../scss/_base.scss */
   80% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 55, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 55, ../scss/_base.scss */
   100% {
     -webkit-transform: rotate(0deg);
   }
 }
 
 @-moz-keyframes rotate {
-  /* line 60, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 60, ../scss/_base.scss */
   0% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 63, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 63, ../scss/_base.scss */
   10% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 66, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 66, ../scss/_base.scss */
   20% {
     -moz-transform: rotate(10deg);
   }
 
-  /* line 69, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 69, ../scss/_base.scss */
   30% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 72, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 72, ../scss/_base.scss */
   40% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 75, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 75, ../scss/_base.scss */
   50% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 78, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 78, ../scss/_base.scss */
   60% {
     -moz-transform: rotate(10deg);
   }
 
-  /* line 81, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 81, ../scss/_base.scss */
   70% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 84, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 84, ../scss/_base.scss */
   80% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 87, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 87, ../scss/_base.scss */
   100% {
     -moz-transform: rotate(0deg);
   }
 }
 
 @-o-keyframes rotate {
-  /* line 92, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 92, ../scss/_base.scss */
   0% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 95, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 95, ../scss/_base.scss */
   10% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 98, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 98, ../scss/_base.scss */
   20% {
     -o-transform: rotate(10deg);
   }
 
-  /* line 101, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 101, ../scss/_base.scss */
   30% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 104, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 104, ../scss/_base.scss */
   40% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 107, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 107, ../scss/_base.scss */
   50% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 110, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 110, ../scss/_base.scss */
   60% {
     -o-transform: rotate(10deg);
   }
 
-  /* line 113, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 113, ../scss/_base.scss */
   70% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 116, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 116, ../scss/_base.scss */
   80% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 119, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 119, ../scss/_base.scss */
   100% {
     -o-transform: rotate(0deg);
   }
 }
 
 /*resets*/
-/* line 4, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 4, ../scss/common.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 5, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 5, ../scss/common.scss */
 body {
   background: #f4f4f4;
   color: #333;
@@ -172,43 +172,43 @@ body {
   line-height: 1;
 }
 
-/* line 15, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 15, ../scss/common.scss */
 a img, fieldset {
   border: none;
 }
 
-/* line 18, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 18, ../scss/common.scss */
 a {
   font-size: 15px;
   color: #0099cc;
   text-decoration: none;
 }
 
-/* line 23, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 23, ../scss/common.scss */
 li {
   list-style: none;
 }
 
-/* line 26, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 26, ../scss/common.scss */
 input, textarea, button {
   border: none;
   outline: none;
 }
 
-/* line 30, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 30, ../scss/common.scss */
 .h2 {
   padding: 35px 0 15px 0;
   font-size: 20px;
   text-transform: uppercase;
 }
 
-/* line 35, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 35, ../scss/common.scss */
 .h3 {
   padding-bottom: 15px;
   font-size: 16px;
 }
 
-/* line 39, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 39, ../scss/common.scss */
 .clr {
   clear: both;
   height: 1px;
@@ -216,14 +216,14 @@ input, textarea, button {
   line-height: 1px;
 }
 
-/* line 45, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 45, ../scss/common.scss */
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 
 /*top*/
-/* line 50, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 50, ../scss/common.scss */
 .header-out {
   position: relative;
   width: 100%;
@@ -235,19 +235,19 @@ input, textarea, button {
   z-index: 300;
 }
 
-/* line 58, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 58, ../scss/common.scss */
 .header-out_fixed {
   position: fixed;
   top: -60px;
 }
 
-/* line 62, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 62, ../scss/common.scss */
 .header-banner {
   height: 60px;
   background-color: #ebebeb;
 }
 
-/* line 66, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 66, ../scss/common.scss */
 .header {
   position: relative;
   top: 0;
@@ -259,15 +259,15 @@ input, textarea, button {
   z-index: 100;
 }
 
-/* line 76, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 76, ../scss/common.scss */
 .logo {
   float: left;
   margin: -1px 15px 0 0;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -111px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -139px no-repeat;
   width: 145px;
   height: 42px;
 }
-/* line 80, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 80, ../scss/common.scss */
 .logo a {
   position: relative;
   display: block;
@@ -275,24 +275,24 @@ input, textarea, button {
   height: 42px;
   text-indent: -20000px;
 }
-/* line 86, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 86, ../scss/common.scss */
 .logo a:hover i {
   -moz-animatiom: rotate 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s 1 normal both;
   -webkit-animation: rotate 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s 1 normal both;
   -o-animation: rotate 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s 1 normal both;
   animation: rotate 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s 1 normal both;
 }
-/* line 90, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 90, ../scss/common.scss */
 .logo i {
   position: absolute;
   top: 9px;
   left: 95px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -512px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -578px no-repeat;
   width: 25px;
   height: 32px;
 }
 
-/* line 97, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 97, ../scss/common.scss */
 .logo-txt {
   float: left;
   width: 120px;
@@ -304,7 +304,7 @@ input, textarea, button {
   font-size: 13px;
 }
 
-/* line 107, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 107, ../scss/common.scss */
 .nav {
   float: right;
   width: 840px;
@@ -320,21 +320,20 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#0099cc, #008cba);
   background-image: -moz-linear-gradient(#0099cc, #008cba);
   background-image: -o-linear-gradient(#0099cc, #008cba);
-  background-image: -ms-linear-gradient(#0099cc, #008cba);
   background-image: linear-gradient(#0099cc, #008cba);
 }
-/* line 113, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 113, ../scss/common.scss */
 .nav ul {
   overflow: hidden;
 }
-/* line 116, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 116, ../scss/common.scss */
 .nav li {
   float: left;
   padding-left: 29px;
   height: 60px;
   line-height: 60px;
 }
-/* line 121, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 121, ../scss/common.scss */
 .nav li a {
   border-bottom: 1px solid #32abd4;
   text-transform: uppercase;
@@ -346,22 +345,22 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 127, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 127, ../scss/common.scss */
 .nav li a:hover {
   border-bottom: 1px solid #fff;
 }
-/* line 131, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 131, ../scss/common.scss */
 .nav li .active, .nav li .active:hover {
   border: none;
   color: #FFD75E;
 }
-/* line 136, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 136, ../scss/common.scss */
 .nav .nav__add {
   position: relative;
   width: 140px;
   padding-left: 45px;
 }
-/* line 140, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 140, ../scss/common.scss */
 .nav .nav__add .btn {
   position: absolute;
   top: 15px;
@@ -378,18 +377,18 @@ input, textarea, button {
   -ms-transition: background-color 0.5s linear;
   transition: background-color 0.5s linear;
 }
-/* line 149, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 149, ../scss/common.scss */
 .nav .nav__add .btn i {
   left: 7px;
 }
-/* line 152, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 152, ../scss/common.scss */
 .nav .nav__add .btn:hover {
   border: 1px solid #006c90;
   -webkit-box-shadow: #006c90 0px 2px 5px;
   -moz-box-shadow: #006c90 0px 2px 5px;
   box-shadow: #006c90 0px 2px 5px;
 }
-/* line 156, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 156, ../scss/common.scss */
 .nav .nav__add .btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -401,59 +400,62 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#ff9e03, #ffd856);
   background-image: -moz-linear-gradient(#ff9e03, #ffd856);
   background-image: -o-linear-gradient(#ff9e03, #ffd856);
-  background-image: -ms-linear-gradient(#ff9e03, #ffd856);
   background-image: linear-gradient(#ff9e03, #ffd856);
 }
-/* line 162, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 162, ../scss/common.scss */
 .nav .nav__add a {
   color: #ffd75e;
   border-bottom: 1px solid #88b88f;
 }
-/* line 165, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 165, ../scss/common.scss */
 .nav .nav__add a:hover {
   border-bottom: 1px solid #ffd75f;
 }
-/* line 169, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 169, ../scss/common.scss */
 .nav .nav__add em {
   position: absolute;
   top: 0;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -814px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -922px no-repeat;
   width: 2px;
   height: 60px;
 }
-/* line 175, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 175, ../scss/common.scss */
 .nav .nav__divider-l {
   left: 21px;
 }
-/* line 178, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 178, ../scss/common.scss */
 .nav .nav__divider-r {
   right: 0;
 }
-/* line 181, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 181, ../scss/common.scss */
 .nav .nav__user-log {
   position: relative;
   float: right;
   width: 170px;
   padding-left: 0px;
 }
-/* line 186, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 186, ../scss/common.scss */
 .nav .nav__user-log a {
   font-size: 14px;
   text-transform: none;
 }
-/* line 190, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 190, ../scss/common.scss */
+.nav .nav__user-log a:hover i.over {
+  opacity: 1;
+}
+/* line 195, ../scss/common.scss */
 .nav .nav__user-log i {
   position: absolute;
   top: 23px;
   left: -20px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -737px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -824px no-repeat;
   width: 14px;
   height: 16px;
 }
-/* line 196, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 201, ../scss/common.scss */
 .nav .nav__user-log i.over {
   opacity: 0;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -1005px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -845px no-repeat;
   width: 14px;
   height: 16px;
   -moz-transition: all 0.5s linear;
@@ -462,26 +464,22 @@ input, textarea, button {
   -ms-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
-/* line 201, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 206, ../scss/common.scss */
 .nav .nav__user-log em {
   position: absolute;
   top: 10px;
   right: 0;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -218px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -246px no-repeat;
   width: 37px;
   height: 43px;
 }
-/* line 208, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.nav .nav__user-log:hover i.over {
-  opacity: 1;
-}
-/* line 213, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 213, ../scss/common.scss */
 .nav .nav__user-no-log {
   float: right;
   width: 193px;
   padding: 0px;
 }
-/* line 217, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 217, ../scss/common.scss */
 .nav .nav__user-no-log .btn {
   width: 160px;
   padding-left: 15px;
@@ -494,7 +492,6 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
   background-image: -moz-linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
   background-image: -o-linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
-  background-image: -ms-linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
   background-image: linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
   -webkit-box-shadow: #92d7ee 0px 1px 1px inset, #006c90 0px 2px 5px;
   -moz-box-shadow: #92d7ee 0px 1px 1px inset, #006c90 0px 2px 5px;
@@ -509,11 +506,11 @@ input, textarea, button {
   -ms-transition: background-color 0.5s linear;
   transition: background-color 0.5s linear;
 }
-/* line 230, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 230, ../scss/common.scss */
 .nav .nav__user-no-log .btn:hover {
   background-color: #92d7ee;
 }
-/* line 233, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 233, ../scss/common.scss */
 .nav .nav__user-no-log .btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -525,43 +522,42 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#0188b6, #24aedc);
   background-image: -moz-linear-gradient(#0188b6, #24aedc);
   background-image: -o-linear-gradient(#0188b6, #24aedc);
-  background-image: -ms-linear-gradient(#0188b6, #24aedc);
   background-image: linear-gradient(#0188b6, #24aedc);
 }
-/* line 239, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 239, ../scss/common.scss */
 .nav .nav__user-no-log i {
   position: absolute;
   top: 7px;
 }
-/* line 243, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 243, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_fb {
   left: 127px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -425px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -453px no-repeat;
   width: 16px;
   height: 16px;
 }
-/* line 247, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 247, ../scss/common.scss */
 .nav .nav__user-no-log .nav__social_vk {
   left: 147px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -404px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -432px no-repeat;
   width: 16px;
   height: 16px;
 }
 
 /*tape*/
-/* line 257, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 257, ../scss/common.scss */
 .tape {
   background: url(../img/tape-bg.jpg);
   color: #fff;
   overflow: hidden;
 }
-/* line 261, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 261, ../scss/common.scss */
 .tape .container {
   position: relative;
   height: 40px;
   line-height: 40px;
 }
-/* line 266, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 266, ../scss/common.scss */
 .tape .tape__container {
   position: relative;
   width: 1150px;
@@ -569,7 +565,7 @@ input, textarea, button {
   margin-left: 50px;
   overflow: hidden;
 }
-/* line 272, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 272, ../scss/common.scss */
 .tape .tape__container ul {
   position: absolute;
   top: 0;
@@ -577,16 +573,16 @@ input, textarea, button {
   width: 20000px;
   z-index: 10;
 }
-/* line 279, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 279, ../scss/common.scss */
 .tape .tape__container li {
   float: left;
   margin-right: 27px;
 }
-/* line 283, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 283, ../scss/common.scss */
 .tape .tape__container span {
   color: #8c8c8c;
 }
-/* line 286, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 286, ../scss/common.scss */
 .tape .tape__container a {
   border-bottom: 1px solid #5b5b5b;
   color: #fff;
@@ -596,67 +592,67 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 290, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 290, ../scss/common.scss */
 .tape .tape__container a:hover {
   border-bottom: 1px solid #fff;
 }
-/* line 294, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 294, ../scss/common.scss */
 .tape .tape__container b {
   margin: 0 5px;
 }
 
-/* line 299, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 299, ../scss/common.scss */
 .tape__comm {
   position: relative;
   margin-left: 36px;
 }
-/* line 302, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 302, ../scss/common.scss */
 .tape__comm i {
   position: absolute;
   top: 2px;
   left: -20px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -963px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -1106px no-repeat;
   width: 14px;
   height: 13px;
 }
 
-/* line 309, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 309, ../scss/common.scss */
 .tape__fife {
   position: absolute;
   top: 7px;
   left: 2px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -549px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -615px no-repeat;
   width: 26px;
   height: 22px;
   z-index: 30;
 }
 
-/* line 316, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 316, ../scss/common.scss */
 .tape__shadow {
   position: absolute;
   z-index: 20;
 }
 
-/* line 320, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 320, ../scss/common.scss */
 .tape__shadow-l {
   top: 3px;
   left: 25px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -266px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -294px no-repeat;
   width: 75px;
   height: 26px;
 }
 
-/* line 325, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 325, ../scss/common.scss */
 .tape__shadow-r {
   top: 6px;
   right: -2px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -158px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -186px no-repeat;
   width: 75px;
   height: 26px;
 }
 
 /*footer*/
-/* line 331, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 331, ../scss/common.scss */
 .footer {
   position: relative;
   margin-top: -35px;
@@ -666,13 +662,13 @@ input, textarea, button {
   z-index: 10;
 }
 
-/* line 339, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 339, ../scss/common.scss */
 .footer__info {
   position: relative;
   float: left;
   padding-left: 60px;
 }
-/* line 343, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 343, ../scss/common.scss */
 .footer__info form {
   position: relative;
   width: 228px;
@@ -680,20 +676,20 @@ input, textarea, button {
   margin-top: 15px;
 }
 
-/* line 350, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 350, ../scss/common.scss */
 .footer__nav {
   overflow: hidden;
 }
-/* line 352, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 352, ../scss/common.scss */
 .footer__nav ul {
   overflow: hidden;
 }
-/* line 355, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 355, ../scss/common.scss */
 .footer__nav li {
   float: left;
   padding-bottom: 10px;
 }
-/* line 358, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 358, ../scss/common.scss */
 .footer__nav li a {
   border-bottom: 1px solid #a4cddb;
   font-size: 14px;
@@ -703,45 +699,45 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 362, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 362, ../scss/common.scss */
 .footer__nav li a:hover {
   border-bottom: 1px solid #09c;
 }
-/* line 366, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 366, ../scss/common.scss */
 .footer__nav li span {
   margin: 0 5px;
   color: #acacac;
   font-weight: bold;
 }
 
-/* line 373, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 373, ../scss/common.scss */
 .footer__logo {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -446px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -474px no-repeat;
   width: 30px;
   height: 39px;
 }
 
-/* line 379, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 379, ../scss/common.scss */
 .copyright {
   position: relative;
   margin-bottom: 15px;
 }
-/* line 382, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 382, ../scss/common.scss */
 .copyright span {
   position: absolute;
   top: 0;
   left: -12px;
 }
 
-/* line 388, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 388, ../scss/common.scss */
 .footer__nav_b {
   font-weight: bold;
 }
 
-/* line 391, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 391, ../scss/common.scss */
 .footer__search-txt {
   width: 188px;
   height: 26px;
@@ -758,81 +754,81 @@ input, textarea, button {
   background: #f4f4f4;
 }
 
-/* line 400, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 400, ../scss/common.scss */
 .footer__search-btn {
   position: absolute;
   top: 6px;
   right: 7px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -646px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -733px no-repeat;
   width: 16px;
   height: 16px;
   cursor: pointer;
 }
 
-/* line 407, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 407, ../scss/common.scss */
 .facebook {
   float: right;
   background: #fff;
 }
 
-/* line 411, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 411, ../scss/common.scss */
 .vkontakte {
   float: right;
   margin-right: 35px;
 }
 
-/* line 415, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 415, ../scss/common.scss */
 .social {
   overflow: hidden;
   margin-top: 23px;
 }
-/* line 418, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 418, ../scss/common.scss */
 .social li {
   float: left;
   margin-right: 7px;
 }
-/* line 421, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 421, ../scss/common.scss */
 .social li a {
   display: block;
   width: 24px;
   height: 24px;
 }
 
-/* line 428, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 428, ../scss/common.scss */
 .social__fb {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -355px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -383px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 429, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 429, ../scss/common.scss */
 .social__vk {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -297px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -325px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 430, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 430, ../scss/common.scss */
 .social__rss {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -189px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -217px no-repeat;
   width: 24px;
   height: 24px;
 }
 
-/* line 431, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 431, ../scss/common.scss */
 .social__tw {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -326px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -354px no-repeat;
   width: 24px;
   height: 24px;
 }
 
 /*block*/
-/* line 433, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 433, ../scss/common.scss */
 .block {
   margin-bottom: 20px;
 }
 
-/* line 436, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 436, ../scss/common.scss */
 .block_title {
   font-weight: bold;
   border-bottom: 1px solid #bbe4f1;
@@ -843,28 +839,28 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 441, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 441, ../scss/common.scss */
 .block_title:hover {
   border-bottom: 1px solid #0099cc;
 }
 
-/* line 445, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 445, ../scss/common.scss */
 .block__desc {
   margin: 15px 0 5px 0;
   line-height: 1.5;
   overflow: hidden;
 }
-/* line 449, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 449, ../scss/common.scss */
 .block__desc img {
   float: left;
   margin-right: 15px;
   border: 1px solid #939393;
 }
-/* line 454, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 454, ../scss/common.scss */
 .block__desc span {
   color: #acacac;
 }
-/* line 456, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 456, ../scss/common.scss */
 .block__desc span a {
   border-bottom: 1px solid #bbe4f1;
   -moz-transition: border-color 0.5s linear;
@@ -873,12 +869,12 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 459, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 459, ../scss/common.scss */
 .block__desc span a:hover {
   border-bottom: 1px solid #09c;
 }
 
-/* line 465, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 465, ../scss/common.scss */
 .comm {
   position: relative;
   margin-left: 25px;
@@ -890,37 +886,37 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 471, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 471, ../scss/common.scss */
 .comm i {
   position: absolute;
   top: 2px;
   left: -25px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -384px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -412px no-repeat;
   width: 19px;
   height: 15px;
 }
-/* line 477, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 477, ../scss/common.scss */
 .comm:hover {
   border-bottom: 1px solid #09c;
 }
 
-/* line 481, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 481, ../scss/common.scss */
 .comm_answer {
   margin-left: 40px;
 }
-/* line 483, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 483, ../scss/common.scss */
 .comm_answer i {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -604px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -691px no-repeat;
   width: 16px;
   height: 16px;
 }
 
 /*block-img*/
-/* line 488, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 488, ../scss/common.scss */
 .block-img {
   position: relative;
 }
-/* line 490, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 490, ../scss/common.scss */
 .block-img a {
   position: absolute;
   left: 0;
@@ -937,12 +933,12 @@ input, textarea, button {
 }
 
 /*tabs*/
-/* line 506, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 506, ../scss/common.scss */
 .tabs {
   position: relative;
 }
 
-/* line 509, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 509, ../scss/common.scss */
 .tabs__shadow {
   position: absolute;
   height: 220px;
@@ -960,22 +956,22 @@ input, textarea, button {
   z-index: 5;
 }
 
-/* line 519, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 519, ../scss/common.scss */
 .tabs__link {
   position: relative;
   overflow: hidden;
   z-index: 10;
 }
-/* line 523, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 523, ../scss/common.scss */
 .tabs__link li {
   float: left;
   border-right: 1px solid #fff;
 }
-/* line 526, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 526, ../scss/common.scss */
 .tabs__link li:last-child {
   border: none;
 }
-/* line 530, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 530, ../scss/common.scss */
 .tabs__link a {
   position: relative;
   display: block;
@@ -989,28 +985,27 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#f9f9f9 60%, #e0e0e0);
   background-image: -moz-linear-gradient(#f9f9f9 60%, #e0e0e0);
   background-image: -o-linear-gradient(#f9f9f9 60%, #e0e0e0);
-  background-image: -ms-linear-gradient(#f9f9f9 60%, #e0e0e0);
   background-image: linear-gradient(#f9f9f9 60%, #e0e0e0);
 }
-/* line 539, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 539, ../scss/common.scss */
 .tabs__link .active {
   background: #fff;
 }
-/* line 542, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 542, ../scss/common.scss */
 .tabs__link img {
   position: absolute;
   top: 17px;
   left: 17px;
 }
 
-/* line 548, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 548, ../scss/common.scss */
 .tabs__content {
   position: relative;
   padding: 30px 35px;
   background: #fff;
   z-index: 10;
 }
-/* line 553, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 553, ../scss/common.scss */
 .tabs__content a {
   line-height: 1.3;
   font-weight: bold;
@@ -1021,11 +1016,11 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 558, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 558, ../scss/common.scss */
 .tabs__content a:hover {
   border-bottom: 1px solid #09c;
 }
-/* line 562, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 562, ../scss/common.scss */
 .tabs__content .btn {
   -moz-transition: background-color 0.5s linear;
   -webkit-transition: background-color 0.5s linear;
@@ -1033,24 +1028,23 @@ input, textarea, button {
   -ms-transition: background-color 0.5s linear;
   transition: background-color 0.5s linear;
 }
-/* line 564, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 564, ../scss/common.scss */
 .tabs__content .btn:hover {
   border: 1px solid #ae6c00;
 }
-/* line 568, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 568, ../scss/common.scss */
 .tabs__content p {
   margin-top: 10px;
   line-height: 1.5;
 }
 
 /*general*/
-/* line 574, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 574, ../scss/common.scss */
 .btn {
   position: relative;
   display: block;
   width: 130px;
   height: 30px;
-  padding-left: 33px;
   line-height: 30px;
   border: 1px solid #ae6c00;
   -webkit-border-radius: 3px;
@@ -1068,7 +1062,6 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: -moz-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: -o-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
-  background-image: -ms-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   color: #885400;
   font-size: 13px;
@@ -1080,23 +1073,23 @@ input, textarea, button {
   -ms-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-/* line 591, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 590, ../scss/common.scss */
 .btn i {
   position: absolute;
   top: 7px;
   left: 9px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -625px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -712px no-repeat;
   width: 16px;
   height: 16px;
 }
-/* line 597, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 596, ../scss/common.scss */
 .btn:hover {
   background-color: #ffecab;
   -webkit-box-shadow: #d0d0d0 0px 1px 5px;
   -moz-box-shadow: #d0d0d0 0px 1px 5px;
   box-shadow: #d0d0d0 0px 1px 5px;
 }
-/* line 601, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 600, ../scss/common.scss */
 .btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1108,39 +1101,38 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#ff9e03, #ffd856);
   background-image: -moz-linear-gradient(#ff9e03, #ffd856);
   background-image: -o-linear-gradient(#ff9e03, #ffd856);
-  background-image: -ms-linear-gradient(#ff9e03, #ffd856);
   background-image: linear-gradient(#ff9e03, #ffd856);
   line-height: 32px;
 }
-/* line 606, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 605, ../scss/common.scss */
 .btn:active i {
   top: 8px;
 }
 
-/* line 611, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 610, ../scss/common.scss */
 .likes {
   float: left;
   padding: 10px 0 10px 15px;
   border: 1px solid #d3d3d3;
 }
-/* line 615, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 614, ../scss/common.scss */
 .likes .fb-like {
   float: left;
   margin-right: 15px;
 }
-/* line 619, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 618, ../scss/common.scss */
 .likes iframe {
   float: left;
   margin-right: 5px;
 }
-/* line 623, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 622, ../scss/common.scss */
 .likes #vk_like {
   float: left;
   clear: none !important;
 }
 
 /*popup*/
-/* line 629, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 628, ../scss/common.scss */
 .popup-bg {
   display: none;
   position: fixed;
@@ -1152,28 +1144,31 @@ input, textarea, button {
   z-index: 400;
 }
 
-/* line 639, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 638, ../scss/common.scss */
 .popup {
   position: fixed;
+  top: 50%;
+  left: 50%;
   padding: 30px;
   background: #fff;
   z-index: 500;
 }
-/* line 645, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup form .btn {
-  float: left;
-  margin-right: 20px;
-  width: 65px;
-  padding: 0;
-  cursor: pointer;
-  line-height: 1;
+
+/* line 646, ../scss/common.scss */
+.popup-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: url('../img/icons-s6b7c889f43.png') 0 -537px no-repeat;
+  width: 17px;
+  height: 17px;
 }
 
-/* line 655, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 652, ../scss/common.scss */
 .txt-field {
   width: 220px;
-  height: 26px;
-  line-height: 26px;
+  height: 25px;
+  line-height: 25px;
   padding-left: 8px;
   margin-bottom: 18px;
   border-top: 1px solid #a6a6a6;
@@ -1187,236 +1182,728 @@ input, textarea, button {
   font-size: 13px;
 }
 
-/* line 667, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 664, ../scss/common.scss */
 .txt-field_1 {
   width: 40px;
   margin-right: 5px;
 }
 
-/* line 671, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 668, ../scss/common.scss */
 .txt-field_2 {
   width: 90px;
 }
 
-/* line 674, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup_enter {
-  display: none;
-  top: 180px;
-  left: 50%;
-  width: 280px;
-  margin-left: 260px;
+/* line 671, ../scss/common.scss */
+.popup__title {
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-/* line 681, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__btn {
+/*popup_enter*/
+/* line 676, ../scss/common.scss */
+.enter {
+  display: none;
+  width: 570px;
+  padding: 30px 30px 30px 80px;
+  margin: -170px 0 0 -325px;
+}
+/* line 681, ../scss/common.scss */
+.enter form {
+  float: left;
+  width: 230px;
+}
+
+/* line 686, ../scss/common.scss */
+.enter__title {
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* line 691, ../scss/common.scss */
+.enter__btn {
   overflow: hidden;
 }
-/* line 683, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__btn .popup__check {
+/* line 693, ../scss/common.scss */
+.enter__btn .enter__check {
   float: left;
   margin: 7px 7px 0 0;
 }
-/* line 687, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__btn span {
+/* line 697, ../scss/common.scss */
+.enter__btn span {
   float: left;
   margin-top: 7px;
 }
+/* line 701, ../scss/common.scss */
+.enter__btn .btn {
+  float: left;
+  margin-right: 18px;
+  width: 64px;
+}
 
-/* line 692, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__links {
+/* line 707, ../scss/common.scss */
+.enter__links {
   width: 150px;
   margin-top: 15px;
 }
-/* line 695, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__links a {
+/* line 710, ../scss/common.scss */
+.enter__links a {
   border-bottom: 1px solid #BBE4F1;
   line-height: 1.5;
+  font-size: 14px;
   -moz-transition: border-color 0.5s linear;
   -webkit-transition: border-color 0.5s linear;
   -o-transition: border-color 0.5s linear;
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 699, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__links a:hover {
+/* line 715, ../scss/common.scss */
+.enter__links a:hover {
   border-bottom: 1px solid #09c;
 }
 
-/* line 704, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__social {
-  margin-bottom: 20px;
-}
-/* line 706, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__social a {
-  position: relative;
-  display: block;
-  height: 24px;
-  padding-left: 35px;
-  margin-bottom: 10px;
-}
-/* line 713, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__social a:hover span {
-  border-bottom: 1px solid #09c;
-}
-/* line 718, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__social span {
-  line-height: 24px;
-  border-bottom: 1px solid #BBE4F1;
-  -moz-transition: border-color 0.5s linear;
-  -webkit-transition: border-color 0.5s linear;
-  -o-transition: border-color 0.5s linear;
-  -ms-transition: border-color 0.5s linear;
-  transition: border-color 0.5s linear;
-}
-/* line 723, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__social i {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-/* line 728, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__social .popup__social-fb {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -355px no-repeat;
-  width: 24px;
-  height: 24px;
-}
-/* line 731, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__social .popup__social-vk {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -297px no-repeat;
-  width: 24px;
-  height: 24px;
-}
-
-/* line 735, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__title {
-  margin-bottom: 20px;
-  overflow: hidden;
-}
-/* line 738, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__title b {
+/* line 720, ../scss/common.scss */
+.enter__social {
   float: left;
+  width: 255px;
+  -moz-transition: border-color 0.5s linear;
+  -webkit-transition: border-color 0.5s linear;
+  -o-transition: border-color 0.5s linear;
+  -ms-transition: border-color 0.5s linear;
+  transition: border-color 0.5s linear;
 }
-/* line 741, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__title a {
-  float: right;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -490px no-repeat;
-  width: 17px;
-  height: 17px;
+/* line 724, ../scss/common.scss */
+.enter__social a {
+  display: block;
+  width: 203px;
+  height: 26px;
+  margin-bottom: 18px;
+  line-height: 26px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 731, ../scss/common.scss */
+.enter__social a b {
+  position: relative;
+  float: left;
+  width: 24px;
+  height: 26px;
+}
+/* line 737, ../scss/common.scss */
+.enter__social a span {
+  float: left;
+  padding-left: 10px;
+  font-size: 13px;
+  color: #fff;
+}
+/* line 743, ../scss/common.scss */
+.enter__social a i {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+}
+/* line 749, ../scss/common.scss */
+.enter__social .enter__social-fb {
+  background: #5d78ae;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVkNzhhZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzM5NTA3YSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5d78ae), color-stop(100%, #39507a));
+  background-image: -webkit-linear-gradient(#5d78ae, #39507a);
+  background-image: -moz-linear-gradient(#5d78ae, #39507a);
+  background-image: -o-linear-gradient(#5d78ae, #39507a);
+  background-image: linear-gradient(#5d78ae, #39507a);
+  -webkit-box-shadow: #3d537f 0px 1px 2px inset;
+  -moz-box-shadow: #3d537f 0px 1px 2px inset;
+  box-shadow: #3d537f 0px 1px 2px inset;
+}
+/* line 753, ../scss/common.scss */
+.enter__social .enter__social-fb b {
+  border-right: 1px solid #49608c;
+}
+/* line 756, ../scss/common.scss */
+.enter__social .enter__social-fb span {
+  border-left: 1px solid #59709d;
+}
+/* line 759, ../scss/common.scss */
+.enter__social .enter__social-fb i {
+  background: url('../img/icons-s6b7c889f43.png') 0 -1043px no-repeat;
+  width: 11px;
+  height: 15px;
+}
+/* line 762, ../scss/common.scss */
+.enter__social .enter__social-fb:hover {
+  -webkit-box-shadow: #2c3e5f 0px 1px 2px inset;
+  -moz-box-shadow: #2c3e5f 0px 1px 2px inset;
+  box-shadow: #2c3e5f 0px 1px 2px inset;
+  background: #384f79;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM4NGY3OSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzVjNzdhZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #384f79), color-stop(100%, #5c77ad));
+  background-image: -webkit-linear-gradient(#384f79, #5c77ad);
+  background-image: -moz-linear-gradient(#384f79, #5c77ad);
+  background-image: -o-linear-gradient(#384f79, #5c77ad);
+  background-image: linear-gradient(#384f79, #5c77ad);
+}
+/* line 767, ../scss/common.scss */
+.enter__social .enter__social-fb:active {
+  background: #3a517b;
+  -webkit-box-shadow: #182133 0px 0px 5px inset;
+  -moz-box-shadow: #182133 0px 0px 5px inset;
+  box-shadow: #182133 0px 0px 5px inset;
+}
+/* line 772, ../scss/common.scss */
+.enter__social .enter__social-vk {
+  background: #6186ad;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYxODZhZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNmNjY5MCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6186ad), color-stop(100%, #3f6690));
+  background-image: -webkit-linear-gradient(#6186ad, #3f6690);
+  background-image: -moz-linear-gradient(#6186ad, #3f6690);
+  background-image: -o-linear-gradient(#6186ad, #3f6690);
+  background-image: linear-gradient(#6186ad, #3f6690);
+  -webkit-box-shadow: #3c5775 0px 1px 2px inset;
+  -moz-box-shadow: #3c5775 0px 1px 2px inset;
+  box-shadow: #3c5775 0px 1px 2px inset;
+}
+/* line 776, ../scss/common.scss */
+.enter__social .enter__social-vk b {
+  border-right: 1px solid #456587;
+}
+/* line 779, ../scss/common.scss */
+.enter__social .enter__social-vk span {
+  border-left: 1px solid #5f82a8;
+}
+/* line 782, ../scss/common.scss */
+.enter__social .enter__social-vk i {
+  top: 4px;
+  left: 8px;
+  background: url('../img/icons-s6b7c889f43.png') 0 -670px no-repeat;
+  width: 12px;
+  height: 16px;
+}
+/* line 787, ../scss/common.scss */
+.enter__social .enter__social-vk:hover {
+  -webkit-box-shadow: #314f70 0px 1px 2px inset;
+  -moz-box-shadow: #314f70 0px 1px 2px inset;
+  box-shadow: #314f70 0px 1px 2px inset;
+  background: #3e658f;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNlNjU4ZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzYwODVhYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3e658f), color-stop(100%, #6085ac));
+  background-image: -webkit-linear-gradient(#3e658f, #6085ac);
+  background-image: -moz-linear-gradient(#3e658f, #6085ac);
+  background-image: -o-linear-gradient(#3e658f, #6085ac);
+  background-image: linear-gradient(#3e658f, #6085ac);
+}
+/* line 792, ../scss/common.scss */
+.enter__social .enter__social-vk:active {
+  background: #3a5e85;
+  -webkit-box-shadow: #253451 0px 0px 5px inset;
+  -moz-box-shadow: #253451 0px 0px 5px inset;
+  box-shadow: #253451 0px 0px 5px inset;
 }
 
-/* line 746, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup_complaint {
+/*popup_complaint*/
+/* line 799, ../scss/common.scss */
+.complaint {
   display: none;
-  left: 50%;
-  top: 50%;
   width: 670px;
   height: 380px;
   margin: -190px 0 0 -335px;
 }
-/* line 754, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup_complaint form .btn {
+/* line 805, ../scss/common.scss */
+.complaint form .btn {
   width: 95px;
 }
 
-/* line 759, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__client {
+/* line 810, ../scss/common.scss */
+.complaint__client {
   overflow: hidden;
 }
-/* line 761, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__client li {
+/* line 812, ../scss/common.scss */
+.complaint__client li {
   float: left;
   width: 165px;
   margin: 0 0 20px 0;
 }
-/* line 765, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__client li input {
+/* line 816, ../scss/common.scss */
+.complaint__client li input {
   float: left;
   margin: 10px 10px 0 0;
 }
-/* line 769, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__client li img {
+/* line 820, ../scss/common.scss */
+.complaint__client li img {
   float: left;
   margin-right: 10px;
 }
-/* line 773, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__client li span {
+/* line 824, ../scss/common.scss */
+.complaint__client li span {
   line-height: 32px;
 }
 
-/* line 778, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__info {
+/* line 829, ../scss/common.scss */
+.complaint__info {
   margin: 0 0 10px 0;
   overflow: hidden;
 }
-/* line 781, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__info span {
+/* line 832, ../scss/common.scss */
+.complaint__info span {
   display: block;
   margin-bottom: 15px;
 }
 
-/* line 786, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__mobile {
+/* line 837, ../scss/common.scss */
+.complaint__mobile {
   float: left;
   margin-right: 40px;
 }
-/* line 789, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__mobile span {
+/* line 840, ../scss/common.scss */
+.complaint__mobile span {
   display: block;
   margin-bottom: 15px;
 }
-/* line 793, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__mobile input {
+/* line 844, ../scss/common.scss */
+.complaint__mobile input {
   width: 250px;
 }
 
-/* line 797, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__phone {
+/* line 848, ../scss/common.scss */
+.complaint__phone {
   float: left;
   margin-right: 40px;
 }
-/* line 800, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__phone b {
+/* line 851, ../scss/common.scss */
+.complaint__phone b {
   float: left;
   margin-right: 5px;
   line-height: 27px;
   font-weight: normal;
 }
-/* line 806, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__phone input {
+/* line 857, ../scss/common.scss */
+.complaint__phone input {
   float: left;
 }
 
-/* line 811, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__comm span {
+/* line 862, ../scss/common.scss */
+.complaint__comm span {
   display: block;
   margin-bottom: 15px;
 }
-/* line 815, /Users/akella/Desktop/git/teleus/scss/common.scss */
-.popup__comm .txt-field {
+/* line 866, ../scss/common.scss */
+.complaint__comm .txt-field {
   width: 650px;
   height: 65px;
   padding: 5px 10px;
   font-family: Arial, sans-serif;
 }
 
+/*popup_profile*/
+/* line 874, ../scss/common.scss */
+.profile {
+  display: none;
+  width: 230px;
+  padding: 30px 30px 30px 50px;
+  margin: -200px 0 0 -155px;
+}
+
+/* line 880, ../scss/common.scss */
+.pic-load-out {
+  margin-bottom: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* line 885, ../scss/common.scss */
+.pic-load {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 25px;
+}
+/* line 891, ../scss/common.scss */
+.pic-load img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+/* line 898, ../scss/common.scss */
+.pic-load:hover .pic-load-title {
+  display: block;
+}
+/* line 902, ../scss/common.scss */
+.pic-load input {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 100px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 20;
+}
+
+/* line 915, ../scss/common.scss */
+.pic-load-change {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 94px;
+  height: 94px;
+  border: 3px dashed #a6a6a6;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  z-index: 5;
+}
+/* line 924, ../scss/common.scss */
+.pic-load-change span {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+/* line 929, ../scss/common.scss */
+.pic-load-change i {
+  position: absolute;
+  top: 50px;
+  left: 37px;
+  background: url('../img/icons-s6b7c889f43.png') 0 -37px no-repeat;
+  width: 22px;
+  height: 23px;
+}
+
+/* line 936, ../scss/common.scss */
+.pic-load-title {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  z-index: 15;
+}
+
+/* line 950, ../scss/common.scss */
+.pic-load-info {
+  display: none;
+  font-size: 12px;
+}
+/* line 953, ../scss/common.scss */
+.pic-load-info span {
+  display: block;
+  margin-top: 15px;
+}
+
+/* line 958, ../scss/common.scss */
+.profile__param {
+  margin-left: -10px;
+  width: 220px;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 10px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  font-size: 13px;
+}
+/* line 967, ../scss/common.scss */
+.profile__param:hover {
+  border-top: 1px solid #A6A6A6;
+  border-left: 1px solid #A6A6A6;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: #F4F4F4;
+}
+
+/* line 974, ../scss/common.scss */
+.profile__city, .registration__city {
+  position: relative;
+  width: 218px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 13px;
+  padding-left: 10px;
+  margin-left: -10px;
+  z-index: 10;
+  border: 1px solid #fff;
+}
+/* line 984, ../scss/common.scss */
+.profile__city.active, .registration__city.active {
+  border: 1px solid #a6a6a6;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: #f5f5f5;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y1ZjVmNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Q4ZDhkOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f5f5), color-stop(100%, #d8d8d8));
+  background-image: -webkit-linear-gradient(#f5f5f5, #d8d8d8);
+  background-image: -moz-linear-gradient(#f5f5f5, #d8d8d8);
+  background-image: -o-linear-gradient(#f5f5f5, #d8d8d8);
+  background-image: linear-gradient(#f5f5f5, #d8d8d8);
+}
+/* line 989, ../scss/common.scss */
+.profile__city.active i, .registration__city.active i {
+  display: block;
+}
+/* line 993, ../scss/common.scss */
+.profile__city select, .registration__city select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 228px;
+  height: 24px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* line 1002, ../scss/common.scss */
+.profile__city i, .registration__city i {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: url('../img/icons-s6b7c889f43.png') 0 -1160px no-repeat;
+  width: 10px;
+  height: 5px;
+}
+
+/* line 1010, ../scss/common.scss */
+.profile__pass {
+  position: relative;
+  z-index: 5;
+}
+/* line 1013, ../scss/common.scss */
+.profile__pass a {
+  position: relative;
+  font-size: 13px;
+  border-bottom: 1px dashed #BBE4F1;
+  line-height: 25px;
+  -moz-transition: border-color 0.5s linear;
+  -webkit-transition: border-color 0.5s linear;
+  -o-transition: border-color 0.5s linear;
+  -ms-transition: border-color 0.5s linear;
+  transition: border-color 0.5s linear;
+}
+/* line 1019, ../scss/common.scss */
+.profile__pass a:hover {
+  border-bottom: 1px dashed #09c;
+}
+/* line 1022, ../scss/common.scss */
+.profile__pass a i {
+  position: absolute;
+  top: 4px;
+  right: -15px;
+  background: url('../img/icons-s6b7c889f43.png') 0 -1063px no-repeat;
+  width: 8px;
+  height: 10px;
+}
+/* line 1029, ../scss/common.scss */
+.profile__pass .field-eye {
+  width: 230px;
+  margin-left: -10px;
+}
+/* line 1033, ../scss/common.scss */
+.profile__pass span {
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  font-size: 13px;
+}
+
+/* line 1040, ../scss/common.scss */
+.profile__pass-change {
+  display: none;
+}
+
+/* line 1043, ../scss/common.scss */
+.profile__btn {
+  padding: 20px 0 3px 0;
+  overflow: hidden;
+}
+/* line 1046, ../scss/common.scss */
+.profile__btn .btn {
+  float: left;
+  cursor: pointer;
+}
+/* line 1050, ../scss/common.scss */
+.profile__btn .btn-orange {
+  display: none;
+  width: 95px;
+  margin-right: 50px;
+  line-height: 1;
+}
+/* line 1055, ../scss/common.scss */
+.profile__btn .btn-orange:active {
+  line-height: 31px;
+}
+/* line 1059, ../scss/common.scss */
+.profile__btn .btn-blue {
+  width: 75px;
+  border: 1px solid #006c90;
+  background-color: #24aedc;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgzNiwgMTc0LCAyMjAsIDAuNikiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMSwgMTM2LCAxODIsIDAuOCkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(36, 174, 220, 0.6)), color-stop(100%, rgba(1, 136, 182, 0.8)));
+  background-image: -webkit-linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
+  background-image: -moz-linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
+  background-image: -o-linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
+  background-image: linear-gradient(rgba(36, 174, 220, 0.6), rgba(1, 136, 182, 0.8));
+  -webkit-box-shadow: #92d7ee 0px 1px 1px inset, #d0d0d0 0px 1px 5px;
+  -moz-box-shadow: #92d7ee 0px 1px 1px inset, #d0d0d0 0px 1px 5px;
+  box-shadow: #92d7ee 0px 1px 1px inset, #d0d0d0 0px 1px 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: none;
+  text-shadow: none;
+  color: #fff;
+  -moz-transition: background-color 0.5s linear;
+  -webkit-transition: background-color 0.5s linear;
+  -o-transition: background-color 0.5s linear;
+  -ms-transition: background-color 0.5s linear;
+  transition: background-color 0.5s linear;
+}
+/* line 1071, ../scss/common.scss */
+.profile__btn .btn-blue:hover {
+  background-color: #92d7ee;
+}
+/* line 1074, ../scss/common.scss */
+.profile__btn .btn-blue:active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: #0188b6;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAxODhiNiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI0YWVkYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0188b6), color-stop(100%, #24aedc));
+  background-image: -webkit-linear-gradient(#0188b6, #24aedc);
+  background-image: -moz-linear-gradient(#0188b6, #24aedc);
+  background-image: -o-linear-gradient(#0188b6, #24aedc);
+  background-image: linear-gradient(#0188b6, #24aedc);
+}
+
+/*field-eye*/
+/* line 1082, ../scss/common.scss */
+.field-eye {
+  position: relative;
+  width: 230px;
+  height: 25px;
+}
+/* line 1086, ../scss/common.scss */
+.field-eye i {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  background: url('../img/icons-s6b7c889f43.png') 0 -518px no-repeat;
+  width: 23px;
+  height: 14px;
+  cursor: pointer;
+}
+/* line 1093, ../scss/common.scss */
+.field-eye input {
+  margin-bottom: 0px;
+}
+
+/* line 1098, ../scss/common.scss */
+.field-eye_open i {
+  background: url('../img/icons-s6b7c889f43.png') 0 -559px no-repeat;
+  width: 23px;
+  height: 14px;
+}
+
+/*registration*/
+/* line 1103, ../scss/common.scss */
+.registration {
+  width: 250px;
+  margin: -300px 0 0 -125px;
+}
+/* line 1106, ../scss/common.scss */
+.registration .txt-field {
+  width: 240px;
+  margin-bottom: 0px;
+}
+/* line 1110, ../scss/common.scss */
+.registration label {
+  display: block;
+  margin: 20px 0 15px 0;
+  font-size: 13px;
+}
+/* line 1114, ../scss/common.scss */
+.registration label span {
+  margin-left: 5px;
+  color: #c10000;
+}
+/* line 1119, ../scss/common.scss */
+.registration .field-eye {
+  width: 250px;
+}
+/* line 1122, ../scss/common.scss */
+.registration .pic-load-out {
+  margin-top: 20px;
+}
+
+/* line 1126, ../scss/common.scss */
+.registration__city {
+  width: 237px;
+  margin: 25px 0 20px 0;
+  border: 1px solid #a6a6a6;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: #f5f5f5;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y1ZjVmNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Q4ZDhkOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f5f5), color-stop(100%, #d8d8d8));
+  background-image: -webkit-linear-gradient(#f5f5f5, #d8d8d8);
+  background-image: -moz-linear-gradient(#f5f5f5, #d8d8d8);
+  background-image: -o-linear-gradient(#f5f5f5, #d8d8d8);
+  background-image: linear-gradient(#f5f5f5, #d8d8d8);
+}
+/* line 1133, ../scss/common.scss */
+.registration__city i {
+  display: block;
+}
+/* line 1136, ../scss/common.scss */
+.registration__city select {
+  width: 250px;
+}
+
 /*user*/
-/* line 823, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1141, ../scss/common.scss */
 .user {
   position: relative;
   margin-left: 20px;
 }
-/* line 826, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1144, ../scss/common.scss */
 .user i {
   position: absolute;
   top: 1px;
   left: -20px;
-  background: url('../img/icons-s4a3da26ac2.png') 0 -695px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -782px no-repeat;
   width: 14px;
   height: 16px;
 }
 
 /*div for input, label, button*/
-/* line 835, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1153, ../scss/common.scss */
 .form-field .form-field__txt {
   display: block;
   width: 302px;
@@ -1435,7 +1922,7 @@ input, textarea, button {
   background: #F4F4F4;
   font-size: 13px;
 }
-/* line 849, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1167, ../scss/common.scss */
 .form-field textarea {
   width: 290px;
   height: 50px;
@@ -1454,7 +1941,7 @@ input, textarea, button {
   font-family: Tahoma, Arial, sans-serif;
   font-size: 13px;
 }
-/* line 863, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1181, ../scss/common.scss */
 .form-field .form-field__btn {
   position: relative;
   display: block;
@@ -1478,7 +1965,6 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: -moz-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: -o-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
-  background-image: -ms-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   color: #885400;
   font-size: 13px;
@@ -1491,14 +1977,14 @@ input, textarea, button {
   transition: background-color 0.5s ease-out;
   cursor: pointer;
 }
-/* line 881, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1199, ../scss/common.scss */
 .form-field .form-field__btn:hover {
   background-color: #ffecab;
   -webkit-box-shadow: #d0d0d0 0px 1px 5px;
   -moz-box-shadow: #d0d0d0 0px 1px 5px;
   box-shadow: #d0d0d0 0px 1px 5px;
 }
-/* line 885, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1203, ../scss/common.scss */
 .form-field .form-field__btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1510,17 +1996,16 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#ff9e03, #ffd856);
   background-image: -moz-linear-gradient(#ff9e03, #ffd856);
   background-image: -o-linear-gradient(#ff9e03, #ffd856);
-  background-image: -ms-linear-gradient(#ff9e03, #ffd856);
   background-image: linear-gradient(#ff9e03, #ffd856);
   line-height: 30px;
 }
-/* line 892, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1210, ../scss/common.scss */
 .form-field .form-field__check, .form-field .form-field__radio {
   position: relative;
   margin-bottom: 20px;
   padding-left: 20px;
 }
-/* line 896, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1214, ../scss/common.scss */
 .form-field .form-field__check input, .form-field .form-field__radio input {
   position: absolute;
   top: 0;
@@ -1528,60 +2013,60 @@ input, textarea, button {
 }
 
 /*calendar*/
-/* line 905, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1223, ../scss/common.scss */
 .calendar .ui-datepicker-prev, .calendar .ui-datepicker-next {
   display: none;
 }
-/* line 908, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1226, ../scss/common.scss */
 .calendar .ui-datepicker-month {
   width: 105px;
   height: 23px;
   margin-right: 10px;
   outline: none;
 }
-/* line 914, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1232, ../scss/common.scss */
 .calendar .ui-datepicker-year {
   width: 88px;
   height: 23px;
   outline: none;
 }
 
-/* line 920, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1238, ../scss/common.scss */
 .ui-datepicker-calendar {
   font-size: 14px;
 }
-/* line 922, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1240, ../scss/common.scss */
 .ui-datepicker-calendar td, .ui-datepicker-calendar th {
   width: 37px;
   height: 37px;
 }
-/* line 926, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1244, ../scss/common.scss */
 .ui-datepicker-calendar td {
   text-align: center;
   background: #cfedff;
 }
-/* line 929, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1247, ../scss/common.scss */
 .ui-datepicker-calendar td a {
   background: #cfedff;
   color: #0099cc;
 }
-/* line 934, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1252, ../scss/common.scss */
 .ui-datepicker-calendar th span {
   display: block;
   color: #b2b2b2;
   font-weight: normal;
   text-align: left;
 }
-/* line 940, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1258, ../scss/common.scss */
 .ui-datepicker-calendar .ui-datepicker-other-month {
   background: #fff !important;
 }
-/* line 943, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1261, ../scss/common.scss */
 .ui-datepicker-calendar .ui-state-disabled {
   background: #f4f4f4;
   color: #929292;
 }
-/* line 946, /Users/akella/Desktop/git/teleus/scss/common.scss */
+/* line 1264, ../scss/common.scss */
 .ui-datepicker-calendar .ui-state-disabled span {
   background: #f4f4f4;
   color: #929292;
@@ -1589,163 +2074,163 @@ input, textarea, button {
 
 /**/
 @-webkit-keyframes rotate {
-  /* line 28, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 28, ../scss/_base.scss */
   0% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 31, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 31, ../scss/_base.scss */
   10% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 34, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 34, ../scss/_base.scss */
   20% {
     -webkit-transform: rotate(10deg);
   }
 
-  /* line 37, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 37, ../scss/_base.scss */
   30% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 40, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 40, ../scss/_base.scss */
   40% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 43, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 43, ../scss/_base.scss */
   50% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 46, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 46, ../scss/_base.scss */
   60% {
     -webkit-transform: rotate(10deg);
   }
 
-  /* line 49, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 49, ../scss/_base.scss */
   70% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 52, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 52, ../scss/_base.scss */
   80% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 55, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 55, ../scss/_base.scss */
   100% {
     -webkit-transform: rotate(0deg);
   }
 }
 
 @-moz-keyframes rotate {
-  /* line 60, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 60, ../scss/_base.scss */
   0% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 63, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 63, ../scss/_base.scss */
   10% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 66, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 66, ../scss/_base.scss */
   20% {
     -moz-transform: rotate(10deg);
   }
 
-  /* line 69, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 69, ../scss/_base.scss */
   30% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 72, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 72, ../scss/_base.scss */
   40% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 75, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 75, ../scss/_base.scss */
   50% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 78, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 78, ../scss/_base.scss */
   60% {
     -moz-transform: rotate(10deg);
   }
 
-  /* line 81, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 81, ../scss/_base.scss */
   70% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 84, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 84, ../scss/_base.scss */
   80% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 87, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 87, ../scss/_base.scss */
   100% {
     -moz-transform: rotate(0deg);
   }
 }
 
 @-o-keyframes rotate {
-  /* line 92, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 92, ../scss/_base.scss */
   0% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 95, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 95, ../scss/_base.scss */
   10% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 98, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 98, ../scss/_base.scss */
   20% {
     -o-transform: rotate(10deg);
   }
 
-  /* line 101, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 101, ../scss/_base.scss */
   30% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 104, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 104, ../scss/_base.scss */
   40% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 107, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 107, ../scss/_base.scss */
   50% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 110, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 110, ../scss/_base.scss */
   60% {
     -o-transform: rotate(10deg);
   }
 
-  /* line 113, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 113, ../scss/_base.scss */
   70% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 116, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 116, ../scss/_base.scss */
   80% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 119, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 119, ../scss/_base.scss */
   100% {
     -o-transform: rotate(0deg);
   }
 }
 
 /*products*/
-/* line 3, /Users/akella/Desktop/git/teleus/scss/layouts.scss */
+/* line 3, ../scss/layouts.scss */
 .cols {
   position: relative;
   padding: 0 0 90px 0;
@@ -1753,29 +2238,29 @@ input, textarea, button {
   background: #fff;
   z-index: 20;
 }
-/* line 9, /Users/akella/Desktop/git/teleus/scss/layouts.scss */
+/* line 9, ../scss/layouts.scss */
 .cols .col-1 {
   float: left;
   width: 280px;
   margin: 0 40px;
 }
-/* line 14, /Users/akella/Desktop/git/teleus/scss/layouts.scss */
+/* line 14, ../scss/layouts.scss */
 .cols .col-2 {
   float: left;
   width: 840px;
 }
-/* line 18, /Users/akella/Desktop/git/teleus/scss/layouts.scss */
+/* line 18, ../scss/layouts.scss */
 .cols .col-3 {
   float: left;
   width: 480px;
 }
-/* line 22, /Users/akella/Desktop/git/teleus/scss/layouts.scss */
+/* line 22, ../scss/layouts.scss */
 .cols .col-4 {
   float: left;
   width: 700px;
   margin: 0 40px;
 }
-/* line 27, /Users/akella/Desktop/git/teleus/scss/layouts.scss */
+/* line 27, ../scss/layouts.scss */
 .cols .col-5 {
   float: left;
   width: 380px;
@@ -1783,156 +2268,156 @@ input, textarea, button {
 
 /**/
 @-webkit-keyframes rotate {
-  /* line 28, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 28, ../scss/_base.scss */
   0% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 31, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 31, ../scss/_base.scss */
   10% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 34, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 34, ../scss/_base.scss */
   20% {
     -webkit-transform: rotate(10deg);
   }
 
-  /* line 37, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 37, ../scss/_base.scss */
   30% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 40, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 40, ../scss/_base.scss */
   40% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 43, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 43, ../scss/_base.scss */
   50% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 46, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 46, ../scss/_base.scss */
   60% {
     -webkit-transform: rotate(10deg);
   }
 
-  /* line 49, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 49, ../scss/_base.scss */
   70% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 52, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 52, ../scss/_base.scss */
   80% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 55, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 55, ../scss/_base.scss */
   100% {
     -webkit-transform: rotate(0deg);
   }
 }
 
 @-moz-keyframes rotate {
-  /* line 60, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 60, ../scss/_base.scss */
   0% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 63, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 63, ../scss/_base.scss */
   10% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 66, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 66, ../scss/_base.scss */
   20% {
     -moz-transform: rotate(10deg);
   }
 
-  /* line 69, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 69, ../scss/_base.scss */
   30% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 72, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 72, ../scss/_base.scss */
   40% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 75, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 75, ../scss/_base.scss */
   50% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 78, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 78, ../scss/_base.scss */
   60% {
     -moz-transform: rotate(10deg);
   }
 
-  /* line 81, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 81, ../scss/_base.scss */
   70% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 84, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 84, ../scss/_base.scss */
   80% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 87, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 87, ../scss/_base.scss */
   100% {
     -moz-transform: rotate(0deg);
   }
 }
 
 @-o-keyframes rotate {
-  /* line 92, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 92, ../scss/_base.scss */
   0% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 95, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 95, ../scss/_base.scss */
   10% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 98, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 98, ../scss/_base.scss */
   20% {
     -o-transform: rotate(10deg);
   }
 
-  /* line 101, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 101, ../scss/_base.scss */
   30% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 104, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 104, ../scss/_base.scss */
   40% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 107, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 107, ../scss/_base.scss */
   50% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 110, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 110, ../scss/_base.scss */
   60% {
     -o-transform: rotate(10deg);
   }
 
-  /* line 113, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 113, ../scss/_base.scss */
   70% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 116, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 116, ../scss/_base.scss */
   80% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 119, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 119, ../scss/_base.scss */
   100% {
     -o-transform: rotate(0deg);
   }
@@ -1940,13 +2425,13 @@ input, textarea, button {
 
 /*main*/
 /*slider*/
-/* line 5, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 5, ../scss/main.scss */
 .slider {
   position: relative;
   padding-top: 10px;
 }
 
-/* line 9, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 9, ../scss/main.scss */
 .slider__wrap {
   position: relative;
   width: 800px;
@@ -1954,29 +2439,29 @@ input, textarea, button {
   overflow: hidden;
 }
 
-/* line 15, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 15, ../scss/main.scss */
 .slider__items {
   position: absolute;
   width: 20000px;
 }
 
-/* line 19, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 19, ../scss/main.scss */
 .slider__item {
   float: left;
 }
 
-/* line 22, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 22, ../scss/main.scss */
 .slider__product {
   float: left;
   width: 120px;
   padding-right: 40px;
 }
 
-/* line 27, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 27, ../scss/main.scss */
 .slider__product-link {
   margin: 10px 0;
 }
-/* line 29, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 29, ../scss/main.scss */
 .slider__product-link a {
   border-bottom: 1px solid #BBE4F1;
   font-size: 14px;
@@ -1988,12 +2473,12 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 35, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 35, ../scss/main.scss */
 .slider__product-link a:hover {
   border-bottom: 1px solid #09c;
 }
 
-/* line 40, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 40, ../scss/main.scss */
 .slider__nav, .pagination__nav {
   position: absolute;
   top: 40px;
@@ -2009,7 +2494,7 @@ input, textarea, button {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 48, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 48, ../scss/main.scss */
 .slider__nav button, .pagination__nav button {
   position: absolute;
   top: 0;
@@ -2025,7 +2510,6 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: -moz-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: -o-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
-  background-image: -ms-linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   background-image: linear-gradient(rgba(255, 216, 86, 0.6), rgba(255, 158, 3, 0.8));
   -webkit-box-shadow: 0;
   -moz-box-shadow: 0;
@@ -2037,17 +2521,17 @@ input, textarea, button {
   transition: all 0.5s linear;
   z-index: 5;
 }
-/* line 61, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 61, ../scss/main.scss */
 .slider__nav button i, .pagination__nav button i {
   position: absolute;
   top: 11px;
   left: 12px;
 }
-/* line 66, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 66, ../scss/main.scss */
 .slider__nav button:hover, .pagination__nav button:hover {
   background-color: #ffecab;
 }
-/* line 69, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 69, ../scss/main.scss */
 .slider__nav button:active, .pagination__nav button:active {
   background: #ff9e03;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmOWUwMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZDg1NiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -2056,14 +2540,13 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#ff9e03, #ffd856);
   background-image: -moz-linear-gradient(#ff9e03, #ffd856);
   background-image: -o-linear-gradient(#ff9e03, #ffd856);
-  background-image: -ms-linear-gradient(#ff9e03, #ffd856);
   background-image: linear-gradient(#ff9e03, #ffd856);
 }
-/* line 72, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 72, ../scss/main.scss */
 .slider__nav button:active i, .pagination__nav button:active i {
   top: 12px;
 }
-/* line 77, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 77, ../scss/main.scss */
 .slider__nav .disabled, .pagination__nav .disabled {
   border: 1px solid #a6a6a6;
   background: #f6f6f6;
@@ -2073,22 +2556,21 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#f6f6f6, #dbdbdb);
   background-image: -moz-linear-gradient(#f6f6f6, #dbdbdb);
   background-image: -o-linear-gradient(#f6f6f6, #dbdbdb);
-  background-image: -ms-linear-gradient(#f6f6f6, #dbdbdb);
   background-image: linear-gradient(#f6f6f6, #dbdbdb);
 }
-/* line 81, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 81, ../scss/main.scss */
 .slider__nav .disabled .slider__prev-l, .slider__nav .disabled .pagination__prev-l, .pagination__nav .disabled .slider__prev-l, .pagination__nav .disabled .pagination__prev-l {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -1026px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -1148px no-repeat;
   width: 4px;
   height: 7px;
 }
-/* line 84, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 84, ../scss/main.scss */
 .slider__nav .disabled .slider__next-r, .slider__nav .disabled .pagination__prev-r, .pagination__nav .disabled .slider__next-r, .pagination__nav .disabled .pagination__prev-r {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -981px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -1124px no-repeat;
   width: 4px;
   height: 7px;
 }
-/* line 87, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 87, ../scss/main.scss */
 .slider__nav .disabled:hover, .slider__nav .disabled:active, .pagination__nav .disabled:hover, .pagination__nav .disabled:active {
   background: #f6f6f6;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RiZGJkYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -2097,15 +2579,14 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#f6f6f6, #dbdbdb);
   background-image: -moz-linear-gradient(#f6f6f6, #dbdbdb);
   background-image: -o-linear-gradient(#f6f6f6, #dbdbdb);
-  background-image: -ms-linear-gradient(#f6f6f6, #dbdbdb);
   background-image: linear-gradient(#f6f6f6, #dbdbdb);
 }
-/* line 92, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 92, ../scss/main.scss */
 .slider__nav .disabled:active i, .pagination__nav .disabled:active i {
   top: 11px;
 }
 
-/* line 98, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 98, ../scss/main.scss */
 .slider__prev, .pagination__prev {
   right: 29px;
   -webkit-border-radius: 3px 0 0 3px;
@@ -2115,7 +2596,7 @@ input, textarea, button {
   border-radius: 3px 0 0 3px;
 }
 
-/* line 102, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 102, ../scss/main.scss */
 .slider__next, .pagination__next {
   right: 0;
   -webkit-border-radius: 0 3px 3px 0;
@@ -2125,27 +2606,27 @@ input, textarea, button {
   border-radius: 0 3px 3px 0;
 }
 
-/* line 106, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 106, ../scss/main.scss */
 .slider__prev-l, .pagination__prev-l {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -993px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -1136px no-repeat;
   width: 4px;
   height: 7px;
 }
 
-/* line 109, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 109, ../scss/main.scss */
 .slider__next-r, .pagination__next-r {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -1038px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -1170px no-repeat;
   width: 4px;
   height: 7px;
 }
 
-/* line 112, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 112, ../scss/main.scss */
 .slider__navi {
   position: absolute;
   top: 52px;
   right: 110px;
 }
-/* line 116, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 116, ../scss/main.scss */
 .slider__navi a {
   float: left;
   width: 8px;
@@ -2159,18 +2640,18 @@ input, textarea, button {
   background: #0099cc;
   cursor: pointer;
 }
-/* line 125, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 125, ../scss/main.scss */
 .slider__navi .active {
-  background: #333;
+  background: #ff9f03;
 }
 
 /*main-news*/
-/* line 130, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 130, ../scss/main.scss */
 .main-news {
   overflow: hidden;
   margin-right: -50px;
 }
-/* line 133, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 133, ../scss/main.scss */
 .main-news .block {
   float: left;
   width: 240px;
@@ -2178,31 +2659,35 @@ input, textarea, button {
 }
 
 /*abonements*/
-/* line 141, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 141, ../scss/main.scss */
 .abonements ul {
   float: left;
   width: 380px;
   margin-right: 40px;
 }
-/* line 145, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 145, ../scss/main.scss */
 .abonements ul li {
   overflow: hidden;
   margin: 0 0 20px 0;
 }
-/* line 148, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 148, ../scss/main.scss */
 .abonements ul li img {
   float: left;
   margin-right: 15px;
   border: 1px solid #d3d3d3;
 }
+/* line 155, ../scss/main.scss */
+.abonements .btn {
+  padding-left: 33px;
+}
 
-/* line 156, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 159, ../scss/main.scss */
 .abonements__desc {
   float: left;
   width: 310px;
   overflow: hidden;
 }
-/* line 160, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 163, ../scss/main.scss */
 .abonements__desc a {
   border-bottom: 1px solid #bbe4f1;
   font-weight: bold;
@@ -2213,18 +2698,18 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 165, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 168, ../scss/main.scss */
 .abonements__desc a:hover {
   border-bottom: 1px solid #09c;
 }
-/* line 169, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 172, ../scss/main.scss */
 .abonements__desc span {
   display: block;
   margin-top: 5px;
   color: #acacac;
   font-size: 14px;
 }
-/* line 174, /Users/akella/Desktop/git/teleus/scss/main.scss */
+/* line 177, ../scss/main.scss */
 .abonements__desc span a {
   font-size: 14px;
   font-weight: normal;
@@ -2232,268 +2717,269 @@ input, textarea, button {
 
 /**/
 @-webkit-keyframes rotate {
-  /* line 28, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 28, ../scss/_base.scss */
   0% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 31, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 31, ../scss/_base.scss */
   10% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 34, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 34, ../scss/_base.scss */
   20% {
     -webkit-transform: rotate(10deg);
   }
 
-  /* line 37, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 37, ../scss/_base.scss */
   30% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 40, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 40, ../scss/_base.scss */
   40% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 43, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 43, ../scss/_base.scss */
   50% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 46, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 46, ../scss/_base.scss */
   60% {
     -webkit-transform: rotate(10deg);
   }
 
-  /* line 49, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 49, ../scss/_base.scss */
   70% {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 52, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 52, ../scss/_base.scss */
   80% {
     -webkit-transform: rotate(-10deg);
   }
 
-  /* line 55, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 55, ../scss/_base.scss */
   100% {
     -webkit-transform: rotate(0deg);
   }
 }
 
 @-moz-keyframes rotate {
-  /* line 60, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 60, ../scss/_base.scss */
   0% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 63, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 63, ../scss/_base.scss */
   10% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 66, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 66, ../scss/_base.scss */
   20% {
     -moz-transform: rotate(10deg);
   }
 
-  /* line 69, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 69, ../scss/_base.scss */
   30% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 72, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 72, ../scss/_base.scss */
   40% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 75, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 75, ../scss/_base.scss */
   50% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 78, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 78, ../scss/_base.scss */
   60% {
     -moz-transform: rotate(10deg);
   }
 
-  /* line 81, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 81, ../scss/_base.scss */
   70% {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 84, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 84, ../scss/_base.scss */
   80% {
     -moz-transform: rotate(-10deg);
   }
 
-  /* line 87, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 87, ../scss/_base.scss */
   100% {
     -moz-transform: rotate(0deg);
   }
 }
 
 @-o-keyframes rotate {
-  /* line 92, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 92, ../scss/_base.scss */
   0% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 95, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 95, ../scss/_base.scss */
   10% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 98, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 98, ../scss/_base.scss */
   20% {
     -o-transform: rotate(10deg);
   }
 
-  /* line 101, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 101, ../scss/_base.scss */
   30% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 104, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 104, ../scss/_base.scss */
   40% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 107, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 107, ../scss/_base.scss */
   50% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 110, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 110, ../scss/_base.scss */
   60% {
     -o-transform: rotate(10deg);
   }
 
-  /* line 113, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 113, ../scss/_base.scss */
   70% {
     -o-transform: rotate(0deg);
   }
 
-  /* line 116, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 116, ../scss/_base.scss */
   80% {
     -o-transform: rotate(-10deg);
   }
 
-  /* line 119, /Users/akella/Desktop/git/teleus/scss/_base.scss */
+  /* line 119, ../scss/_base.scss */
   100% {
     -o-transform: rotate(0deg);
   }
 }
 
 /*inner*/
-/* line 4, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 4, ../scss/inner.scss */
 .tabs_sidebar {
   margin-right: -10px;
 }
 
-/* line 8, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 8, ../scss/inner.scss */
 .tabs__content_sb a {
   font-weight: normal;
 }
-/* line 11, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 11, ../scss/inner.scss */
 .tabs__content_sb span {
   display: block;
   margin: 10px 0 15px 0;
   color: #acacac;
   font-size: 14px;
 }
-/* line 16, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 16, ../scss/inner.scss */
 .tabs__content_sb span a {
   font-size: 14px;
 }
-/* line 20, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 20, ../scss/inner.scss */
 .tabs__content_sb .btn {
   border: 1px solid #ae6c00;
   line-height: 30px;
   font-weight: bold;
+  padding-left: 33px;
 }
-/* line 24, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 25, ../scss/inner.scss */
 .tabs__content_sb .btn:active {
   line-height: 32px;
 }
 
-/* line 29, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 30, ../scss/inner.scss */
 .banner {
   height: 250px;
   margin-bottom: 40px;
   background: #ebebeb;
 }
 
-/* line 34, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 35, ../scss/inner.scss */
 .pagination {
   position: relative;
   margin-top: 35px;
   padding-bottom: 50px;
   border-top: 1px solid #d3d3d3;
 }
-/* line 39, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 40, ../scss/inner.scss */
 .pagination p {
   padding: 15px 0;
   overflow: hidden;
 }
-/* line 42, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 43, ../scss/inner.scss */
 .pagination p b {
   float: left;
   font-weight: normal;
 }
-/* line 46, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 47, ../scss/inner.scss */
 .pagination p span {
   float: right;
   color: #acacac;
 }
-/* line 51, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 52, ../scss/inner.scss */
 .pagination .pagination__nav {
   left: 0;
   top: 75px;
 }
 
-/* line 57, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 58, ../scss/inner.scss */
 .pagination__list a {
   margin-right: 8px;
   font-weight: bold;
 }
-/* line 61, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 62, ../scss/inner.scss */
 .pagination__list .active {
   color: #ffb21f;
 }
 
 /*article*/
-/* line 67, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 68, ../scss/inner.scss */
 .article .h2 {
   line-height: 1.3;
 }
 
-/* line 72, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 73, ../scss/inner.scss */
 .article__content img {
   float: left;
   margin: 0 30px 15px 0;
   border: 1px solid #939393;
 }
-/* line 77, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 78, ../scss/inner.scss */
 .article__content h4 {
   margin-bottom: 15px;
   font-size: 16px;
 }
-/* line 81, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 82, ../scss/inner.scss */
 .article__content p {
   margin-bottom: 15px;
   line-height: 1.5;
 }
-/* line 85, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 86, ../scss/inner.scss */
 .article__content blockquote {
   padding-left: 35px;
   margin-bottom: 15px;
   border-left: 3px solid #d3d3d3;
   line-height: 1.5;
 }
-/* line 92, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 93, ../scss/inner.scss */
 .article__content table {
   width: 100%;
   margin-bottom: 20px;
@@ -2502,40 +2988,40 @@ input, textarea, button {
   border-top: 1px solid #d3d3d3;
   text-align: left;
 }
-/* line 100, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 101, ../scss/inner.scss */
 .article__content tr {
   border-bottom: 1px solid #d3d3d3;
 }
-/* line 102, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 103, ../scss/inner.scss */
 .article__content tr:nth-child(even) {
   background: #f8f8f8;
 }
-/* line 106, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 107, ../scss/inner.scss */
 .article__content td, .article__content th {
   padding: 15px;
 }
-/* line 108, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 109, ../scss/inner.scss */
 .article__content td:first-child, .article__content th:first-child {
   width: 380px;
 }
-/* line 112, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 113, ../scss/inner.scss */
 .article__content th {
   font-style: italic;
   color: #acacac;
   font-weight: normal;
 }
 
-/* line 118, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 119, ../scss/inner.scss */
 .article__date {
   margin-bottom: 20px;
   overflow: hidden;
 }
-/* line 121, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 122, ../scss/inner.scss */
 .article__date span {
   float: left;
   color: #acacac;
 }
-/* line 125, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 126, ../scss/inner.scss */
 .article__date a {
   float: right;
   border-bottom: 1px solid #BBE4F1;
@@ -2546,41 +3032,41 @@ input, textarea, button {
   -ms-transition: border-color 0.5s linear;
   transition: border-color 0.5s linear;
 }
-/* line 130, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 131, ../scss/inner.scss */
 .article__date a:hover {
   border-bottom: 1px solid #09c;
 }
 
 /*add comment*/
-/* line 136, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 137, ../scss/inner.scss */
 .add-comm {
   margin-top: 20px;
   padding: 0 20px;
   background: #fff2b6;
 }
-/* line 140, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 141, ../scss/inner.scss */
 .add-comm h3 {
   padding: 15px 0;
 }
 
-/* line 144, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 145, ../scss/inner.scss */
 .add-comm__txt {
   border: 1px solid #d0d0d0;
   overflow: hidden;
 }
-/* line 147, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 148, ../scss/inner.scss */
 .add-comm__txt textarea {
   width: 100%;
   height: 200px;
 }
 
-/* line 152, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 153, ../scss/inner.scss */
 .add-comm__btn {
   position: relative;
   padding: 20px 0;
   overflow: hidden;
 }
-/* line 156, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 157, ../scss/inner.scss */
 .add-comm__btn .btn {
   float: left;
   width: 95px;
@@ -2590,76 +3076,76 @@ input, textarea, button {
   line-height: 28px;
   cursor: pointer;
 }
-/* line 164, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 165, ../scss/inner.scss */
 .add-comm__btn .btn:active {
   line-height: 30px;
 }
-/* line 168, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 169, ../scss/inner.scss */
 .add-comm__btn p {
   float: left;
   margin: 0;
   line-height: 30px;
 }
-/* line 173, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 174, ../scss/inner.scss */
 .add-comm__btn a {
   margin-left: 25px;
   border-bottom: 1px solid #BBE4F1;
 }
-/* line 176, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 177, ../scss/inner.scss */
 .add-comm__btn a i {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -716px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -803px no-repeat;
   width: 14px;
   height: 16px;
 }
 
 /*comments*/
-/* line 183, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 184, ../scss/inner.scss */
 .comms h3 {
   margin: 35px 0;
 }
-/* line 187, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 188, ../scss/inner.scss */
 .comms .block span {
   display: block;
   margin-bottom: 20px;
 }
-/* line 192, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 193, ../scss/inner.scss */
 .comms p {
   margin-bottom: 10px;
 }
 
-/* line 196, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 197, ../scss/inner.scss */
 .all-reviews {
   margin-top: 30px;
   padding-bottom: 5px;
   overflow: hidden;
 }
-/* line 200, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 201, ../scss/inner.scss */
 .all-reviews a {
   float: left;
 }
-/* line 203, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 204, ../scss/inner.scss */
 .all-reviews .all-reviews__link {
   margin: 6px 0 0 30px;
   border-bottom: 1px solid #BBE4F1;
 }
 
 /*text area*/
-/* line 209, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 210, ../scss/inner.scss */
 .jHtmlArea {
   background: #fff;
 }
-/* line 211, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 212, ../scss/inner.scss */
 .jHtmlArea iframe {
   border: none;
 }
-/* line 215, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 216, ../scss/inner.scss */
 .jHtmlArea .ToolBar ul {
   padding: 5px;
   background: #f8f8f8;
   border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
 }
-/* line 221, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 222, ../scss/inner.scss */
 .jHtmlArea .ToolBar li {
   float: left;
   margin-right: 5px;
@@ -2675,81 +3161,80 @@ input, textarea, button {
   background-image: -webkit-linear-gradient(#ffffff, #ebeaea);
   background-image: -moz-linear-gradient(#ffffff, #ebeaea);
   background-image: -o-linear-gradient(#ffffff, #ebeaea);
-  background-image: -ms-linear-gradient(#ffffff, #ebeaea);
   background-image: linear-gradient(#ffffff, #ebeaea);
   border: 1px solid #bebebe;
 }
-/* line 228, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 229, ../scss/inner.scss */
 .jHtmlArea .ToolBar li:hover {
   border: solid 1px #8d8d8d;
 }
-/* line 232, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 233, ../scss/inner.scss */
 .jHtmlArea .ToolBar a {
   display: block;
   width: 23px;
   height: 23px;
 }
-/* line 237, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 238, ../scss/inner.scss */
 .jHtmlArea .ToolBar .bold {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -879px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -987px no-repeat;
   width: 23px;
   height: 23px;
 }
-/* line 240, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 241, ../scss/inner.scss */
 .jHtmlArea .ToolBar .italic {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -935px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -1078px no-repeat;
   width: 23px;
   height: 23px;
 }
-/* line 243, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 244, ../scss/inner.scss */
 .jHtmlArea .ToolBar .underline {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -758px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -866px no-repeat;
   width: 23px;
   height: 23px;
 }
-/* line 246, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 247, ../scss/inner.scss */
 .jHtmlArea .ToolBar .strikethrough {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -667px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -754px no-repeat;
   width: 23px;
   height: 23px;
 }
-/* line 249, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 250, ../scss/inner.scss */
 .jHtmlArea .ToolBar .link {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -576px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -642px no-repeat;
   width: 23px;
   height: 23px;
 }
-/* line 252, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 253, ../scss/inner.scss */
 .jHtmlArea .ToolBar .html {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -786px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -894px no-repeat;
   width: 55px;
   height: 23px;
 }
-/* line 255, /Users/akella/Desktop/git/teleus/scss/inner.scss */
+/* line 256, ../scss/inner.scss */
 .jHtmlArea .ToolBar .quote {
-  background: url('../img/icons-s4a3da26ac2.png') 0 -907px no-repeat;
+  background: url('../img/icons-s6b7c889f43.png') 0 -1015px no-repeat;
   width: 23px;
   height: 23px;
 }
 
-/* line 2, /Users/akella/Desktop/git/teleus/scss/ie.scss */
+/* line 2, ../scss/ie.scss */
 .ltie8 .popup {
   border: 1px solid #999;
 }
-/* line 6, /Users/akella/Desktop/git/teleus/scss/ie.scss */
+/* line 6, ../scss/ie.scss */
 .ltie8 .tabs__link li {
   border-right: none;
   border-left: 1px solid #999;
 }
-/* line 9, /Users/akella/Desktop/git/teleus/scss/ie.scss */
+/* line 9, ../scss/ie.scss */
 .ltie8 .tabs__link li:first-child {
   border-left: none;
 }
-/* line 13, /Users/akella/Desktop/git/teleus/scss/ie.scss */
+/* line 13, ../scss/ie.scss */
 .ltie8 .tabs__link a {
   border-bottom: 1px solid #999;
 }
-/* line 16, /Users/akella/Desktop/git/teleus/scss/ie.scss */
+/* line 16, ../scss/ie.scss */
 .ltie8 .tabs__link .tab7, .ltie8 .tabs__link .tab4 {
   border-right: none;
 }

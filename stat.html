@@ -47,12 +47,12 @@
 					<li><a href="#">Телефоны</a></li>	
 					<li class="nav__add">
 						<a href="#">Жалобы</a>
-						<a class="btn complaint" href="#"><i></i></a>
+						<a class="btn complaint-open" href="#"><i></i></a>
 						<em class="nav__divider-l"></em>
 						<em class="nav__divider-r"></em>
 					</li>
 					<li class="nav__user-no-log">
-						<a class="btn enter" href="#">
+						<a class="btn enter-open" href="#">
 							Авторизация
 							<i class="nav__social_fb"></i>
 							<i class="nav__social_vk"></i>
@@ -180,7 +180,7 @@
 					</div>
 					<div class="clr"></div>
 					<div class="add-comm__btn">
-						<input type="submit" class="btn complaint" value="Отправить">
+						<input type="submit" class="btn" value="Отправить">
 						<p>От <a class="user" href="#">Username<i></i></a></p>
 					</div>					
 				</form>
@@ -304,7 +304,7 @@
 						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
 						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						<div class="all-reviews">
-							<a href="#" class="btn complaint">Добавить жалобу<i></i></a>
+							<a href="#" class="btn complaint-open">Добавить жалобу<i></i></a>
 							<a class="all-reviews__link" href="#">Все отзывы</a>
 						</div>
 					</li>
@@ -314,7 +314,7 @@
 						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
 						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						<div class="all-reviews">
-							<a href="#" class="btn complaint">Добавить жалобу<i></i></a>
+							<a href="#" class="btn complaint-open">Добавить жалобу<i></i></a>
 							<a class="all-reviews__link" href="#">Все отзывы</a>
 						</div>
 					</li>
@@ -326,7 +326,7 @@
 						<a href="#">Компанию «Сумма Телеком» не пускают рынок 4G - неясно, зачем это всё нужно пользователям?</a>
 						<span><a class="user" href="#">Username<i></i></a> • 28 февраля </span>
 						<div class="all-reviews">
-							<a href="#" class="btn complaint">Добавить жалобу<i></i></a>
+							<a href="#" class="btn complaint-open">Добавить жалобу<i></i></a>
 							<a class="all-reviews__link" href="#">Все отзывы</a>
 						</div>
 					</li>
@@ -380,39 +380,37 @@
 <!-- END .footer -->
 <!-- BEGIN .popups -->
 <div class="popup-bg"></div>
-<div class="popup popup_enter">
-	<div class="popup__title">
-		<b>Через социальные сети</b>
-		<a class="close" href="#"></a>
-	</div>
-	<div class="popup__social">
-		<a href="#"><span>Войти через Facebook</span><i class="popup__social-fb"></i></a>
-		<a href="#"><span>Войти через Вконтакте</span><i class="popup__social-vk"></i></a>
-	</div>
-	<div class="popup__title">
-		<b>Используя e-mail и пароль</b>
-	</div>
-	<form action="">
-		<input class="txt-field" type="text" placeholder="Login">
-		<input class="txt-field" type="text" placeholder="Password">
-		<div class="popup__btn">
-			<input type="submit" class="btn" value="Войти">
-			<input class="popup__check" type="checkbox">
-			<span>Запомнить</span>
-		</div>		
-	</form>
-	<div class="popup__links">
-		<a href="#">Напомнить пароль</a>
-		<a href="#">Регистрация</a>
+<!-- BEGIN .enter -->
+<div class="popup enter">
+	<a class="popup-close" href="#"></a>
+	<!--<div class="enter__title"><b>Чтобы добавить жалобу, пожалуйста войдите на сайт</b></div>-->
+	<div class="enter__social">
+		<div class="popup__title">Через социальные сети</div>
+		<a class="enter__social-fb" href="#"><b><i></i></b><span>Войти через Facebook</span></a>
+		<a class="enter__social-vk" href="#"><b><i></i></b><span>Войти через Вконтакте</span></a>
 	</div>	
-</div>
-<div class="popup popup_complaint">
-	<div class="popup__title">
-		<b>Добавить жалобу</b>
-		<a class="close" href="#"></a>
-	</div>
 	<form action="">
-		<ul class="popup__client">
+		<div class="popup__title">Используя e-mail и пароль</div>
+		<input class="txt-field" type="text" placeholder="Email">
+		<input class="txt-field" type="text" placeholder="Пароль">
+		<div class="enter__btn">
+			<input type="submit" class="btn" value="Войти">
+			<input class="enter__check" type="checkbox">
+			<span>Запомнить</span>
+		</div>	
+		<div class="enter__links">
+			<a href="#">Напомнить пароль</a>
+			<a class="registration-open" href="#">Регистрация</a>
+		</div>	
+	</form>		
+</div>
+<!-- END .enter -->
+<!-- BEGIN .complaint -->
+<div class="popup complaint">
+	<a class="popup-close" href="#"></a>
+	<div class="popup__title">Добавить жалобу</div>
+	<form action="">
+		<ul class="complaint__client">
 			<li>
 				<label for="mts">
 					<input id="mts" type="radio" name="operators">			
@@ -456,27 +454,68 @@
 				</label>
 			</li>
 		</ul>
-		<div class="popup__info">
-			<div class="popup__mobile">
+		<div class="complaint__info">
+			<div class="complaint__mobile">
 				<span>Модель вашего телефона</span>
 				<input class="txt-field" type="text">
 			</div>
-			<div class="popup__phone">
+			<div class="complaint__phone">
 				<span>Телефон для связи с вами</span>
 				<b>+7</b>
 				<input class="txt-field txt-field_1" type="text">
 				<input class="txt-field txt-field_2" type="text">
 			</div>		
 		</div>
-		<div class="popup__comm">
+		<div class="complaint__comm">
 			<span>Текст жалобы</span>
 			<textarea class="txt-field"></textarea>
 		</div>
-		<div class="popup__btn">
+		<div class="complaint__btn">
 			<input type="submit" class="btn" value="Отправить">
 		</div>
 	</form>
 </div>
+<!-- END .complaint -->
+<!-- BEGIN .registration -->
+<form class="popup registration">
+	<a href="#" class="popup-close"></a>
+	<div class="popup__title">Регистрация</div>
+	<label>E-mail<span>*</span></label>
+	<input class="txt-field" type="text">
+	<label>Пароль<span>*</span></label>
+	<div class="field-eye">
+		<input class="txt-field field-eye__text" type="text" value="">
+		<input class="txt-field field-eye__pass" type="password" value="">
+		<i></i>
+	</div>
+	<div class="registration__city">
+		<span>Москва</span><i></i>
+		<select>
+			<option value="Киев">Киев</option>
+			<option value="Маями">Маями</option>
+			<option value="Сочи">Сочи</option>
+			<option value="Париж">Париж</option>
+		</select>
+	</div>
+	<label>Имя или псевдоним<span>*</span></label>
+	<input class="txt-field" type="text">
+	<label>Фамилия</label>
+	<input class="txt-field" type="text">
+	<div class="pic-load-out">
+		<div class="pic-load">
+			<div class="pic-load-change">
+				<span>Аватар</span><i></i>
+			</div>
+			<input type="file" style="display: inline-block; ">
+		</div>
+		<div class="pic-load-info" style="display: block; ">
+			<span>Загрузите аватар</span>
+			<span>Максимум 80КБ,</span>
+			<span>100х100 пикселей</span>
+		</div>		
+	</div>
+</form>
+<!-- END .registration -->
 <!-- END .popups -->
 <!-- Twitter -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 

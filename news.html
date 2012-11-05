@@ -44,12 +44,12 @@
 					<li><a href="#">Телефоны</a></li>	
 					<li class="nav__add">
 						<a href="#">Жалобы</a>
-						<a class="btn complaint" href="#"><i></i></a>
+						<a class="btn complaint-open" href="#"><i></i></a>
 						<em class="nav__divider-l"></em>
 						<em class="nav__divider-r"></em>
 					</li>
 					<li class="nav__user-log">
-						<a href="#">Usernameverylongveryvery</a><i></i><em></em>
+						<a href="#">Usernameverylongveryvery<i></i><i class="over"></i></a><em></em>
 					</li>			
 				</ul>
 			</nav>
@@ -304,13 +304,12 @@
 <!-- END .footer -->
 <!-- BEGIN .popups -->
 <div class="popup-bg"></div>
-<div class="popup popup_complaint">
-	<div class="popup__title">
-		<b>Добавить жалобу</b>
-		<a class="close" href="#"></a>
-	</div>
+<!-- BEGIN .complaint -->
+<div class="popup complaint">
+	<a class="popup-close" href="#"></a>
+	<div class="popup__title">Добавить жалобу</div>
 	<form action="">
-		<ul class="popup__client">
+		<ul class="complaint__client">
 			<li>
 				<label for="mts">
 					<input id="mts" type="radio" name="operators">			
@@ -354,27 +353,28 @@
 				</label>
 			</li>
 		</ul>
-		<div class="popup__info">
-			<div class="popup__mobile">
+		<div class="complaint__info">
+			<div class="complaint__mobile">
 				<span>Модель вашего телефона</span>
 				<input class="txt-field" type="text">
 			</div>
-			<div class="popup__phone">
+			<div class="complaint__phone">
 				<span>Телефон для связи с вами</span>
 				<b>+7</b>
 				<input class="txt-field txt-field_1" type="text">
 				<input class="txt-field txt-field_2" type="text">
 			</div>		
 		</div>
-		<div class="popup__comm">
+		<div class="complaint__comm">
 			<span>Текст жалобы</span>
 			<textarea class="txt-field"></textarea>
 		</div>
-		<div class="popup__btn">
+		<div class="complaint__btn">
 			<input type="submit" class="btn" value="Отправить">
 		</div>
 	</form>
 </div>
+<!-- END .complaint -->
 <!-- END .popups -->
 <!-- Twitter -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 

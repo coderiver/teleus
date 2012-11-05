@@ -44,12 +44,12 @@
 					<li><a href="#">Телефоны</a></li>	
 					<li class="nav__add">
 						<a href="#">Жалобы</a>
-						<a class="btn complaint" href="#"><i></i></a>
+						<a class="btn complaint-open" href="#"><i></i></a>
 						<em class="nav__divider-l"></em>
 						<em class="nav__divider-r"></em>
 					</li>
 					<li class="nav__user-log">
-						<a href="#"><i></i><i class="over"></i> Usernameverylongveryvery</a><em></em>
+						<a class="profile-open" href="#">Usernameverylongveryvery<i></i><i class="over"></i></a><em></em>
 					</li>			
 				</ul>
 			</nav>
@@ -479,7 +479,7 @@
 						</div>
 					</li>
 					<li>
-						<a href="#" class="btn complaint">Добавить жалобу<i></i></a>
+						<a href="#" class="btn complaint-open">Добавить жалобу<i></i></a>
 					</li>
 				</ul>
 			</div>
@@ -528,13 +528,12 @@
 <!-- END .footer -->
 <!-- BEGIN .popups -->
 <div class="popup-bg"></div>
-<div class="popup popup_complaint">
-	<div class="popup__title">
-		<b>Добавить жалобу</b>
-		<a class="close" href="#"></a>
-	</div>
+<!-- BEGIN .complaint -->
+<div class="popup complaint">
+	<a class="popup-close" href="#"></a>
+	<div class="popup__title">Добавить жалобу</div>
 	<form action="">
-		<ul class="popup__client">
+		<ul class="complaint__client">
 			<li>
 				<label for="mts">
 					<input id="mts" type="radio" name="operators">			
@@ -578,27 +577,81 @@
 				</label>
 			</li>
 		</ul>
-		<div class="popup__info">
-			<div class="popup__mobile">
+		<div class="complaint__info">
+			<div class="complaint__mobile">
 				<span>Модель вашего телефона</span>
 				<input class="txt-field" type="text">
 			</div>
-			<div class="popup__phone">
+			<div class="complaint__phone">
 				<span>Телефон для связи с вами</span>
 				<b>+7</b>
 				<input class="txt-field txt-field_1" type="text">
 				<input class="txt-field txt-field_2" type="text">
 			</div>		
 		</div>
-		<div class="popup__comm">
+		<div class="complaint__comm">
 			<span>Текст жалобы</span>
 			<textarea class="txt-field"></textarea>
 		</div>
-		<div class="popup__btn">
+		<div class="complaint__btn">
 			<input type="submit" class="btn" value="Отправить">
 		</div>
 	</form>
 </div>
+<!-- END .complaint -->
+<!-- BEGIN .profile -->
+<form class="popup profile">
+	<a class="popup-close" href="#"></a>
+	<div class="popup__title">Профиль</div>
+	<div class="pic-load-out">
+		<div class="pic-load">
+			<div class="pic-load-change">
+				<span>Аватар</span><i></i>
+			</div>
+			<img src="img/profile.jpg" alt="">
+			<div class="pic-load-title">сменить аватар</div>
+			<input type="file">
+		</div>
+		<div class="pic-load-info">
+			<span>Загрузите аватар</span>
+			<span>Максимум 80КБ,</span>
+			<span>100х100 пикселей</span>
+		</div>		
+	</div>
+	<input class="profile__param" type="text" value="Jack Daniel">
+	<input class="profile__param" type="text" value="jack_dan@mail.ru">
+	<div class="profile__city">
+		<span>Москва</span><i></i>
+		<select>
+			<option value="Киев">Киев</option>
+			<option value="Маями">Маями</option>
+			<option value="Сочи">Сочи</option>
+			<option value="Париж">Париж</option>
+		</select>
+	</div>
+	<div class="profile__pass">
+		<a href="#">Сненить пароль<i></i></a>
+		<div class="profile__pass-change">
+			<span>Текущий пароль</span>
+			<div class="field-eye">
+				<input class="txt-field field-eye__text" type="text" value="">
+				<input class="txt-field field-eye__pass" type="password" value="">
+				<i></i>
+			</div>
+			<span>Новый пароль</span>
+			<div class="field-eye">
+				<input class="txt-field field-eye__text" type="text" value="">
+				<input class="txt-field field-eye__pass" type="password" value="">
+				<i></i>
+			</div>
+		</div>
+	</div>
+	<div class="profile__btn">
+		<input class="btn btn-orange" type="button" value="Сохранить">
+		<input class="btn btn-blue" type="button" value="Выйти">
+	</div>
+</form>
+<!-- END .profile -->
 <!-- END .popups -->
 <!-- Twitter -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 

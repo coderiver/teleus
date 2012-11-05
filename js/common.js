@@ -69,16 +69,75 @@ $('.slider__wrap').scrollable({
 })
 
 /*popup*/
-$('.enter').click(function() {
-	$('.popup-bg, .popup_enter').fadeIn(300);
+$('.enter-open').click(function() {
+	$('.popup-bg, .enter').fadeIn(300);
 	return false;
 });
-$('.complaint').click(function() {
-	$('.popup-bg, .popup_complaint').fadeIn(300);
+$('.complaint-open').click(function() {
+	$('.popup-bg, .complaint').fadeIn(300);
 	return false;
 });
-$('.close, .popup-bg').click(function() {
-	$('.popup-bg, .popup_complaint, .popup_enter').fadeOut(300);
+$('.profile-open').click(function() {
+	$('.popup-bg, .profile').fadeIn(300);
+	return false;
+});
+$('.registration-open').click(function() {
+	$('.popup-bg, .registration').fadeIn(300);
+	$('.enter').fadeOut(300);
+	return false;
+});
+$('.pic-load').click(function() {
+	$('.pic-load img, .pic-load-title').hide();
+	$('.pic-load-info, .pic-load input').show();
+});
+$('.profile__city').hover(
+  function () {
+    $(this).addClass('active');
+  },
+  function () {
+  	$(this).removeClass('active');
+  }
+);
+$('.profile__city select').change(function() {
+	prof_city = $(this).val();
+	$('.profile__city span').html(prof_city);
+});
+$('.registration__city select').change(function() {
+	reg_city = $(this).val();
+	$('.registration__city span').html(reg_city);
+});
+/*eye*/
+$('.field-eye__text').hide();
+$('.field-eye i').click(function() {
+	val_text = $(this).prev().prev().val();
+	val_pass = $(this).prev().val();
+	if ($(this).parent().hasClass('field-eye_open')) {
+		$(this).parent().removeClass('field-eye_open');
+		$(this).prev().prev().hide();
+		$(this).prev().show().val(val_text);
+	}
+	else {
+		$(this).parent().addClass('field-eye_open');
+		$(this).prev().hide();
+		$(this).prev().prev().show().val(val_pass);
+	}			
+});
+$('.profile__pass .field-eye i').dblclick(function() {
+	return false;
+});
+/*pass change*/
+$('.profile__pass a').click(function() {
+	$(this).hide();
+	$(this).next().show();
+	return false;
+});
+/*btn orange*/
+$('.profile__param, .profile__city, .profile__pass a').click(function() {
+	$('.profile__btn .btn-orange').show();
+});
+
+$('.popup-close, .popup-bg').click(function() {
+	$('.popup-bg, .enter, .complaint, .profile, .registration').fadeOut(300);
 	return false;
 });
 
